@@ -1,3 +1,16 @@
+
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+
+/*
+ * blue = #37acc2
+ * yellow = #d8d466
+ * green = #86c841
+ * pink = #d866d1
+ * gray = #777
+ */
+
 /* ==========================================================================
    Reset
    ========================================================================== */
@@ -7,17 +20,50 @@
   padding: 0;
 }
 
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
 
 /* ==========================================================================
    Typography
    ========================================================================== */
 
+/*
+ * Open Sans Regular = 400
+ * Open Sans Semibold = ?
+ * Open Sans Extrabold = 800
+ */
+
 h1 {
   font: 80px 'Open Sans', sans-serif;
   font-weight: 800;
   color: #fff;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  font: 34px 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-transform: lowercase;
+  text-align: center;
+  color: #777;
+  margin: 5px 0;
+}
+
+p {
+  font: 14px 'Open Sans', sans-serif;
+  color: #777;
 }
 
 /* ==========================================================================
@@ -51,8 +97,6 @@ h1 {
 .top-bar p {
   float: left;
   margin: 13px 10px;
-  font: 14px 'Open Sans', sans-serif;
-  color: #777777;
 }
 
 .top-bar ul {
@@ -62,7 +106,6 @@ h1 {
 
 .top-bar li {
   display: inline-block;
-  list-style: none;
 }
 
 .top-bar li a {
@@ -98,6 +141,90 @@ h1 {
 
 .banner a {
   color: #fffa76;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+/* Projects
+   ========================================================================== */
+
+.projects li {
+  width: 225px;
+  display: inline-block;
+  margin: 40px 10px;
+}
+
+.projects figure {
+  width: 135px;
+  height: 130px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  border-radius: 135px;
+}
+
+.projects img {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.projects p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.projects .arrow {
+  width: 53px;
+  height: 37px;
+  background: url(../img/arrow.png);
+  margin: 40px auto;
+}
+
+/* Projects - Community
+   ========================================================================== */
+
+.project-1 figure {
+  background: #37acc2;
+}
+
+.project-1 img {
+  margin: -20px 0 0 -38px;
+}
+
+/* Projects - Conferences
+   ========================================================================== */
+
+.project-2 figure {
+  background: #d8d466;
+}
+
+.project-2 img {
+  margin: -41px 0 0 -41px;
+}
+
+/* Projects - Cast
+   ========================================================================== */
+
+.project-3 figure {
+  background: #86c841;
+}
+
+.project-3 img {
+  margin: -33px 0 0 -20px;
+}
+
+/* Projects - Labs
+   ========================================================================== */
+
+.project-4 figure {
+  background: #d866d1;
+}
+
+.project-4 img {
+  margin: -30px 0 0 -30px;
 }
 
 /* ==========================================================================

@@ -8,7 +8,8 @@
  * yellow = #d8d466
  * green = #86c841
  * pink = #d866d1
- * gray = #777
+ * light gray = #777
+ * dark gray = #2b2b2b
  */
 
 /* ==========================================================================
@@ -36,24 +37,35 @@ ul {
    Typography
    ========================================================================== */
 
-/*
- * Open Sans Regular = 400
- * Open Sans Semibold = ?
- * Open Sans Extrabold = 800
+/* Open Sans - Font Weight
+ *
+ * Regular = 400
+ * Semibold = ?
+ * Extrabold = 800
  */
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
-  font: 80px 'Open Sans', sans-serif;
+  font-size: 80px;
   font-weight: 800;
   color: #fff;
 }
 
 h2 {
+  font-size: 34px;
+  margin: 60px 0 10px;
   text-align: center;
 }
 
+h2 span {
+  font-weight: 400;
+}
+
 h4 {
-  font: 34px 'Open Sans', sans-serif;
+  font-size: 34px;
   font-weight: 400;
   text-transform: lowercase;
   text-align: center;
@@ -61,8 +73,15 @@ h4 {
   margin: 5px 0;
 }
 
+h5 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #2b2b2b;
+  margin-bottom: 10px;
+}
+
 p {
-  font: 14px 'Open Sans', sans-serif;
+  font-size: 14px;
   color: #777;
 }
 
@@ -109,7 +128,7 @@ p {
 }
 
 .top-bar li a {
-  font: 16px 'Open Sans', sans-serif;
+  font-size: 16px;
   color: #2b2b2b;
   margin: 0 5px;
 }
@@ -135,7 +154,7 @@ p {
 .banner p {
   margin: 10px 0;
   text-align: center;
-  font: 18px 'Open Sans', sans-serif;
+  font-size: 18px;
   color: #fff;
 }
 
@@ -147,13 +166,20 @@ p {
    Content
    ========================================================================== */
 
+.highlights {
+  width: 225px;
+  height: 260px;
+  float: left;
+  margin: 0 10px 50px;
+}
+
 /* Projects
    ========================================================================== */
 
 .projects li {
   width: 225px;
   display: inline-block;
-  margin: 40px 10px;
+  margin: 40px 10px 0;
 }
 
 .projects figure {
@@ -226,6 +252,111 @@ p {
 .project-4 img {
   margin: -30px 0 0 -30px;
 }
+
+/* Highlights
+   ========================================================================== */
+
+.confs, .cast, .labs {
+  margin-left: 14px;
+}
+
+.date {
+  float: left;
+  color: #2b2b2b;
+  margin: 0 10px 0 0;
+}
+
+.date .day {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.date .month {
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+
+/* Highlights - News
+   ========================================================================== */
+
+.news li {
+  margin: 0 0 10px;
+}
+
+.news a {
+  color: #37acc2;
+  font-size: 13px;
+}
+
+/* Highlights - Confs
+   ========================================================================== */
+
+.confs li {
+  margin: 0 0 20px;
+}
+
+.confs a {
+  color: #d8d466;
+  font-size: 16px;
+  display: block;
+  padding-top: 3px;
+}
+
+.confs p {
+  font-size: 14px;
+}
+
+/* Highlights - Cast
+   ========================================================================== */
+
+.cast a {
+  color: #86c841;
+  font-size: 16px;
+  display: block;
+  padding-top: 3px;
+}
+
+.cast p {
+  font-size: 14px;
+}
+
+.cast .date {
+  height: 100%;
+}
+
+/* Highlights - Labs
+   ========================================================================== */
+
+.labs a {
+  color: #d866d1;
+  font-size: 16px;
+  display: block;
+  padding-top: 3px;
+}
+
+.labs p {
+  font-size: 14px;
+}
+
+.labs .last-exp {
+  width: 225px;
+  height: 205px;
+  position: relative;
+  background: #fff url(../img/img-labs.png) no-repeat 20px;
+  border: 1px solid #ccc;
+}
+
+.labs .desc {
+  width: 205px;
+  height: 50px;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
 
 /* ==========================================================================
    Util

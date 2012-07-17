@@ -22,6 +22,7 @@
 }
 
 a {
+  color: #37acc2;
   text-decoration: none;
 }
 
@@ -33,6 +34,14 @@ ul {
   list-style: none;
 }
 
+hr {
+  width: 100%;
+  height: 1px;
+  margin: 50px 0 30px;
+  background: #ccc;
+  border: 0;
+}
+
 /* ==========================================================================
    Typography
    ========================================================================== */
@@ -40,7 +49,8 @@ ul {
 /* Open Sans - Font Weight
  *
  * Regular = 400
- * Semibold = ?
+ * Semibold = 600
+ * Bold = 700
  * Extrabold = 800
  */
 
@@ -56,12 +66,19 @@ h1 {
 
 h2 {
   font-size: 34px;
-  margin: 60px 0 10px;
+  font-weight: 700;
+  padding: 60px 0 10px;
   text-align: center;
 }
 
 h2 span {
   font-weight: 400;
+}
+
+h3 {
+  font-size: 72px;
+  font-weight: 600;
+  color: #16454e;
 }
 
 h4 {
@@ -75,7 +92,7 @@ h4 {
 
 h5 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
   color: #2b2b2b;
   margin-bottom: 10px;
 }
@@ -99,6 +116,18 @@ p {
   width: 100%;
   height: 330px;
   background: #37acc2;
+}
+
+.content {
+  width: 100%;
+  background: #f7f7f7;
+}
+
+footer {
+  width: 100%;
+  height: 330px;
+  background: #fff;
+  border: 1px solid #000;
 }
 
 /* Top Nav Bar
@@ -171,6 +200,11 @@ p {
   height: 260px;
   float: left;
   margin: 0 10px 50px;
+}
+
+.get-involved {
+  width: 100%;
+  height: 160px;
 }
 
 /* Projects
@@ -355,6 +389,19 @@ p {
   position: absolute;
   bottom: 0;
   background: rgba(255, 255, 255, 0.9);
+}
+
+/* Get Involved
+   ========================================================================== */
+
+.get-involved img {
+  float: left;
+  margin: 20px 50px 30px;
+}
+
+.get-involved p {
+  font-size: 17px;
+  color: #16454e;
 }
 
 

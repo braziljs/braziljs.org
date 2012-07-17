@@ -196,7 +196,7 @@ footer {
    ========================================================================== */
 
 .highlights {
-  width: 225px;
+  width: 227px;
   height: 260px;
   float: left;
   margin: 0 10px 50px;
@@ -232,7 +232,7 @@ footer {
 }
 
 .projects p {
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -290,9 +290,22 @@ footer {
 /* Highlights
    ========================================================================== */
 
+.highlights p {
+  font-size: 14px;
+}
+
+.highlights a {
+  font-size: 16px;
+  display: block;
+  padding-top: 3px;
+}
+
 .confs, .cast, .labs {
   margin-left: 14px;
 }
+
+/* Highlights - Date
+   ========================================================================== */
 
 .date {
   float: left;
@@ -316,12 +329,13 @@ footer {
    ========================================================================== */
 
 .news li {
-  margin: 0 0 10px;
+  margin: 0 0 15px;
 }
 
 .news a {
   color: #37acc2;
-  font-size: 13px;
+  font-size: 14px;
+  padding-top: 0;
 }
 
 /* Highlights - Confs
@@ -333,13 +347,6 @@ footer {
 
 .confs a {
   color: #d8d466;
-  font-size: 16px;
-  display: block;
-  padding-top: 3px;
-}
-
-.confs p {
-  font-size: 14px;
 }
 
 /* Highlights - Cast
@@ -347,13 +354,6 @@ footer {
 
 .cast a {
   color: #86c841;
-  font-size: 16px;
-  display: block;
-  padding-top: 3px;
-}
-
-.cast p {
-  font-size: 14px;
 }
 
 .cast .date {
@@ -365,13 +365,6 @@ footer {
 
 .labs a {
   color: #d866d1;
-  font-size: 16px;
-  display: block;
-  padding-top: 3px;
-}
-
-.labs p {
-  font-size: 14px;
 }
 
 .labs .last-exp {
@@ -402,6 +395,35 @@ footer {
 .get-involved p {
   font-size: 17px;
   color: #16454e;
+}
+
+/* Sponsors
+   ========================================================================== */
+
+.sponsors h5 {
+  float: left;
+}
+
+.sponsors .help-link {
+  float: right;
+  display: block;
+}
+
+.sponsors ul {
+  clear: both;
+  /*margin: 40px 0;*/
+}
+
+.sponsors li {
+  width: 196px;
+  height: 70px;
+  display: inline-block;
+  margin: 30px 0;
+}
+
+.sponsors img {
+  display: block;
+  margin: 0 auto;
 }
 
 

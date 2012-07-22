@@ -3,11 +3,12 @@
 	$MSG_ERROR = 'error';
 	$MSG_SUCCESS = 'success';
 
+
 	if(isset($_POST['email']) && strlen($_POST['email'])>1 ){
 	
 		$con = mysql_connect("localhost","root","root");
 
-		$email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL, FILTER_SANITIZE_STRING);
+		$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 		
 		if (!$con) {
 			die('Could not connect: ' . mysql_error());

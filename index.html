@@ -47,17 +47,20 @@
 
     <div class="wrapper">
 
-      <article class="join-us">
+      <article class="join-us" id="get-involved">
 
         <img src="img/img-getinvolved.png" alt="Brazilian Heart">
         <h3>Join us</h3>
         <p>We are starting a movement to unify the JavaScript community of Brazil, front-end or back-end. Stay tuned for the news we are preparing. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-group">Join the discussion group</a>.</p>
 
-        <form>
-          <input type="email" placeholder="Enter your email here">
-          <input type="submit" value="Sign me">
+        <form id="get-involved-form">
+          <input id="get-involved-form-email" type="email" placeholder="Enter your email here">
+          <input id="get-involved-form-button" type="submit" value="Sign me">
         </form>
 
+        <span id="success" style="display: none">
+          done
+        </span>
       </article>
 
     </div>
@@ -89,5 +92,16 @@
 
   </footer>
 
+
+
+  <script src="js/jquery.js"></script>
+  <script src='js/ajax.js'></script>
+
+  <script>
+  $(document).ready(function() {
+      var n = new Newsletter();
+      n.init();
+  });
+  </script>
 </body>
 </html>

@@ -226,12 +226,12 @@ footer {
   width: 225px;
   display: inline-block;
   margin: 40px 10px 0;
-  -webkit-transition: top 0.3s ease-out; 
-  -moz-transition: top 0.3s ease-out; 
-  -o-transition: top 0.3s ease-out; 
+  -webkit-transition: top 0.3s ease-out;
+  -moz-transition: top 0.3s ease-out;
+  -o-transition: top 0.3s ease-out;
   transition: top 0.3s ease-out;
 }
-.projects li:hover {top:10px;}
+.projects li:hover { top: 10px; }
 
 .projects figure {
   width: 135px;

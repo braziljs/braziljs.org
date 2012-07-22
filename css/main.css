@@ -208,6 +208,11 @@ footer {
   padding: 40px 0 70px;
 }
 
+.team {
+  width: 100%;
+  padding: 40px 0 0;
+}
+
 /* Projects
    ========================================================================== */
 
@@ -404,8 +409,6 @@ footer {
   color: #16454e;
 }
 
-/* --- Email --- */
-
 .get-involved input[type="email"] {
   float: left;
   display: block;
@@ -423,8 +426,6 @@ footer {
   -webkit-box-shadow: inset 2px 2px 11px 0 #dbddde;
   box-shadow: inset 2px 2px 11px 0 #dbddde;
 }
-
-/* --- Submit --- */
 
 .get-involved input[type="submit"] {
   float: left;
@@ -473,6 +474,53 @@ footer {
 
 .get-involved input[type="submit"]::-moz-focus-inner {
   border: none;
+}
+
+/* Team
+   ========================================================================== */
+
+.team h3 {
+  font-size: 48px;
+}
+
+.team ul {
+  margin: 60px 0 0;
+}
+
+.team li {
+  width: 445px;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.team li:nth-child(even) {
+  margin-left: 50px;
+}
+
+.team img {
+  float: left;
+  width: 140px;
+  height: 140px;
+  display: block;
+  border-radius: 50%;
+}
+
+.team .name,
+.team .position,
+.team .description {
+  margin: 0 0 0 160px;
+}
+
+.team .name {
+  font-size: 21px;
+  font-weight: 600;
+  color: #16454E;
+}
+
+.team .position {
+  font-size: 16px;
+  font-style: italic;
+  color: #37ACC2;
 }
 
 /* Sponsors

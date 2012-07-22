@@ -76,7 +76,7 @@ h2 span {
 }
 
 h3 {
-  font-size: 72px;
+  font-size: 48px;
   font-weight: 600;
   color: #16454e;
 }
@@ -163,10 +163,36 @@ footer {
 }
 
 .facebook-share-button,
-.twitter-share-button {
+.twitter-share-button,
+.flag {
   float: right;
-  margin: 13px 0 0 0;
+  margin-top: 13px;
 }
+
+.facebook-share-button {
+  margin-right: 15px;
+}
+
+.twitter-share-button {
+  width: 90px !important;
+}
+
+.flag {
+  width: 24px;
+  height: 16px;
+  margin-left: 5px;
+  display: block;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: transparent;
+  background: url(../img/sprite-flags.png) no-repeat 0 0;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.en { background-position:0 0px; }
+.br { background-position:0 -16px; }
 
 /* Banner
    ========================================================================== */
@@ -208,7 +234,7 @@ footer {
   padding: 40px 0 70px;
 }
 
-.team {
+.single-page {
   width: 100%;
   padding: 40px 0 0;
 }
@@ -399,6 +425,10 @@ footer {
 /* Get Involved
    ========================================================================== */
 
+.get-involved h3 {
+  font-size: 72px;
+}
+
 .get-involved img {
   float: left;
   margin: 20px 50px 30px;
@@ -474,6 +504,17 @@ footer {
 
 .get-involved input[type="submit"]::-moz-focus-inner {
   border: none;
+}
+
+/* Manifesto
+   ========================================================================== */
+
+.manifesto h3 {
+  margin-bottom: 10px;
+}
+
+.manifesto p {
+  font-size: 18px;
 }
 
 /* Team

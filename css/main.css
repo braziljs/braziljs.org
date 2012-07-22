@@ -211,10 +211,17 @@ footer {
    ========================================================================== */
 
 .projects li {
+  position: relative;
+  top:0;
   width: 225px;
   display: inline-block;
   margin: 40px 10px 0;
+  -webkit-transition: top 0.3s ease-out; 
+  -moz-transition: top 0.3s ease-out; 
+  -o-transition: top 0.3s ease-out; 
+  transition: top 0.3s ease-out;
 }
+.projects li:hover {top:10px;}
 
 .projects figure {
   width: 135px;
@@ -222,7 +229,7 @@ footer {
   margin: 0 auto;
   display: block;
   position: relative;
-  border-radius: 135px;
+  border-radius: 50%;
 }
 
 .projects img {
@@ -312,12 +319,10 @@ footer {
   color: #2b2b2b;
   margin: 0 10px 0 0;
 }
-
 .date .day {
   font-size: 24px;
   font-weight: 800;
 }
-
 .date .month {
   font-size: 17px;
   font-weight: 400;
@@ -473,7 +478,7 @@ footer .license {
    Util
    ========================================================================== */
 
-.center {
+.wrapper {
   width: 1000px;
   margin: 0 auto;
 }

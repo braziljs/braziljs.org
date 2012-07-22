@@ -422,7 +422,7 @@ footer {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* Get Involved
+/* Join Us
    ========================================================================== */
 
 .join-us h3 {
@@ -441,7 +441,6 @@ footer {
 
 .join-us input[type="email"] {
   float: left;
-  display: block;
   width: 535px;
   height: 16px;
   margin: 25px 0;
@@ -449,61 +448,15 @@ footer {
   font-size: 22px;
   text-align: center;
   color: #6C6D70;
-  border: 1px solid #D1D2D3;
-  background: #fff;
-  border-radius: 6px;
-  -moz-box-shadow: inset 2px 2px 11px 0 #dbddde;
-  -webkit-box-shadow: inset 2px 2px 11px 0 #dbddde;
-  box-shadow: inset 2px 2px 11px 0 #dbddde;
 }
 
 .join-us input[type="submit"] {
   float: left;
-  display: block;
   width: 130px;
   height: 40px;
   margin: 25px 20px;
   font-size: 21px;
   font-weight: 800;
-  color: #8f5a0a;
-  cursor: pointer;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #d69e31 #e3a037 #d5982d #e3a037;
-  background-color: #ffb94b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
-  background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
-  background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
-  background-image: -ms-linear-gradient(top, #fddb6f, #ffb94b);
-  background-image: -o-linear-gradient(top, #fddb6f, #ffb94b);
-  background-image: linear-gradient(top, #fddb6f, #ffb94b);
-  border-radius: 6px;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-}
-
-.join-us input[type="submit"]:hover,
-.join-us input[type="submit"]:focus {
-  background-color: #fddb6f;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
-  background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
-  background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
-  background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
-  background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
-  background-image: linear-gradient(top, #ffb94b, #fddb6f);
-}
-
-.join-us input[type="submit"]:active {
-  outline: none;
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
-}
-
-.join-us input[type="submit"]::-moz-focus-inner {
-  border: none;
 }
 
 /* Manifesto
@@ -564,6 +517,63 @@ footer {
   color: #37ACC2;
 }
 
+/* Contact
+   ========================================================================== */
+
+.contact form {
+  width: 450px;
+  margin: 35px 0 0 0;
+}
+
+.contact fieldset {
+  border: 0;
+}
+
+.contact label {
+  float: left;
+  margin-top: 18px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+  float: right;
+  width: 330px;
+  height: 16px;
+  margin: 10px 0;
+  padding: 11px;
+  font-size: 18px;
+  text-align: left;
+  color: #6C6D70;
+}
+
+.contact textarea {
+  float: right;
+  width: 330px;
+  height: 200px;
+  margin: 10px 0;
+  padding: 11px;
+  font-size: 18px;
+  text-align: left;
+  color: #6C6D70;
+  display: block;
+  color: #6C6D70;
+  border: 1px solid #D1D2D3;
+  background: #fff;
+  border-radius: 6px;
+  -moz-box-shadow: inset 2px 2px 11px 0 #dbddde;
+  -webkit-box-shadow: inset 2px 2px 11px 0 #dbddde;
+  box-shadow: inset 2px 2px 11px 0 #dbddde;
+}
+
+.contact input[type="submit"] {
+  float: right;
+  width: 130px;
+  height: 40px;
+  margin: 25px 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+
 /* Sponsors
    ========================================================================== */
 
@@ -590,6 +600,61 @@ footer {
 .sponsors img {
   display: block;
   margin: 0 auto;
+}
+
+/* ==========================================================================
+   Form
+   ========================================================================== */
+
+input[type="text"],
+input[type="email"] {
+  display: block;
+  color: #6C6D70;
+  border: 1px solid #D1D2D3;
+  background: #fff;
+  border-radius: 6px;
+  -moz-box-shadow: inset 2px 2px 11px 0 #dbddde;
+  -webkit-box-shadow: inset 2px 2px 11px 0 #dbddde;
+  box-shadow: inset 2px 2px 11px 0 #dbddde;
+}
+
+input[type="submit"] {
+  display: block;
+  color: #8f5a0a;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d69e31 #e3a037 #d5982d #e3a037;
+  background-color: #ffb94b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
+  background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: -ms-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: -o-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: linear-gradient(top, #fddb6f, #ffb94b);
+  border-radius: 6px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #fddb6f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+  background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: linear-gradient(top, #ffb94b, #fddb6f);
+}
+
+input[type="submit"]:active {
+  outline: none;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
 }
 
 /* ==========================================================================
@@ -644,4 +709,26 @@ footer .license {
 .wrapper {
   width: 1000px;
   margin: 0 auto;
+}
+
+.alert {
+  width: 400px;
+  margin: 10px 0;
+  padding: 8px 35px 8px 14px;
+  border-radius: 4px;
+  text-align: left;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid #fff;
+}
+
+.success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border-color: #D6E9C6;
+}
+
+.error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-color: #EED3D7;
 }

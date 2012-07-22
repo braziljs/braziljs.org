@@ -207,6 +207,16 @@ footer {
   height: 160px;
 }
 
+.blog {
+  width: 850px;
+  padding: 40px 0
+}
+
+.blog h3 {
+  font-size: 30px;
+  line-height: 2.3em;
+}
+
 /* Projects
    ========================================================================== */
 
@@ -376,8 +386,14 @@ footer {
   width: 225px;
   height: 205px;
   position: relative;
-  background: #fff url(../img/img-labs.png) no-repeat 20px;
+  /*background: #fff url(../img/img-labs.png) no-repeat 20px;*/
   border: 1px solid #ccc;
+}
+
+.labs .last-exp img {
+  position: absolute;
+  top: 10px;
+  left: 25px;
 }
 
 .labs .desc {

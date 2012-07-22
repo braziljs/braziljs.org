@@ -459,6 +459,12 @@ footer {
   font-weight: 800;
 }
 
+.join-us .alert {
+  float: right;
+  width: 300px;
+  margin: 30px 180px 0 0;
+}
+
 /* Manifesto
    ========================================================================== */
 
@@ -572,6 +578,11 @@ footer {
   margin: 25px 0;
   font-size: 18px;
   font-weight: 800;
+}
+
+.contact .alert {
+  width: 400px;
+  margin: 10px 0;
 }
 
 /* Sponsors
@@ -712,8 +723,6 @@ footer .license {
 }
 
 .alert {
-  width: 400px;
-  margin: 10px 0;
   padding: 8px 35px 8px 14px;
   border-radius: 4px;
   text-align: left;

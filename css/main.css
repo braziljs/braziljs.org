@@ -460,10 +460,10 @@ footer {
 }
 
 .join-us .alert {
-  float: right;
-  width: 300px;
-  margin: 30px 180px 0 0;
   display: none;
+  margin: 30px 180px 0 262px;
+  text-align: center;
+  width: 622px;
 }
 
 /* Manifesto
@@ -581,9 +581,10 @@ footer {
   font-weight: 800;
 }
 
-.contact .alert {
+.contact .alert-box {
   width: 400px;
   margin: 10px 0;
+  display: none;
 }
 
 /* Sponsors
@@ -690,7 +691,6 @@ footer ul {
 
 footer li {
   display: inline-block;
-  margin: 0 0 0 10px;
 }
 
 footer .social {
@@ -711,8 +711,34 @@ footer a {
 footer .social a,
 footer .license a,
 footer .license {
+  padding: 0 0 0 10px;
   font-size: 12px;
 }
+
+/*
+.nav li {
+  height: 20px;
+  overflow: hidden;
+}
+
+.nav li a{
+  margin-right: 10px;
+  margin-top: 4px;
+    -webkit-transition:200ms all linear;
+    -moz-transition:150ms all linear;
+    -o-transition:150ms all linear;
+    transition:150ms all linear;
+    height: 20px;
+    display: block;
+}
+.nav li a:hover{
+  margin-top: -20px;
+  text-decoration: none;
+}
+.nav li a:after {
+    content: attr(title);
+    display: block;
+}*/
 
 /* ==========================================================================
    Util

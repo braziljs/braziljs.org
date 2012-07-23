@@ -1,9 +1,19 @@
 Newsletter = function(){
 
     var self = this;
+    self.box = $("#get-involved");
     self.form = $("#get-involved-form");
 
     self.binds = function(){
+
+        self.box.delegate(".more-one", "click", function(e){
+
+            $("#success").fadeOut("fast", function() {
+                self.form.fadeIn('fast')
+            });
+
+            e.preventDefault();
+        });
 
         self.form.on("submit", function(e){
 

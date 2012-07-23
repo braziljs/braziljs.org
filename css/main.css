@@ -512,7 +512,7 @@ footer {
   margin: 0 0 0 160px;
 }
 
-.team .name {
+.team .name a {
   font-size: 21px;
   font-weight: 600;
   color: #16454E;

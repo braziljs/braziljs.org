@@ -50,15 +50,18 @@
         <h3>Contact us</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper consectetur. Nulla facilisi. Integer volutpat turpis at eros vestibulum non tristique elit lacinia. Fusce non dolor a ipsum iaculis scelerisque. Nulla facilisi. Integer volutpat turpis at eros vestibulum non tristique elit lacinia. Fusce non dolor a ipsum iaculis scelerisque.</p>
 
-        <form>
+        <form id="contact-form">
 
-          <div class="alert success">
+<!--           <div class="alert success">
             <strong>Thanks</strong> for your message!
           </div>
 
           <div class="alert error">
             <strong>Sorry!</strong> Please insert a valid email.
-          </div>
+          </div> -->
+
+          <span class="alert-box">
+          </span>
 
           <fieldset>
             <label for="name">Name:</label>
@@ -111,6 +114,17 @@
     </div>
 
   </footer>
+
+  <script src="js/jquery.js"></script>
+  <script src='js/contact.js'></script>
+
+  <script>
+  $(document).ready(function() {
+      var c = new Contact();
+      c.init();
+  });
+  </script>
+
 
 </body>
 </html>

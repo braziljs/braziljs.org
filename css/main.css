@@ -1,4 +1,3 @@
-
 /* ==========================================================================
    Colors
    ========================================================================== */
@@ -42,6 +41,15 @@ hr {
   border: 0;
 }
 
+blockquote {
+  padding: 2% 10%;
+  margin-bottom: 25px;
+}
+
+blockquote p {
+  color: #333;
+}
+
 /* ==========================================================================
    Typography
    ========================================================================== */
@@ -76,7 +84,7 @@ h2 span {
 }
 
 h3 {
-  font-size: 72px;
+  font-size: 48px;
   font-weight: 600;
   color: #16454e;
 }
@@ -130,6 +138,10 @@ footer {
   padding: 50px 0 30px 0;
 }
 
+footer, .content {
+  float: left;
+}
+
 /* Top Nav Bar
    ========================================================================== */
 
@@ -163,10 +175,36 @@ footer {
 }
 
 .facebook-share-button,
-.twitter-share-button {
+.twitter-share-button,
+.flag {
   float: right;
-  margin: 13px 0 0 0;
+  margin-top: 13px;
 }
+
+.facebook-share-button {
+  margin-right: 15px;
+}
+
+.twitter-share-button {
+  width: 90px !important;
+}
+
+.flag {
+  width: 24px;
+  height: 16px;
+  margin-left: 5px;
+  display: block;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: transparent;
+  background: url(../img/sprite-flags.png) no-repeat 0 0;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.en { background-position:0 0px; }
+.br { background-position:0 -16px; }
 
 /* Banner
    ========================================================================== */
@@ -205,11 +243,17 @@ footer {
 .get-involved {
   width: 100%;
   height: 160px;
+  padding: 20px 0 55px;
+}
+
+.single-page {
+  width: 100%;
+  padding: 40px 0 0;
 }
 
 .blog {
   width: 850px;
-  padding: 40px 0
+  padding: 40px 0;
 }
 
 .blog h3 {
@@ -217,12 +261,30 @@ footer {
   line-height: 2.3em;
 }
 
+.blog h4 {
+  font-size: 23px;
+  line-height: 2.3em;
+  color: #16454E;
+  text-align: left;
+  margin: 0;
+  text-transform: none;
+}
+
+.blog p {
+  margin-bottom: 25px;
+  line-height: 1.8em;
+}
+
+.blog p:last-child {
+  margin: 0;
+}
+
 /* Projects
    ========================================================================== */
 
 .projects li {
   position: relative;
-  top:0;
+  top: 0;
   width: 225px;
   display: inline-block;
   margin: 40px 10px 0;
@@ -231,6 +293,7 @@ footer {
   -o-transition: top 0.3s ease-out;
   transition: top 0.3s ease-out;
 }
+
 .projects li:hover { top: 10px; }
 
 .projects figure {
@@ -302,6 +365,11 @@ footer {
 
 .project-4 img {
   margin: -30px 0 0 -30px;
+}
+
+.single-page .last-exp {
+  float: left;
+  margin: 0 30px 20px 0;
 }
 
 /* Highlights
@@ -386,7 +454,6 @@ footer {
   width: 225px;
   height: 205px;
   position: relative;
-  /*background: #fff url(../img/img-labs.png) no-repeat 20px;*/
   border: 1px solid #ccc;
 }
 
@@ -398,7 +465,7 @@ footer {
 
 .labs .desc {
   width: 205px;
-  height: 50px;
+  height: 60px;
   padding: 5px 10px;
   position: absolute;
   bottom: 0;
@@ -408,6 +475,10 @@ footer {
 /* Get Involved
    ========================================================================== */
 
+.get-involved h3 {
+  font-size: 72px;
+}
+
 .get-involved img {
   float: left;
   margin: 20px 50px 30px;
@@ -416,6 +487,131 @@ footer {
 .get-involved p {
   font-size: 17px;
   color: #16454e;
+}
+
+.get-involved input[type="email"] {
+  float: left;
+  display: block;
+  width: 535px;
+  height: 16px;
+  margin: 25px 0;
+  padding: 11px;
+  font-size: 22px;
+  text-align: center;
+  color: #6C6D70;
+  border: 1px solid #D1D2D3;
+  background: #fff;
+  border-radius: 6px;
+  -moz-box-shadow: inset 2px 2px 11px 0 #dbddde;
+  -webkit-box-shadow: inset 2px 2px 11px 0 #dbddde;
+  box-shadow: inset 2px 2px 11px 0 #dbddde;
+}
+
+.get-involved input[type="submit"] {
+  float: left;
+  display: block;
+  width: 130px;
+  height: 40px;
+  margin: 25px 20px;
+  font-size: 21px;
+  font-weight: 800;
+  color: #8f5a0a;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d69e31 #e3a037 #d5982d #e3a037;
+  background-color: #ffb94b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
+  background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: -ms-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: -o-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: linear-gradient(top, #fddb6f, #ffb94b);
+  border-radius: 6px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+.get-involved input[type="submit"]:hover,
+.get-involved input[type="submit"]:focus {
+  background-color: #fddb6f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+  background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: linear-gradient(top, #ffb94b, #fddb6f);
+}
+
+.get-involved input[type="submit"]:active {
+  outline: none;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+.get-involved input[type="submit"]::-moz-focus-inner {
+  border: none;
+}
+
+/* Manifesto
+   ========================================================================== */
+
+.manifesto h3 {
+  margin-bottom: 10px;
+}
+
+.manifesto p {
+  font-size: 18px;
+}
+
+/* Team
+   ========================================================================== */
+
+.team h3 {
+  font-size: 48px;
+}
+
+.team ul {
+  margin: 60px 0 0;
+}
+
+.team li {
+  width: 445px;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.team li:nth-child(even) {
+  margin-left: 105px;
+}
+
+.team img {
+  float: left;
+  width: 140px;
+  height: 140px;
+  display: block;
+  border-radius: 50%;
+}
+
+.team .name,
+.team .position,
+.team .description {
+  margin: 0 0 0 160px;
+}
+
+.team .name {
+  font-size: 21px;
+  font-weight: 600;
+  color: #16454E;
+}
+
+.team .position {
+  font-size: 16px;
+  font-style: italic;
+  color: #37ACC2;
 }
 
 /* Sponsors
@@ -471,7 +667,8 @@ footer li {
 }
 
 footer .social {
-  margin-top: -70px;
+  margin-top: -23px;
+  clear: both;
 }
 
 footer .license {

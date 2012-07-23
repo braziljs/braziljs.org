@@ -19,10 +19,11 @@
         <p>moving &amp; uniting</p>
 
         <ul>
-          <li>/ <a href="#">Community</a></li>
-          <li>/ <a href="#">Conferences</a></li>
-          <li>/ <a href="#">Labs</a></li>
-          <li>/ <a href="#">Cast</a></li>
+          <li>/ <a href="/Community">Community</a></li>
+          <li>/ <a href="/conference">Conferences</a></li>
+          <li>/ <a href="/labs">Labs</a></li>
+          <li>/ <a href="cast">Cast</a></li>
+          <li>/ <a href="/team">Team</a></li>
         </ul>
 
         <iframe class="facebook-share-button" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fbraziljs.org%2F&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=199580610147156" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>

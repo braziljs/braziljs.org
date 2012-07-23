@@ -66,7 +66,7 @@
 
       <div class="highlights confs">
 
-        <?php query_posts('cat=3&showposts=3'); ?>
+        <?php query_posts('cat=3&showposts=3&order=ASC'); ?>
 
           <h5><?php single_cat_title() ?></h5>
 

@@ -8,7 +8,7 @@
 
       <ul>
         <li><a href="#">About</a></li>
-        <li><a href="#">Team</a></li>
+        <li><a href="/team">Team</a></li>
         <li><a href="#">Manifesto</a></li>
         <li><a href="#">Sponsors</a></li>
         <li><a href="#">Get involved</a></li>
@@ -16,9 +16,9 @@
       </ul>
 
       <ul class="social">
-        <li><a href="#">Twitter @BrazilJS</a></li>
-        <li><a href="#">Google Plus</a></li>
-        <li><a href="#">Facebook</a></li>
+        <li><a href="http://twitter.com/braziljs" title="Twitter @BrazilJS" target="_blank">Twitter @BrazilJS</a></li>
+        <li><a href="#" title="Google Plus BrazilJS" target="_blank">Google Plus</a></li>
+        <li><a href="http://www.facebook.com/braziljs" title="Facebook BrazilJS" target="_blank">Facebook</a></li>
       </ul>
 
       <p class="license">© 2012. Content available under a <a href="#">Creative Commons</a> license.</p>

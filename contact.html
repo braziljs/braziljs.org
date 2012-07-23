@@ -3,6 +3,10 @@
 <head>
   <title>BrazilJS Foundation - Moving &amp; Uniting</title>
 
+  <!--[if IE]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
   <!-- general meta tags -->
   <meta charset="UTF-8">
   <meta name="robots" content="all, index, follow" />
@@ -88,7 +92,7 @@
           </fieldset>
           <fieldset>
             <label for="email">Email:</label>
-            <input type="email" name="email">
+            <input type="text" name="email">
           </fieldset>
           <fieldset>
             <label for="company">Subject:</label>
@@ -136,11 +140,30 @@
 
   <script src="js/jquery.js"></script>
   <script src='js/contact.js'></script>
+  <script src="http://ajax.microsoft.com/ajax/jquery.validate/1.6/jquery.validate.js"></script>
 
   <script>
   $(document).ready(function() {
       var c = new Contact();
       c.init();
+
+      $('#contact-form').validate({
+          rules:{
+            name:{
+              required: true
+            },
+            email:{
+              required: true,
+              email: true
+            },
+            subject:{
+              required: true
+            },
+            message:{
+              required: true
+            }
+          }
+      })
   });
   </script>
 

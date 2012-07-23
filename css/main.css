@@ -19,6 +19,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: none;
 }
 
 a {
@@ -232,6 +233,7 @@ footer {
   width: 100%;
   height: 160px;
   padding: 40px 0 70px;
+  position: relative;
 }
 
 .single-page {
@@ -431,7 +433,7 @@ footer {
 
 .join-us img {
   float: left;
-  margin: 20px 50px 30px;
+  margin: 20px 50px 70px;
 }
 
 .join-us p {
@@ -439,7 +441,7 @@ footer {
   color: #16454e;
 }
 
-.join-us input[type="email"] {
+.join-us input[type="text"] {
   float: left;
   width: 535px;
   height: 16px;
@@ -541,8 +543,7 @@ footer {
   margin-top: 18px;
 }
 
-.contact input[type="text"],
-.contact input[type="email"] {
+.contact input[type="text"] {
   float: right;
   width: 330px;
   height: 16px;
@@ -767,4 +768,17 @@ footer .license {
   color: #B94A48;
   background-color: #F2DEDE;
   border-color: #EED3D7;
+}
+
+input.error, textarea.error { 
+  border: 2px solid #B94A48;
+  color: #B94A48 !important;
+
+  -moz-box-shadow: inset 2px 2px 11px 0 #EED3D7;
+  -webkit-box-shadow: inset 2px 2px 11px 0 #EED3D7;
+  box-shadow: inset 2px 2px 11px 0 #EED3D7;
+}
+
+label.error {
+  display: none !important;
 }

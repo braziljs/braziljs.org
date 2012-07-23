@@ -3,6 +3,10 @@
 <head>
   <title>BrazilJS Foundation - Moving &amp; Uniting</title>
 
+  <!--[if IE]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
   <!-- general meta tags -->
   <meta charset="UTF-8">
   <meta name="robots" content="all, index, follow" />
@@ -72,7 +76,7 @@
         <p>We are starting a movement to unify the JavaScript community of Brazil, front-end or back-end. Stay tuned for the news we are preparing. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-group">Join the discussion group</a>.</p>
 
         <form id="get-involved-form">
-          <input id="get-involved-form-email" type="email" placeholder="Enter your email here">
+          <input id="get-involved-form-email" name="email" type="text" placeholder="Enter your email here">
           <input id="get-involved-form-button" type="submit" value="Sign me">
         </form>
 
@@ -112,11 +116,21 @@
 
   <script src="js/jquery.js"></script>
   <script src='js/newsletter.js'></script>
+  <script src="http://ajax.microsoft.com/ajax/jquery.validate/1.6/jquery.validate.js"></script>
 
   <script>
   $(document).ready(function() {
       var n = new Newsletter();
       n.init();
+
+      $('#get-involved-form').validate({
+          rules:{
+            email:{
+              required: true,
+              email: true
+            }
+          }
+      })
   });
   </script>
 

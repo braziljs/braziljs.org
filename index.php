@@ -26,24 +26,6 @@
   $(document).ready(function() {
       var n = new Newsletter();
       n.init();
-
-      $('#get-involved-form').validate({
-          rules:{
-            email:{
-              required: true,
-              email: true
-            }
-          },
-          submitHandler: function() {
-            //pegamos os valores de todos os campos
-            var valores = $("#get-involved-form").serialize();
-            //e enviamos para a página demoajaxresult.php
-            $.post("app/newsletter.php", valores,
-            function(data) {
-                //depois do envio, e receber o resultado
-            });
-          }
-      })
   });
   </script>
 

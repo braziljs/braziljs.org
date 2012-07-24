@@ -51,31 +51,6 @@
   $(document).ready(function() {
       var c = new Contact();
       c.init();
-
-      $('#contact-form').validate({
-          rules:{
-            name:{
-              required: true
-            },
-            email:{
-              required: true,
-              email: true
-            },
-            subject:{
-              required: true
-            },
-            message:{
-              required: true
-            }
-          },
-          submitHandler: function() {
-            var valores = $("#contact-form").serialize();
-            $.post("app/contact.php", valores,
-            function(data) {
-              //
-            });
-          }
-      })
   });
   </script>
 

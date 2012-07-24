@@ -6,16 +6,29 @@ Newsletter = function(){
 
     self.binds = function(){
 
-        $("#get-involved").delegate(".more-one", "click", function(e){
+        self.box.on("click", ".more-one", function(){
 
             $("#success").fadeOut("fast", function() {
                 self.form.fadeIn('fast');
             });
 
-            e.preventDefault();
+            return false;
         });
 
-        self.form.on("submit", function(e){
+    };
+
+    self.init = function(){
+
+        self.binds();
+
+        $('#get-involved-form').validate({
+          rules:{
+            email:{
+              required: true,
+              email: true
+            }
+          },
+          submitHandler: function() {
 
             var email = $("#get-involved-form-email").val();
 
@@ -30,14 +43,8 @@ Newsletter = function(){
                         });
                 });
 
-            e.preventDefault();
+            return false;
+          }
         });
-
-    };
-
-    self.init = function(){
-
-        self.binds();
-
     };
 };

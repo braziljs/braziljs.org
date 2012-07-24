@@ -32,11 +32,6 @@
         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper.</p>
       </li>
       <li>
-        <a href="http://twitter.com/leobalter" target="_blank"><img src="img/avatar/leo.jpg" alt="Leo's Photo"></a>
-        <p class="name"><a href="http://twitter.com/leobalter" target="_blank">Leo Balter</a></p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper.</p>
-      </li>
-      <li>
         <a href="http://zenorocha.com/" target="_blank"><img src="img/avatar/zeno.jpg" alt="Zeno's Photo"></a>
         <p class="name"><a href="http://zenorocha.com/" target="_blank">Zeno Rocha</a></p>
         <p class="description">One of the creators of <a href="http://jqueryboilerplate.com">jQuery Boilerplate</a>, <a href="http://www.chromeexperiments.com/detail/wormz/">Wormz</a> and <a href="//diveintohtml5.com.br/">Dive into HTML5</a> translation lead. With only 21 years-old, he already worked as a software developer at Petrobras and Globoesporte.com. Now he is a Front-end Engineer at <a href="http://liferay.com/">Liferay</a>.</p>

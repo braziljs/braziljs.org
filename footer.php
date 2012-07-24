@@ -26,35 +26,3 @@
     </div>
 
   </footer>
-
-  <script src="js/jquery.js"></script>
-  <script src='js/newsletter.js'></script>
-  <script src="http://ajax.microsoft.com/ajax/jquery.validate/1.6/jquery.validate.js"></script>
-
-  <script>
-  $(document).ready(function() {
-      var n = new Newsletter();
-      n.init();
-
-      $('#get-involved-form').validate({
-          rules:{
-            email:{
-              required: true,
-              email: true
-            }
-          },
-          submitHandler: function() {
-            //pegamos os valores de todos os campos
-            var valores = $("#get-involved-form").serialize();
-            //e enviamos para a página demoajaxresult.php
-            $.post("app/newsletter.php", valores,
-            function(data) {
-                //depois do envio, e receber o resultado
-            });
-          }
-      })
-  });
-  </script>
-
-</body>
-</html>

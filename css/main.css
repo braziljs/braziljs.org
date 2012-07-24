@@ -635,8 +635,8 @@ input[type="email"] {
   -moz-box-shadow: inset 2px 2px 11px 0 #dbddde;
   -webkit-box-shadow: inset 2px 2px 11px 0 #dbddde;
   box-shadow: inset 2px 2px 11px 0 #dbddde;
-  padding: 20px 10px;
-  height: 10px;
+  padding: 8px 10px;
+  height: 35px;
 }
 
 input[type="submit"] {

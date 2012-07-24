@@ -3,6 +3,7 @@
 	require_once('../config/config.php');
 
 	$MSG_ERROR = "error";
+
 	$MSG_SUCCESS = "<strong>Great</strong>, now you're in! Do you want to subscribe <a href='#' class='more-one'>another email?</a>";
 
 	if( isset( $_POST['email'] ) && strlen($_POST['email']) > 1 ){

@@ -17,7 +17,7 @@
 
 	$Email->From = $contact_email;
 	$Email->FromName = $contact_name;
-	$Email->AddAddress("contato@braziljs.org");
+	$Email->AddAddress("contact@braziljs.org");
 	$Email->Subject = $contact_subject;
 
 	// text message

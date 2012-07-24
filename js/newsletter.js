@@ -6,10 +6,10 @@ Newsletter = function(){
 
     self.binds = function(){
 
-        self.box.delegate(".more-one", "click", function(e){
+        $("#get-involved").delegate(".more-one", "click", function(e){
 
             $("#success").fadeOut("fast", function() {
-                self.form.fadeIn('fast')
+                self.form.fadeIn('fast');
             });
 
             e.preventDefault();

@@ -1,27 +1,19 @@
 <?php include 'header.php' ?>
 
-<section class="content">
+  <article class="join-us" id="get-involved">
 
-  <div class="wrapper">
+    <img src="img/img-getinvolved.png" alt="Brazilian Heart">
+    <h3>Join us</h3>
+    <p>We are starting a movement to unify the JavaScript community in Brazil, both front-end and back-end. Stay tuned for the cool things we are preparing. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-group">Join the discussion group</a>.</p>
 
-    <article class="join-us" id="get-involved">
+    <form id="get-involved-form">
+      <input id="get-involved-form-email" name="email" type="text" placeholder="Enter your email here">
+      <input id="get-involved-form-button" type="submit" value="Sign me">
+    </form>
 
-      <img src="img/img-getinvolved.png" alt="Brazilian Heart">
-      <h3>Join us</h3>
-      <p>We are starting a movement to unify the JavaScript community in Brazil, both front-end and back-end. Stay tuned for the cool things we are preparing. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-group">Join the discussion group</a>.</p>
+    <div id="success" class="alert success"></div>
+    <div id="error" class="alert error"></div>
 
-      <form id="get-involved-form">
-        <input id="get-involved-form-email" name="email" type="text" placeholder="Enter your email here">
-        <input id="get-involved-form-button" type="submit" value="Sign me">
-      </form>
-
-      <div id="success" class="alert success"></div>
-      <div id="error" class="alert error"></div>
-
-    </article>
-
-  </div>
-
-</section>
+  </article>
 
 <?php include 'footer.php' ?>

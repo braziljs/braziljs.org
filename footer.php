@@ -1,3 +1,7 @@
+    </div>
+
+  </section>
+
   <footer>
 
     <div class="wrapper">
@@ -7,9 +11,9 @@
       <p class="about">BrazilJS Foundation is a non-profit foundation with the mission to unite and move the JavaScript community in Brazil.</p>
 
       <ul class="nav">
-        <li><a href="team.html" title="Team">Team</a></li>
-        <li><a href="manifesto.html" title="Manifesto">Manifesto</a></li>
-        <li><a href="contact.html" title="Contact">Contact</a></li>
+        <li><a href="team.php" title="Team">Team</a></li>
+        <li><a href="manifesto.php" title="Manifesto">Manifesto</a></li>
+        <li><a href="contact.php" title="Contact">Contact</a></li>
       </ul>
 
       <ul class="social">

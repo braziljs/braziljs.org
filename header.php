@@ -43,9 +43,9 @@
         <p>foundation</p>
 
         <ul>
-          <li><a href="team.html" title="Team BrazilJS Fundation">Team</a></li>
-          <li>/ <a href="manifesto.html" title="Manifesto BrazilJS Fundation">Manifesto</a></li>
-          <li>/ <a href="contact.html" title="Contact BrazilJS Fundation">Contact</a></li>
+          <li><a href="team.php" title="Team BrazilJS Fundation">Team</a></li>
+          <li>/ <a href="manifesto.php" title="Manifesto BrazilJS Fundation">Manifesto</a></li>
+          <li>/ <a href="contact.php" title="Contact BrazilJS Fundation">Contact</a></li>
         </ul>
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>
@@ -64,9 +64,13 @@
       <div class="wrapper">
         <img class="logo" src="img/logo.png" alt="BrazilJS Logo">
         <h1>united we move</h1>
-        <p>We not only bring content to people, we want to unite them. <a href="/manifesto.html">Read our manifesto</a></p>
+        <p>We not only bring content to people, we want to unite them. <a href="/manifesto.php">Read our manifesto</a></p>
       </div>
 
     </section>
 
   </header>
+
+  <section class="content">
+
+    <div class="wrapper">

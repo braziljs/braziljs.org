@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-  <title>BrazilJS Foundation - Moving &amp; Uniting</title>
+  <title>BrazilJS Foundation - United we move</title>
 
   <!--[if IE]>
     <script src="js/html5shiv.js"></script>

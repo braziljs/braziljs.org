@@ -1,7 +1,7 @@
 <?php
 
 	$MSG_ERROR = "error";
-	$MSG_SUCCESS = "<strong>Great</strong>, now you're in! <a href='#'' class='more-one'>Do you want subscribe another email?</a>";
+	$MSG_SUCCESS = "<strong>Great</strong>, now you're in! <a href='#'' class='more-one'>Do you want to subscribe another email?</a>";
 
 
 	if( isset( $_POST['email'] ) && strlen($_POST['email']) > 1 ){

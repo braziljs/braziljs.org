@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-  <title>BrazilJS Foundation - Moving &amp; Uniting</title>
+  <title>BrazilJS Foundation - United we move</title>
 
   <!--[if IE]>
     <script src="js/html5shiv.js"></script>
@@ -10,7 +10,7 @@
   <!-- general meta tags -->
   <meta charset="UTF-8">
   <meta name="robots" content="all, index, follow" />
-  <meta name="description" content="BrazilJS Foundation is a non-profit foundation with the mission to Moving and Uniting the JavaScript community in Brazil." />
+  <meta name="description" content="BrazilJS Foundation is a non-profit foundation with the mission to unite and move the JavaScript community in Brazil." />
 
   <!-- favicon -->
   <link rel="shortcut icon" href="favicon.ico">
@@ -24,7 +24,7 @@
   <!-- open graph -->
   <meta property="og:title" content="BrazilJS Foundation" />
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="BrazilJS Foundation is a non-profit foundation with the mission to Moving and Uniting the JavaScript community in Brazil" />
+  <meta property="og:description" content="BrazilJS Foundation is a non-profit foundation with the mission to unite and move the JavaScript community in Brazil" />
   <meta property="og:url" content="http://braziljs.org/"/>
   <meta property="og:image" content="http://braziljs.org/img/fb-share.jpg" />
   <meta property="og:site_name" content="BrazilJS"/>

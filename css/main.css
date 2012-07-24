@@ -152,7 +152,7 @@ footer {
 
 .top-bar ul {
   float: left;
-  margin: 13px 0 0 0;
+  margin: 13px 0 0 180px;
 }
 
 .top-bar li {
@@ -463,7 +463,7 @@ footer {
   display: none;
   margin: 30px 180px 0 262px;
   text-align: center;
-  width: 622px;
+  width: 660px;
 }
 
 /* Manifesto
@@ -706,6 +706,7 @@ footer ul {
 
 footer li {
   display: inline-block;
+  margin: 0 0 0 10px;
 }
 
 footer .social {
@@ -726,7 +727,6 @@ footer a {
 footer .social a,
 footer .license a,
 footer .license {
-  padding: 0 0 0 10px;
   font-size: 12px;
 }
 

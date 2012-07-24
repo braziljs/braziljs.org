@@ -2,7 +2,7 @@
 
 	require_once('../config/config.php');
 
-	$MSG_ERROR = "error";
+	$MSG_ERROR = "<strong>Oops</strong>, an error has occurred. Please, <a href='#' class='more-one'>try again</a> later.";
 
 	$MSG_SUCCESS = "<strong>Great</strong>, now you're in! Do you want to subscribe <a href='#' class='more-one'>another email?</a>";
 

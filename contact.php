@@ -3,7 +3,7 @@
   <article class="contact single-page">
 
     <h3>Contact us</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper consectetur. Nulla facilisi. Integer volutpat turpis at eros vestibulum non tristique elit lacinia. Fusce non dolor a ipsum iaculis scelerisque. Nulla facilisi. Integer volutpat turpis at eros vestibulum non tristique elit lacinia. Fusce non dolor a ipsum iaculis scelerisque.</p>
+    <p></p>
 
     <form id="contact-form">
 

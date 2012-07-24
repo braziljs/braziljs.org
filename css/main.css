@@ -123,12 +123,14 @@ p {
   width: 100%;
   background: #f7f7f7;
   padding-bottom: 50px;
+  float: left;
 }
 
 footer {
   width: 100%;
   background: #fff;
   padding: 50px 0 30px 0;
+  float: left;
 }
 
 /* Top Nav Bar
@@ -444,18 +446,14 @@ footer {
 .join-us input[type="text"] {
   float: left;
   width: 535px;
-  height: 16px;
   margin: 25px 0;
-  padding: 11px;
   font-size: 22px;
   text-align: center;
-  color: #6C6D70;
 }
 
 .join-us input[type="submit"] {
   float: left;
   width: 130px;
-  height: 40px;
   margin: 25px 20px;
   font-size: 21px;
   font-weight: 800;
@@ -494,6 +492,7 @@ footer {
   width: 445px;
   display: inline-block;
   margin-bottom: 50px;
+  float: left;
 }
 
 .team li:nth-child(even) {
@@ -506,6 +505,15 @@ footer {
   height: 140px;
   display: block;
   border-radius: 50%;
+}
+
+.team li:nth-child(even) img {
+  float: right;
+}
+
+.team li:nth-child(even) .name, .team li:nth-child(even) .position, .team li:nth-child(even) .description {
+  margin: 0 160px 0 0;
+  text-align: right;
 }
 
 .team .name,
@@ -546,9 +554,7 @@ footer {
 .contact input[type="text"] {
   float: right;
   width: 330px;
-  height: 16px;
   margin: 10px 0;
-  padding: 11px;
   font-size: 18px;
   text-align: left;
   color: #6C6D70;
@@ -576,7 +582,6 @@ footer {
 .contact input[type="submit"] {
   float: right;
   width: 130px;
-  height: 40px;
   margin: 25px 0;
   font-size: 18px;
   font-weight: 800;
@@ -630,10 +635,13 @@ input[type="email"] {
   -moz-box-shadow: inset 2px 2px 11px 0 #dbddde;
   -webkit-box-shadow: inset 2px 2px 11px 0 #dbddde;
   box-shadow: inset 2px 2px 11px 0 #dbddde;
+  padding: 20px 10px;
+  height: 10px;
 }
 
 input[type="submit"] {
   display: block;
+  height: 50px;
   color: #8f5a0a;
   cursor: pointer;
   border-width: 1px;
@@ -653,6 +661,12 @@ input[type="submit"] {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
 }
 
+input[type="text"]:hover,
+input[type="text"]:focus,
+textarea {
+  outline: 0;
+}
+
 input[type="submit"]:hover,
 input[type="submit"]:focus {
   background-color: #fddb6f;
@@ -665,7 +679,7 @@ input[type="submit"]:focus {
 }
 
 input[type="submit"]:active {
-  outline: none;
+  outline: 0;
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;

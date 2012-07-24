@@ -69,12 +69,10 @@
             }
           },
           submitHandler: function() {
-            //pegamos os valores de todos os campos
-            var valores = $("#get-involved-form").serialize();
-            //e enviamos para a página demoajaxresult.php
+            var valores = $("#contact-form").serialize();
             $.post("app/contact.php", valores,
             function(data) {
-                //depois do envio, e receber o resultado
+              //
             });
           }
       })

@@ -7,7 +7,7 @@
 
     <ul>
       <li>
-        <a href="#"><img src="img/avatar/bernard.jpg" alt=""></a>
+        <a href="http://twitter.com/bernarddeluna" target="_blank"><img src="img/avatar/bernard.jpg" alt=""></a>
         <p class="name"><a href="http://twitter.com/bernarddeluna" target="_blank">Bernard de Luna</a></p>
         <p class="position">Community Labs Lead</p>
         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper.</p>
@@ -28,7 +28,7 @@
         <a href="http://twitter.com/keppelen" target="_blank"><img src="img/avatar/giovanni.jpg" alt=""></a>
         <p class="name"><a href="http://twitter.com/keppelen" target="_blank">Giovanni Keppelen</a></p>
         <p class="position">Regional Conference Lead</p>
-        <p class="description">Idealizador e organizador do @frontInBH e moderador do Rio.js, graduando em Produção Multimidia pela UNI-BH, Front-end engineer com foco em Performance no Peixe Urbano e Tech leader.</p>
+        <p class="description">Founder of Front in BH and moderator of Rio.js. Multimedia Production student at UNI-BH. Front-end Engineer and Tech Leader in Peixe Urbano, always focusing in performance.</p>
       </li>
       <li>
         <a href="http://twitter.com/jaydson" target="_blank"><img src="img/avatar/jaydson.jpg" alt=""></a>

@@ -785,7 +785,7 @@ footer .license {
 }
 
 input.error, textarea.error { 
-  border: 2px solid #B94A48;
+  border: 1px solid #B94A48;
   color: #B94A48 !important;
 
   -moz-box-shadow: inset 2px 2px 11px 0 #EED3D7;

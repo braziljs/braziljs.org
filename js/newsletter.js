@@ -10,6 +10,8 @@ Newsletter = function(){
 
             $("#success").fadeOut("fast", function() {
                 self.form.fadeIn('fast');
+                $("#get-involved-form-email").val("");
+                
             });
 
             return false;

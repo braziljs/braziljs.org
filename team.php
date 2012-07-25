@@ -9,7 +9,7 @@
       <li>
         <a href="http://twitter.com/bernarddeluna" target="_blank"><img src="img/avatar/bernard.jpg" alt="Bernard's Photo"></a>
         <p class="name"><a href="http://twitter.com/bernarddeluna" target="_blank">Bernard de Luna</a></p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper.</p>
+        <p class="description">UI Designer and Front-end Developer based in São Paulo. He has worked at Petrobras leading a Front-end team to build wonderful apps, He is also Sexy web projects specialist and creator of <a href="http://formee.org">Formee</a> Framework. He is currently work as UX and Creative Director at <a href="http://www.meltdsp.com/">Melt DSP</a>.</p>
       </li>
       <li>
         <a href="http://twitter.com/davidsonFellipe" target="_blank"><img src="img/avatar/davidson.jpg" alt="Davidson's Photo"></a>

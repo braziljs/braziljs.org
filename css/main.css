@@ -490,6 +490,7 @@ footer {
 
 .team li {
   width: 445px;
+  height: 150px;
   display: inline-block;
   margin-bottom: 50px;
   float: left;

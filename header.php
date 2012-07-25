@@ -42,12 +42,6 @@
         <a href="/" title="Home" rel="home"><img src="img/logo-mini.png" alt="BrazilJS Logo" /></a>
         <p>foundation</p>
 
-        <ul>
-          <li><a href="team.php" title="Team BrazilJS Fundation">Team</a></li>
-          <li>/ <a href="manifesto.php" title="Manifesto BrazilJS Fundation">Manifesto</a></li>
-          <li>/ <a href="contact.php" title="Contact BrazilJS Fundation">Contact</a></li>
-        </ul>
-
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>
 
         <!-- Tweet Button -->

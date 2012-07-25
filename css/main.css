@@ -447,7 +447,7 @@ footer {
   width: 535px;
   margin: 25px 0;
   font-size: 22px;
-  text-align: center;
+  text-align: left;
 }
 
 .join-us input[type="submit"] {

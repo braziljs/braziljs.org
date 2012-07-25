@@ -12,6 +12,7 @@
 
       <ul class="nav">
         <li><a href="team" title="Team">Team</a></li>
+        <li><a href="http://braziljs.com.br/" title="Conference">Conference</a></li>
         <li><a href="contact" title="Contact">Contact</a></li>
       </ul>
 

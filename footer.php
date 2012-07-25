@@ -11,8 +11,8 @@
       <p class="about">BrazilJS Foundation is a non-profit foundation with the mission to unite and move the JavaScript community in Brazil.</p>
 
       <ul class="nav">
-        <li><a href="team.php" title="Team">Team</a></li>
-        <li><a href="contact.php" title="Contact">Contact</a></li>
+        <li><a href="team" title="Team">Team</a></li>
+        <li><a href="contact" title="Contact">Contact</a></li>
       </ul>
 
       <ul class="social">

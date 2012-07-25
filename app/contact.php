@@ -25,10 +25,10 @@
 	$Email->Body .= "<strong>Message:</strong>".utf8_decode($contact_msg)."<br>";
 
 	if(!$Email->Send()) {
-		echo '<div class="alert error">Sorry! Email not send</div>';
+		echo '<div class="alert error"><strong>Oops</strong>, an error has occurred. Please, try again later.</div>';
 	}
 	else {
-		echo '<div class="alert success">Email sent successful</div>';
+		echo '<div class="alert success"><strong>Thanks</strong> for your message!</div>';
 	}
 
 ?>

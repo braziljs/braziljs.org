@@ -12,7 +12,6 @@
 
       <ul class="nav">
         <li><a href="team.php" title="Team">Team</a></li>
-        <li><a href="manifesto.php" title="Manifesto">Manifesto</a></li>
         <li><a href="contact.php" title="Contact">Contact</a></li>
       </ul>
 

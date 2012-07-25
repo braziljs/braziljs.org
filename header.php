@@ -58,7 +58,7 @@
       <div class="wrapper">
         <img class="logo" src="img/logo.png" alt="BrazilJS Logo">
         <h1>united we move</h1>
-        <p>We not only bring content to people, we want to unite them. <a href="/manifesto.php">Read our manifesto</a></p>
+        <p>We not only bring content to people, we want to unite them.</p>
       </div>
 
     </section>

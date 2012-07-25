@@ -19,7 +19,7 @@
       <li>
         <a href="http://twitter.com/felipenmoura" target="_blank"><img src="img/avatar/felipe.jpg" alt="Felipe'sPhoto"></a>
         <p class="name"><a href="http://twitter.com/felipenmoura" target="_blank">Felipe N. Moura</a></p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper.</p>
+        <p class="description">Senior Development Analyst at Terra Networks, web technology enthusiast, has been working for 8 years in development and is highly involved in open-source projects, besides being curator for BrazilJS and RSJS.</p>
       </li>
       <li>
         <a href="http://twitter.com/keppelen" target="_blank"><img src="img/avatar/giovanni.jpg" alt="Giovanni's Photo"></a>
@@ -29,7 +29,7 @@
       <li>
         <a href="http://twitter.com/jaydson" target="_blank"><img src="img/avatar/jaydson.jpg" alt="Jaydson's Photo"></a>
         <p class="name"><a href="http://twitter.com/jaydson" target="_blank">Jaydson Gomes</a></p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae orci eget dui semper.</p>
+        <p class="description">Javascript enthusiast, Senior Development Analyst at Terra Networks, with 8 years experience in web development. Curator of BrazilJS and RSJS.</p>
       </li>
       <li>
         <a href="http://zenorocha.com/" target="_blank"><img src="img/avatar/zeno.jpg" alt="Zeno's Photo"></a>

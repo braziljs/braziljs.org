@@ -42,7 +42,7 @@
         <a href="/" title="Home" rel="home"><img src="img/logo-mini.png" alt="BrazilJS Logo" /></a>
         <p>foundation</p>
 
-        <a class="flag pt" href="/" title="Português">Português</a>
+        <a class="flag br" href="/" title="Português">Português</a>
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>
 

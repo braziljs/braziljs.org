@@ -23,7 +23,7 @@
 
   <!-- open graph -->
   <meta property="og:title" content="BrazilJS Foundation" />
-  <meta property="og:type" content="article"/>
+  <meta property="og:type" content="website"/>
   <meta property="og:description" content="BrazilJS Foundation is a non-profit foundation with the mission to unite and move the JavaScript community in Brazil" />
   <meta property="og:url" content="http://braziljs.org/"/>
   <meta property="og:image" content="http://braziljs.org/img/fb-share.jpg" />

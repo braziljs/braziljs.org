@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="pt-BR">
 <head>
-  <title>BrazilJS Foundation - United we move</title>
+  <title>BrazilJS Foundation - Unidos crescemos</title>
 
   <!--[if IE]>
     <script src="js/html5shiv.js"></script>
@@ -10,7 +10,7 @@
   <!-- general meta tags -->
   <meta charset="UTF-8">
   <meta name="robots" content="all, index, follow" />
-  <meta name="description" content="BrazilJS Foundation is a non-profit foundation with the mission to unite and move the JavaScript community in Brazil." />
+  <meta name="description" content="BrazilJS Foundation é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade de JavaScript no Brasil." />
 
   <!-- favicon -->
   <link rel="shortcut icon" href="favicon.ico">
@@ -24,7 +24,7 @@
   <!-- open graph -->
   <meta property="og:title" content="BrazilJS Foundation" />
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="BrazilJS Foundation is a non-profit foundation with the mission to unite and move the JavaScript community in Brazil" />
+  <meta property="og:description" content="BrazilJS Foundation é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade de JavaScript no Brasil." />
   <meta property="og:url" content="http://braziljs.org/"/>
   <meta property="og:image" content="http://braziljs.org/img/fb-share.jpg" />
   <meta property="og:site_name" content="BrazilJS"/>
@@ -40,7 +40,9 @@
 
       <div class="wrapper">
         <a href="/" title="Home" rel="home"><img src="img/logo-mini.png" alt="BrazilJS Logo" /></a>
-        <p>foundation</p>
+        <p>fundação</p>
+
+        <a class="flag en" href="/en" title="English">English</a>
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>
 
@@ -57,8 +59,8 @@
 
       <div class="wrapper">
         <img class="logo" src="img/logo.png" alt="BrazilJS Logo">
-        <h1>united we move</h1>
-        <p>We not only bring content to people, we want to unite them.</p>
+        <h1>unidos crescemos</h1>
+        <p>Não levamos apenas conteúdo para as pessoas, nós queremos uní-las.</p>
       </div>
 
     </section>

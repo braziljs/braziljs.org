@@ -2,24 +2,24 @@
 
   <article class="contact single-page">
 
-    <h3>Contact us</h3>
+    <h3>Contato</h3>
     <p></p>
 
     <form id="contact-form">
 
       <!-- <div class="alert success">
-        <strong>Thanks</strong> for your message!
+        <strong>Obrigado</strong> pela sua mensagem!
       </div>
 
       <div class="alert error">
-        <strong>Sorry!</strong> Please insert a valid email.
+        <strong>Desculpe!</strong> Por favor insira um email válido.
       </div> -->
 
       <span class="alert-box">
       </span>
 
       <fieldset>
-        <label for="name">Name:</label>
+        <label for="name">Nome:</label>
         <input type="text" name="name">
       </fieldset>
       <fieldset>
@@ -27,15 +27,15 @@
         <input type="text" name="email">
       </fieldset>
       <fieldset>
-        <label for="company">Subject:</label>
-        <input type="text" name="subject">
+        <label for="company">Assunto:</label>
+        <input type="text" name="assunto">
       </fieldset>
       <fieldset>
-        <label for="message">Message:</label>
-        <textarea name="message"></textarea>
+        <label for="message">Mensagem:</label>
+        <textarea name="mensagem"></textarea>
       </fieldset>
       <fieldset>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Enviar">
       </fieldset>
     </form>
 

@@ -182,7 +182,7 @@ footer {
 .flag {
   width: 24px;
   height: 16px;
-  margin-left: 5px;
+  margin-left: 20px;
   display: block;
   font: 0/0 a;
   text-shadow: none;
@@ -489,7 +489,7 @@ footer {
 
 .team li {
   width: 445px;
-  height: 150px;
+  height: 160px;
   display: inline-block;
   margin-bottom: 50px;
   float: left;

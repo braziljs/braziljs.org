@@ -2,9 +2,9 @@
 
 	require_once('../config/config.php');
 
-	$MSG_ERROR = "<strong>Oops</strong>, an error has occurred. Please, <a href='#' class='more-one'>try again</a> later.";
+	$MSG_ERROR = "<strong>Oops</strong>, um erro foi encontrado. Por favor, tente novamente.";
 
-	$MSG_SUCCESS = "<strong>Great</strong>, now you're in! Do you want to subscribe <a href='#' class='more-one'>another email?</a>";
+	$MSG_SUCCESS = "<strong>Legal</strong>, agora você está dentro! Quer inscrever <a href='#' class='more-one'>outro email?</a>";
 
 	if( isset( $_POST['email'] ) && strlen($_POST['email']) > 1 ){
 

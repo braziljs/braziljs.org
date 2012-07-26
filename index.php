@@ -3,12 +3,12 @@
   <article class="join-us" id="get-involved">
 
     <img src="img/img-getinvolved.png" alt="Brazilian Heart">
-    <h3>Join us</h3>
-    <p>We are starting a movement to unify the JavaScript community in Brazil, both front-end and back-end. Stay tuned for the cool things we are preparing. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Join the discussion group</a>.</p>
+    <h3>Junte-se a nós</h3>
+    <p>Estamos iniciando um movimento de unificação das comunidades brasileiras de desenvolvimento em torno do JavaScript, seja front-end ou back-end. Fique ligado nas novidades que estamos preparando para vocês. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Entre no grupo de discussão</a>.</p>
 
     <form id="get-involved-form">
-      <input id="get-involved-form-email" name="email" type="text" placeholder="Enter your email here">
-      <input id="get-involved-form-button" type="submit" value="Sign up">
+      <input id="get-involved-form-email" name="email" type="text" placeholder="Entre seu email aqui">
+      <input id="get-involved-form-button" type="submit" value="Cadastrar">
     </form>
 
     <div id="success" class="alert success"></div>

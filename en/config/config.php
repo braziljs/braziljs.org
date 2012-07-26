@@ -1,6 +1,6 @@
 <?php
 
-	define('IN_PRODUCTION', ($_SERVER['HTTP_HOST'] === 'braziljs.org' || $_SERVER['HTTP_HOST'] === 'www.braziljs.org'));
+	define('IN_PRODUCTION', ($_SERVER['HTTP_HOST'] === 'braziljs.org/en' || $_SERVER['HTTP_HOST'] === 'www.braziljs.org/en'));
 
 	if(IN_PRODUCTION){
 		require_once("production.php");

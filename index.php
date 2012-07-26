@@ -8,7 +8,7 @@
 
     <form id="get-involved-form">
       <input id="get-involved-form-email" name="email" type="text" placeholder="Enter your email here">
-      <input id="get-involved-form-button" type="submit" value="Sign me">
+      <input id="get-involved-form-button" type="submit" value="Sign up">
     </form>
 
     <div id="success" class="alert success"></div>

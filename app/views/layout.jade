@@ -1,0 +1,65 @@
+!!!
+html(lang='en-US')
+  head
+    meta(charset='utf-8')
+    title= title
+    link(rel='shortcut icon', src='favicon.ico')
+    link(rel='stylesheet', href='/stylesheets/main.css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800')
+  body
+    header
+        nav.top-bar
+            div.wrapper
+                a(href='/', title= 'Home', rel='home')
+                    img(src='/images/logo-mini.png', alt='BrazilJS Foundation')
+
+                ul
+                    li: a(href='/community')= 'Comunnity'
+                    li: a(href='/conference')= 'Conference'
+                    li: a(href='/labs')= 'Labs'
+                    li: a(href='/cast')= 'Cast'
+                    li: a(href='/team')= 'Team'
+
+                iframe(class="facebook-share-button", src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fbraziljs.org%2F&amp; send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp; height=21&amp;appId=199580610147156", scrolling="no", frameborder="0", style="border:none; overflow:hidden; width:90px; height:21px;", allowTransparency="true")
+
+                a(class='twitter-share-button', href='https://twitter.com/share', data-url='http://brasiljs.org')= 'Tweet'
+        
+        section.banner
+            div.wrapper
+                img(class='logo', src='/images/logo.png', alt='BrazilJS Foundation Logo')
+                h1= 'Moving &amp; uniting'
+                p= 'We not only bring content to people, we want to unite them. '
+                    a(href='#')= 'read our manifesto'
+    
+    section(class='content')!= body
+    
+    footer
+        div.wrapper
+            img(src='/images/logo-pb.png', alt='BrazilJS Foundation Logo')
+
+            p(class='about')= 'BrazilJS Foundation is a non-profit foundation with the mission to Moving and Uniting the web community in Brazil.'
+
+            ul
+                li: a(href= '/about')= 'About'
+                li: a(href= '/team')= 'Team'
+                li: a(href= '/manifest')= 'Manifest'
+                li: a(href= '/sponsor')= 'Sponsors'
+                li: a(href= '/contribute')= 'Get Involved'
+                li: a(href= '/contact')= 'Contact'
+
+            ul.social
+                li: a(
+                        href='http://twitter.com/braziljs', 
+                        title='Twitter @BrazilJS', 
+                        target='_blank'
+                    )= 'Twitter @BrazilJS' 
+                //li: a(href='#', title='Google Plus BrazilJS', target='_blank')= 'Google Plus'
+                li: a( 
+                        href='http://www.facebook.com/braziljs', 
+                        title='Facebook BrazilJS Foundation', 
+                        target='_blank'
+                    )= 'Facebook'
+
+    | <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.      src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+

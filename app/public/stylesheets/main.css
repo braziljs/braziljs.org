@@ -198,7 +198,7 @@ footer, .content {
   text-shadow: none;
   color: transparent;
   background-color: transparent;
-  background: url(../img/sprite-flags.png) no-repeat 0 0;
+  background: url(../images/gisprite-flags.png) no-repeat 0 0;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -319,7 +319,7 @@ footer, .content {
 .projects .arrow {
   width: 53px;
   height: 37px;
-  background: url(../img/arrow.png);
+  background: url(../images/arrow.png);
   margin: 40px auto;
 }
 

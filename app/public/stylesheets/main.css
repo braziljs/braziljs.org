@@ -1,0 +1,697 @@
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+
+/*
+ * blue = #37acc2
+ * yellow = #d8d466
+ * green = #86c841
+ * pink = #d866d1
+ * light gray = #777
+ * dark gray = #2b2b2b
+ */
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #37acc2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  margin: 50px 0 30px;
+  background: #ccc;
+  border: 0;
+}
+
+blockquote {
+  padding: 2% 10%;
+  margin-bottom: 25px;
+}
+
+blockquote p {
+  color: #333;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/* Open Sans - Font Weight
+ *
+ * Regular = 400
+ * Semibold = 600
+ * Bold = 700
+ * Extrabold = 800
+ */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 800;
+  color: #fff;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 700;
+  padding: 60px 0 10px;
+  text-align: center;
+}
+
+h2 span {
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #16454e;
+}
+
+h4 {
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: lowercase;
+  text-align: center;
+  color: #777;
+  margin: 5px 0;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2b2b2b;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* ==========================================================================
+   Structure
+   ========================================================================== */
+
+.top-bar {
+  width: 100%;
+  height: 65px;
+  background: #f7f7f7;
+}
+
+.banner {
+  width: 100%;
+  height: 330px;
+  background: #37acc2;
+}
+
+.content {
+  width: 100%;
+  background: #f7f7f7;
+  padding-bottom: 50px;
+}
+
+footer {
+  width: 100%;
+  background: #fff;
+  padding: 50px 0 30px 0;
+}
+
+footer, .content {
+  float: left;
+}
+
+/* Top Nav Bar
+   ========================================================================== */
+
+.top-bar div {
+  padding: 10px 20px;
+}
+
+.top-bar img {
+  float: left;
+  margin: 7px 0 0 10px;
+}
+
+.top-bar p {
+  float: left;
+  margin: 13px 10px;
+}
+
+.top-bar ul {
+  float: left;
+  margin: 13px 0 0 0;
+}
+
+.top-bar li {
+  display: inline-block;
+}
+
+.top-bar li a {
+  font-size: 16px;
+  color: #2b2b2b;
+  margin: 0 5px;
+}
+
+.facebook-share-button,
+.twitter-share-button,
+.flag {
+  float: right;
+  margin-top: 13px;
+}
+
+.facebook-share-button {
+  margin-right: 15px;
+}
+
+.twitter-share-button {
+  width: 90px !important;
+}
+
+.flag {
+  width: 24px;
+  height: 16px;
+  margin-left: 5px;
+  display: block;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: transparent;
+  background: url(../img/sprite-flags.png) no-repeat 0 0;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.en { background-position:0 0px; }
+.br { background-position:0 -16px; }
+
+/* Banner
+   ========================================================================== */
+
+.banner div {
+  padding: 90px 20px 0;
+}
+
+.logo {
+  margin: 32px 10px 0 10px;
+  float: left;
+}
+
+.banner p {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.banner a {
+  color: #fffa76;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.highlights {
+  width: 227px;
+  height: 260px;
+  float: left;
+  margin: 0 10px 50px;
+}
+
+.get-involved {
+  width: 100%;
+  height: 160px;
+  padding: 20px 0 55px;
+}
+
+.single-page {
+  width: 100%;
+  padding: 40px 0 0;
+}
+
+.blog {
+  width: 850px;
+  padding: 40px 0;
+}
+
+.blog h3 {
+  font-size: 30px;
+  line-height: 2.3em;
+}
+
+.blog h4 {
+  font-size: 23px;
+  line-height: 2.3em;
+  color: #16454E;
+  text-align: left;
+  margin: 0;
+  text-transform: none;
+}
+
+.blog p {
+  margin-bottom: 25px;
+  line-height: 1.8em;
+}
+
+.blog p:last-child {
+  margin: 0;
+}
+
+/* Projects
+   ========================================================================== */
+
+.projects li {
+  position: relative;
+  top: 0;
+  width: 225px;
+  display: inline-block;
+  margin: 40px 10px 0;
+  -webkit-transition: top 0.3s ease-out;
+  -moz-transition: top 0.3s ease-out;
+  -o-transition: top 0.3s ease-out;
+  transition: top 0.3s ease-out;
+}
+
+.projects li:hover { top: 10px; }
+
+.projects figure {
+  width: 135px;
+  height: 130px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  border-radius: 50%;
+}
+
+.projects img {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.projects p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.projects .arrow {
+  width: 53px;
+  height: 37px;
+  background: url(../img/arrow.png);
+  margin: 40px auto;
+}
+
+/* Projects - Community
+   ========================================================================== */
+
+.project-1 figure {
+  background: #37acc2;
+}
+
+.project-1 img {
+  margin: -20px 0 0 -38px;
+}
+
+/* Projects - Conferences
+   ========================================================================== */
+
+.project-2 figure {
+  background: #d8d466;
+}
+
+.project-2 img {
+  margin: -41px 0 0 -41px;
+}
+
+/* Projects - Cast
+   ========================================================================== */
+
+.project-3 figure {
+  background: #86c841;
+}
+
+.project-3 img {
+  margin: -33px 0 0 -20px;
+}
+
+/* Projects - Labs
+   ========================================================================== */
+
+.project-4 figure {
+  background: #d866d1;
+}
+
+.project-4 img {
+  margin: -30px 0 0 -30px;
+}
+
+.single-page .last-exp {
+  float: left;
+  margin: 0 30px 20px 0;
+}
+
+/* Highlights
+   ========================================================================== */
+
+.highlights p {
+  font-size: 14px;
+}
+
+.highlights a {
+  font-size: 16px;
+  display: block;
+  padding-top: 3px;
+}
+
+.confs, .cast, .labs {
+  margin-left: 14px;
+}
+
+/* Highlights - Date
+   ========================================================================== */
+
+.date {
+  float: left;
+  color: #2b2b2b;
+  margin: 0 10px 0 0;
+}
+.date .day {
+  font-size: 24px;
+  font-weight: 800;
+}
+.date .month {
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+
+/* Highlights - News
+   ========================================================================== */
+
+.news li {
+  margin: 0 0 15px;
+}
+
+.news a {
+  color: #37acc2;
+  font-size: 14px;
+  padding-top: 0;
+}
+
+/* Highlights - Confs
+   ========================================================================== */
+
+.confs li {
+  margin: 0 0 20px;
+}
+
+.confs a {
+  color: #d8d466;
+}
+
+/* Highlights - Cast
+   ========================================================================== */
+
+.cast a {
+  color: #86c841;
+}
+
+.cast .date {
+  height: 100%;
+}
+
+/* Highlights - Labs
+   ========================================================================== */
+
+.labs a {
+  color: #d866d1;
+}
+
+.labs .last-exp {
+  width: 225px;
+  height: 205px;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+.labs .last-exp img {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+
+.labs .desc {
+  width: 205px;
+  height: 60px;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Get Involved
+   ========================================================================== */
+
+.get-involved h3 {
+  font-size: 72px;
+}
+
+.get-involved img {
+  float: left;
+  margin: 20px 50px 30px;
+}
+
+.get-involved p {
+  font-size: 17px;
+  color: #16454e;
+}
+
+.get-involved input[type="email"] {
+  float: left;
+  display: block;
+  width: 535px;
+  height: 16px;
+  margin: 25px 0;
+  padding: 11px;
+  font-size: 22px;
+  text-align: center;
+  color: #6C6D70;
+  border: 1px solid #D1D2D3;
+  background: #fff;
+  border-radius: 6px;
+  -moz-box-shadow: inset 2px 2px 11px 0 #dbddde;
+  -webkit-box-shadow: inset 2px 2px 11px 0 #dbddde;
+  box-shadow: inset 2px 2px 11px 0 #dbddde;
+}
+
+.get-involved input[type="submit"] {
+  float: left;
+  display: block;
+  width: 130px;
+  height: 40px;
+  margin: 25px 20px;
+  font-size: 21px;
+  font-weight: 800;
+  color: #8f5a0a;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d69e31 #e3a037 #d5982d #e3a037;
+  background-color: #ffb94b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
+  background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: -ms-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: -o-linear-gradient(top, #fddb6f, #ffb94b);
+  background-image: linear-gradient(top, #fddb6f, #ffb94b);
+  border-radius: 6px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+.get-involved input[type="submit"]:hover,
+.get-involved input[type="submit"]:focus {
+  background-color: #fddb6f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+  background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+  background-image: linear-gradient(top, #ffb94b, #fddb6f);
+}
+
+.get-involved input[type="submit"]:active {
+  outline: none;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+.get-involved input[type="submit"]::-moz-focus-inner {
+  border: none;
+}
+
+/* Manifesto
+   ========================================================================== */
+
+.manifesto h3 {
+  margin-bottom: 10px;
+}
+
+.manifesto p {
+  font-size: 18px;
+}
+
+/* Team
+   ========================================================================== */
+
+.team h3 {
+  font-size: 48px;
+}
+
+.team ul {
+  margin: 60px 0 0;
+}
+
+.team li {
+  width: 445px;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.team li:nth-child(even) {
+  margin-left: 105px;
+}
+
+.team img {
+  float: left;
+  width: 140px;
+  height: 140px;
+  display: block;
+  border-radius: 50%;
+}
+
+.team .name,
+.team .position,
+.team .description {
+  margin: 0 0 0 160px;
+}
+
+.team .name {
+  font-size: 21px;
+  font-weight: 600;
+  color: #16454E;
+}
+
+.team .position {
+  font-size: 16px;
+  font-style: italic;
+  color: #37ACC2;
+}
+
+/* Sponsors
+   ========================================================================== */
+
+.sponsors h5 {
+  float: left;
+}
+
+.sponsors .help-link {
+  float: right;
+  display: block;
+}
+
+.sponsors ul {
+  clear: both;
+}
+
+.sponsors li {
+  width: 196px;
+  height: 70px;
+  display: inline-block;
+  margin: 30px 0;
+}
+
+.sponsors img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer img {
+  float: left;
+}
+
+footer .about {
+  width: 230px;
+  height: 100px;
+  display: inline-block;
+  margin: 0 0 0 100px;
+}
+
+footer ul {
+  float: right;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+
+footer .social {
+  margin-top: -23px;
+  clear: both;
+}
+
+footer .license {
+  float: right;
+  margin-top: -40px;
+}
+
+
+footer a {
+  font-size: 14px;
+}
+
+footer .social a,
+footer .license a,
+footer .license {
+  font-size: 12px;
+}
+
+/* ==========================================================================
+   Util
+   ========================================================================== */
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}

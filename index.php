@@ -4,7 +4,7 @@
 
     <div class="wrapper">
 
-      <h2>Conheça os projetos que <span>estamos preparando para você!</span></h2>
+      <h2><span>Fique por dentro de algumas das nossas iniciativas!</span></h2>
 
       <ul class="projects" id="projects">
 
@@ -13,7 +13,7 @@
             <img src="<?php bloginfo('template_url'); ?>/img/icon-community.png" alt="Icon - Community">
           </figure>
           <h4>Comunidade</h4>
-          <p>Sum dolor sit amet, consectetur adipiscing elit. Nunc condimentum interdum molestie.</p>
+          <p>Mantenha-se antenado no que somos, como pensamos e o que estamos fazendo.</p>
           <div class="arrow"></div>
         </li>
 
@@ -22,7 +22,7 @@
             <img src="<?php bloginfo('template_url'); ?>/img/icon-conf.png" alt="Icon - Conference">
           </figure>
           <h4>Eventos</h4>
-          <p>Sum dolor sit amet, consectetur adipiscing elit. Nunc condimentum interdum molestie.</p>
+          <p>Confira os próximos eventos de desenvolvimento front-end que estamos apoiando pelo Brasil.</p>
           <div class="arrow"></div>
         </li>
 
@@ -31,7 +31,7 @@
             <img src="<?php bloginfo('template_url'); ?>/img/icon-cast.png" alt="Icon - Cast">
           </figure>
           <h4>Podcast</h4>
-          <p>Sum dolor sit amet, consectetur adipiscing elit. Nunc condimentum interdum molestie.</p>
+          <p>Trazendo novidades, entrevistas e multiplicando conhecimento sobre desenvolvimento web.</p>
           <div class="arrow"></div>
         </li>
 
@@ -40,7 +40,7 @@
             <img src="<?php bloginfo('template_url'); ?>/img/icon-weekly.png" alt="Icon - Labs">
           </figure>
           <h4>Weekly</h4>
-          <p>Sum dolor sit amet, consectetur adipiscing elit. Nunc condimentum interdum molestie.</p>
+          <p>Seleção semanal que reúne as melhores novidades sobre desenvolvimento web no Brasil.</p>
           <div class="arrow"></div>
         </li>
 
@@ -53,13 +53,15 @@
           <h5><?php single_cat_title() ?></h5>
 
           <ul>
-
             <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>
               <li>
+                <div class="date">
+                  <p class="day"><?php the_time('d'); ?></p>
+                  <p class="month"><?php the_time('M'); ?></p>
+                </div>
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
               </li>
             <?php endwhile; endif; wp_reset_query(); ?>
-
           </ul>
 
       </div>
@@ -71,7 +73,6 @@
           <h5><?php single_cat_title() ?></h5>
 
           <ul>
-
             <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>
               <li>
                 <div class="date">
@@ -82,7 +83,6 @@
                 <?php the_content(); ?>
               </li>
             <?php endwhile; endif; wp_reset_query(); ?>
-
           </ul>
 
       </div>
@@ -111,7 +111,6 @@
           <h5><?php single_cat_title() ?></h5>
 
           <ul>
-
             <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>
               <li>
                 <div class="date">
@@ -119,10 +118,8 @@
                   <p class="month"><?php the_time('M'); ?></p>
                 </div>
                 <a href="<?php echo excerpt(100); ?>" target="_blank"><?php the_title(); ?></a>
-                <?php the_content(); ?>
               </li>
             <?php endwhile; endif; wp_reset_query(); ?>
-
           </ul>
 
       </div>

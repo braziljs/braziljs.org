@@ -37,7 +37,7 @@
 
         <li class="project-4">
           <figure>
-            <img src="<?php bloginfo('template_url'); ?>/img/icon-labs.png" alt="Icon - Labs">
+            <img src="<?php bloginfo('template_url'); ?>/img/icon-weekly.png" alt="Icon - Labs">
           </figure>
           <h4>Weekly</h4>
           <p>Sum dolor sit amet, consectetur adipiscing elit. Nunc condimentum interdum molestie.</p>

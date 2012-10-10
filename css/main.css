@@ -722,8 +722,10 @@ footer .about {
   margin: 0 0 0 100px;
 }
 
-footer ul {
-  float: right;
+footer .nav {
+  position:absolute;
+  top:0;
+  right:0;
 }
 
 footer li {
@@ -732,13 +734,16 @@ footer li {
 }
 
 footer .social {
-  margin-top: -23px;
   clear: both;
+  position:absolute;
+  top:30px;
+  right:0;
 }
 
 footer .license {
   float: right;
-  margin-top: -40px;
+  position:relative;
+  top: -35px;
 }
 
 
@@ -784,6 +789,7 @@ footer .license {
 .wrapper {
   width: 1000px;
   margin: 0 auto;
+  position:relative;
 }
 
 .alert {

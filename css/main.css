@@ -15,6 +15,8 @@
    Reset
    ========================================================================== */
 
+header:after, footer:after, section:after, hgroup:after, aside:after, figure:after, div:after, ol:after, li:after, form:after, ul:after, dl:after {content:".";display:block;clear:both;visibility:hidden;height:0;overflow:hidden;}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,11 +37,7 @@ ul {
 }
 
 hr {
-  width: 100%;
-  height: 1px;
-  margin: 50px 0 30px;
-  background: #ccc;
-  border: 0;
+  display: none;
 }
 
 /* ==========================================================================
@@ -56,6 +54,7 @@ hr {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -235,6 +234,8 @@ footer {
 }
 
 .join-us {
+  clear:both;
+  border-top:1px solid #ddd;
   width: 100%;
   height: 160px;
   padding: 40px 0 70px;
@@ -742,8 +743,9 @@ footer .social {
 
 footer .license {
   float: right;
-  position:relative;
-  top: -35px;
+  position: absolute;
+  bottom: 20px;
+  right:0;
 }
 
 

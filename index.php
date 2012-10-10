@@ -4,7 +4,7 @@
 
     <div class="wrapper">
 
-      <h2>Vamos apresentar os nossos projectos! <span>Você vai ver muito a partir de agora.</span></h2>
+      <h2>Conheça os projetos que <span>estamos preparando para você!</span></h2>
 
       <ul class="projects" id="projects">
 
@@ -21,7 +21,7 @@
           <figure>
             <img src="<?php bloginfo('template_url'); ?>/img/icon-conf.png" alt="Icon - Conference">
           </figure>
-          <h4>Conferencias</h4>
+          <h4>Eventos</h4>
           <p>Sum dolor sit amet, consectetur adipiscing elit. Nunc condimentum interdum molestie.</p>
           <div class="arrow"></div>
         </li>
@@ -30,7 +30,7 @@
           <figure>
             <img src="<?php bloginfo('template_url'); ?>/img/icon-cast.png" alt="Icon - Cast">
           </figure>
-          <h4>Cast</h4>
+          <h4>Podcast</h4>
           <p>Sum dolor sit amet, consectetur adipiscing elit. Nunc condimentum interdum molestie.</p>
           <div class="arrow"></div>
         </li>
@@ -39,7 +39,7 @@
           <figure>
             <img src="<?php bloginfo('template_url'); ?>/img/icon-labs.png" alt="Icon - Labs">
           </figure>
-          <h4>Labs</h4>
+          <h4>Weekly</h4>
           <p>Sum dolor sit amet, consectetur adipiscing elit. Nunc condimentum interdum molestie.</p>
           <div class="arrow"></div>
         </li>
@@ -49,17 +49,17 @@
       <div class="highlights news" id="news">
 
         <?php query_posts('cat=1&showposts=3'); ?>
-          
+
           <h5><?php single_cat_title() ?></h5>
 
           <ul>
-          
+
             <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>
               <li>
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
               </li>
             <?php endwhile; endif; wp_reset_query(); ?>
-          
+
           </ul>
 
       </div>
@@ -75,7 +75,7 @@
             <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>
               <li>
                 <div class="date">
-                  <p class="day"><?php the_time('j'); ?></p>
+                  <p class="day"><?php the_time('d'); ?></p>
                   <p class="month"><?php the_time('M'); ?></p>
                 </div>
                 <a href="<?php echo excerpt(100); ?>" target="_blank"><?php the_title(); ?></a>
@@ -90,12 +90,12 @@
       <div class="highlights cast" id="cast">
 
         <?php query_posts('cat=4&showposts=1'); ?>
-          
+
           <h5><?php single_cat_title() ?></h5>
 
           <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>
             <div class="date">
-              <p class="day"><?php the_time('j'); ?></p>
+              <p class="day"><?php the_time('d'); ?></p>
               <p class="month"><?php the_time('M'); ?></p>
             </div>
             <a href="<?php echo excerpt(100); ?>" target="_blank"><?php the_title(); ?></a>
@@ -104,7 +104,30 @@
 
       </div>
 
-      <div class="highlights labs" id="labs">
+      <div class="highlights weekly" id="weekly">
+
+        <?php query_posts('cat=6&showposts=3&order=DESC'); ?>
+
+          <h5><?php single_cat_title() ?></h5>
+
+          <ul>
+
+            <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>
+              <li>
+                <div class="date">
+                  <p class="day"><?php the_time('d'); ?></p>
+                  <p class="month"><?php the_time('M'); ?></p>
+                </div>
+                <a href="<?php echo excerpt(100); ?>" target="_blank"><?php the_title(); ?></a>
+                <?php the_content(); ?>
+              </li>
+            <?php endwhile; endif; wp_reset_query(); ?>
+
+          </ul>
+
+      </div>
+
+      <!-- <div class="highlights labs" id="labs">
 
         <?php query_posts('cat=5&showposts=1'); ?>
 
@@ -122,7 +145,7 @@
             </div>
           <?php endwhile; endif; wp_reset_query(); ?>
 
-      </div>
+      </div> -->
 
       <hr />
 
@@ -143,8 +166,8 @@
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
           <form action="http://braziljs.us5.list-manage1.com/subscribe/post?u=77b6594f10bba05dcc722c80e&amp;id=e6beed4270" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="seu@email.com" required>
+            <input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button">
           </form>
         </div>
       <!--End mc_embed_signup-->

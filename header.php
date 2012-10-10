@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title><?php wp_title( '|', true, 'right' ); bloginfo( 'name' );?> - <?php bloginfo( 'description' );?></title>
@@ -25,7 +25,7 @@
   <meta property="og:url" content="http://braziljs.org/"/>
   <meta property="og:image" content="http://braziljs.org/img/fb-share.jpg" />
   <meta property="og:site_name" content="BrazilJS"/>
-  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale" content="pt_BR" />
   <meta property="fb:app_id" content="372862979453673" />
 
 
@@ -37,21 +37,19 @@
     <nav class="top-bar">
 
       <div class="wrapper">
-        <a href="/" title="Home" rel="home"><img src="<?php bloginfo('template_url'); ?>/img/logo-mini.png" alt="BrazilJS Logo" /></a>
-        <p>moving &amp; uniting</p>
+        <a href="<?php bloginfo('url'); ?>" title="Home" rel="home"><img src="<?php bloginfo('template_url'); ?>/img/logo-mini.png" alt="BrazilJS Logo" /></a>
+        <p>fundação</p>
 
-        <ul>
-          <li>/ <a href="#projects">Community</a></li>
-          <li>/ <a href="#projects">Conferences</a></li>
-          <li>/ <a href="#projects">Labs</a></li>
-          <li>/ <a href="#projects">Cast</a></li>
-        </ul>
-
-        <a class="flag en" href="/en" title="English">English</a>
+        <!-- <ul>
+          <li>/ <a href="#projects">Comunidade</a></li>
+          <li>/ <a href="#projects">Eventos</a></li>
+          <li>/ <a href="#projects">Podcast</a></li>
+          <li>/ <a href="#projects">Weekly</a></li>
+        </ul> -->
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>
 
-        <div class="fb-like" data-href="https://www.facebook.com/braziljs" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" style="border:none; float:right; overflow:hidden; width:80px; height:21px;"></div>
+        <div class="fb-like" data-href="https://www.facebook.com/braziljs" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" style="border:none; float:right; overflow:hidden; width:80px !important; height:21px;"></div>
       </div>
 
     </nav>

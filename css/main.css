@@ -176,7 +176,11 @@ footer {
 }
 
 .twitter-share-button {
-  width: 90px !important;
+  width: 91px !important;
+}
+
+.fb_iframe_widget iframe {
+  width: 80px !important;
 }
 
 .flag {
@@ -301,7 +305,7 @@ footer {
    ========================================================================== */
 
 .project-2 figure {
-  background: #d8d466;
+  background: #86c841;
 }
 
 .project-2 img {
@@ -312,14 +316,14 @@ footer {
    ========================================================================== */
 
 .project-3 figure {
-  background: #86c841;
+  background: #F0DB4F;
 }
 
 .project-3 img {
   margin: -33px 0 0 -20px;
 }
 
-/* Projects - Labs
+/* Projects - weekly
    ========================================================================== */
 
 .project-4 figure {
@@ -343,7 +347,7 @@ footer {
   padding-top: 3px;
 }
 
-.confs, .cast, .labs {
+.confs, .cast, .weekly {
   margin-left: 14px;
 }
 
@@ -354,6 +358,7 @@ footer {
   float: left;
   color: #2b2b2b;
   margin: 0 10px 0 0;
+  width: 33px;
 }
 .date .day {
   font-size: 24px;
@@ -387,26 +392,33 @@ footer {
 }
 
 .confs a {
-  color: #d8d466;
+  color: #86c841;
 }
 
 /* Highlights - Cast
    ========================================================================== */
 
 .cast a {
-  color: #86c841;
+  color: #F0DB4F;
 }
 
 .cast .date {
   height: 100%;
 }
 
-/* Highlights - Labs
+/* Highlights - Weekly
    ========================================================================== */
 
-.labs a {
+.weekly li {
+  margin: 0 0 30px;
+}
+
+.weekly a {
   color: #d866d1;
 }
+
+/* Highlights - Labs
+   ========================================================================== */
 
 .labs .last-exp {
   width: 225px;
@@ -455,7 +467,7 @@ footer {
 
 .join-us input[type="submit"] {
   float: left;
-  width: 130px;
+  width: 150px;
   margin: 25px 20px;
   font-size: 21px;
   font-weight: 800;
@@ -691,7 +703,7 @@ input[type="submit"]:active {
 #mc_embed_signup input[type="text"], input[type="email"] {
   width: 500px;
   float: left;
-  font-size: 20px; 
+  font-size: 20px;
   margin: 25px 0;
 }
 
@@ -794,7 +806,7 @@ footer .license {
   border-color: #EED3D7;
 }
 
-input.error, textarea.error { 
+input.error, textarea.error {
   border: 1px solid #B94A48;
   color: #B94A48 !important;
 

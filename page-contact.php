@@ -7,13 +7,13 @@
 
     <form id="contact-form">
 
-      <!-- <div class="alert success">
+      <div class="alert success">
         <strong>Obrigado</strong> pela sua mensagem!
       </div>
 
       <div class="alert error">
         <strong>Desculpe!</strong> Por favor insira um email válido.
-      </div> -->
+      </div>
 
       <span class="alert-box">
       </span>

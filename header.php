@@ -49,7 +49,7 @@
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>
 
-        <div class="fb-like" data-href="https://www.facebook.com/braziljs" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" style="border:none; float:right; overflow:hidden; width:80px !important; height:21px;"></div>
+        <div class="fb-like" data-href="https://www.facebook.com/braziljs" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" style="border:none; float:right; overflow:hidden; width:80px !important; height:12px !important;"></div>
       </div>
 
     </nav>

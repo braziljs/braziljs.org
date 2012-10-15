@@ -14,14 +14,14 @@
       <article class="content-blog">
 
         <h2 style="text-align: left;"><?php the_title(); ?></h2>
-        
+
           <?php the_content(); ?>
 
         <br>
 
         <div id="disqus_thread"></div>
         <script type="text/javascript">
-          var disqus_shortname = 'zenorocha',
+          var disqus_shortname = 'braziljs',
               disqus_url = "<?php the_permalink(); ?>";
 
           (function() {

@@ -826,3 +826,16 @@ input.error, textarea.error {
 label.error {
   display: none !important;
 }
+
+/* ==========================================================================
+   Projects
+   ========================================================================== */
+
+.member {
+  display: inline-block;
+  margin: 0 7px;
+}
+
+.member img {
+  border-radius: 50%;
+}

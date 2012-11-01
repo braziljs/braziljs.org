@@ -81,10 +81,13 @@
 
         <?php endwhile; endif; wp_reset_query(); ?>
 
-      </div>
+        <ul class="thumbnails members" id="members"></ul>
 
     </div>
 
   </section>
+
+  <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/projects.js"></script>
 
   <?php get_footer(); ?>

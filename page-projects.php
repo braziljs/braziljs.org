@@ -35,43 +35,9 @@
 
               echo '<br />';
 
-              // Conhecimento
-              if ($conhecimento[0] != '') {
-
-                if (count($conhecimento) >= 0) {
-                  echo '<p>Conhecimento necessário:</p>';
-                }
-
-                echo '<ul class="conhecimento">';
-
-                for ($i = 0; $i < count($conhecimento); ++$i) {
-                  echo '<li>' . $conhecimento[$i] . '</li>';
-                }
-
-                echo '</ul>';
-
-              }
-
-              echo '<br />';
-
-              // Responsável
-              if ($quem[0] != '') {
-
-                if (count($quem) == 0) {
-                  echo '<p>Responsável:</p>';
-                } else {
-                  echo '<p>Responsáveis:</p>';
-                }
-
-                echo '<ul class="quem">';
-
-                for ($j = 0; $j < count($quem); ++$j) {
-                  echo '<li>' . $quem[$j] . '</li>';
-                }
-
-                echo '</ul>';
-
-              }
+              // Como posso ajudar?
+              echo '<p>Como posso ajudar?</p>';
+              the_content();
 
               echo '<br />';
 

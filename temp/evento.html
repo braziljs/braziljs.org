@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+	<style type="text/css">
+* {margin:0;padding:0;list-style:none;border:0;}
+body {width:1000px;margin: 50px auto;font-family: 'Open Sans', sans-serif;}
+header:after, footer:after, section:after, hgroup:after, aside:after, figure:after, div:after, ol:after, li:after, form:after, ul:after, dl:after {content:".";display:block;clear:both;visibility:hidden;height:0;overflow:hidden;}
+
+
+
+/* event */
+.event {
+  width: 227px;
+  height: 260px;
+  float: left;
+  margin: 0 10px 50px;
+}
+.event-city {
+	display: block;
+	margin-bottom:.3em;
+	font-size:14px;
+	line-height:1em;
+	color:#aaa;
+	text-align:center;
+}
+.event-media {
+	position:relative;
+	z-index:1;
+	margin-bottom:.3em;
+	width: 227px;
+	height:200px;
+	position:relative;
+	overflow:hidden;
+	border-radius: 4px;
+}
+.event-media a {
+	display: block;
+	box-shadow: inset 0 0 200px -10px rgba(0,0,0,0.4);
+  -webkit-transition: box-shadow 0.3s ease-out;
+  -moz-transition: box-shadow 0.3s ease-out;
+  -o-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+.event:hover .event-media a {
+	display: block;
+	box-shadow: inset 0 0 200px -10px rgba(0,0,0,0);
+}
+.event-media img {
+	position:relative;
+	z-index:-1;
+	width: 227px;
+	height: 200px;
+	border-radius: 4px;
+}
+.event-date {
+	position: absolute;
+	bottom:0;
+	right:0;
+	z-index:2;
+	width:40px;
+	text-align:center;
+	padding: 10px;
+	background:#2b2b2b;
+	color:#e7e7e7;
+	font-size:14px;
+	border-radius: 4px 0 4px 0;
+}
+.event-price {
+	position: absolute;
+	bottom:0;
+	right:-20px;
+	z-index:1;
+	width: 55px;
+	text-align:center;
+	padding: 10px;
+	background:#86C841;
+	color:#fff;
+	font-size:14px;
+	font-weight: bolder;
+	border-radius: 4px 0 4px 0;
+  -webkit-transition: right 0.3s ease-out;
+  -moz-transition: right 0.3s ease-out;
+  -o-transition: right 0.3s ease-out;
+  transition: right 0.3s ease-out;
+}
+.event:hover .event-price  {right:58px;}
+.event-name {
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.2em;
+	font-weight: 700;
+	letter-spacing: -.06em;
+	margin-bottom:.1em;
+}
+.event-name a {
+	color:#86C841;
+	text-decoration: none;
+}
+	</style>
+</head>
+<body>
+	<div class="event">
+		<div class="event-media">
+			<a href="#" title="nome do evento">
+				<img src="thumb.jpg" alt="nome do evento" />
+				<span class="event-date">11/11</span>
+				<span class="event-price">R$ 730</span>
+			</a>
+		</div>
+		<h1 class="event-name"><a href="#" title="nome do evento">Nome do evento</a></h1>
+		<span class="event-city">Rio de Janeiro</span>
+	</div>
+	<div class="event">
+		<div class="event-media">
+			<a href="#" title="nome do evento">
+				<img src="thumb.jpg" alt="nome do evento" />
+				<span class="event-date">11/11</span>
+				<span class="event-price">R$ 30</span>
+			</a>
+		</div>
+		<h1 class="event-name"><a href="#" title="nome do evento">Nome do evento</a></h1>
+		<span class="event-city">Rio de Janeiro</span>
+	</div>
+</body>
+</html>

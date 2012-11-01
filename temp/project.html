@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+	<style type="text/css">
+* {margin:0;padding:0;list-style:none;border:0;}
+body {width:1000px;margin: 50px auto;font-family: 'Open Sans', sans-serif;}
+header:after, footer:after, section:after, hgroup:after, aside:after, figure:after, div:after, ol:after, li:after, form:after, ul:after, dl:after {content:".";display:block;clear:both;visibility:hidden;height:0;overflow:hidden;}
+
+
+
+/* project */
+.project {
+	position:relative;
+	padding: 0 0 30px 230px;
+	border-bottom: 1px dashed #e7e7e7;
+	margin-bottom:30px;
+	min-height: 200px;
+}
+.project-media {
+	width: 200px;
+	position:absolute;
+	top:0;
+	left: 0;
+}
+.project-media img {
+	width: 100%;
+	min-height: 100px;
+	max-height:200px;
+	border-radius: 6px 6px 36px 6px;
+}
+.project-name {
+	font-size: 40px;
+	line-height: 1.2em;
+	font-weight: 700;
+	letter-spacing: -.06em;
+}
+.project-name a {
+	color:#37acc2;
+	text-decoration: none;
+}
+.project-website {
+	color:#aaa;
+	font-size:12px;
+	display: block;
+	height:auto;
+	margin-bottom:1em;
+}
+.project-website strong {
+	font-weight: normal;
+	color:#666;
+}
+.project-website a {color:#aaa;}
+.project-website a:hover, .project-website a:focus {color:#37acc2;}
+.project-description {
+	color:#777;
+	font-size:14px;
+	letter-spacing: -.03em;
+	line-height:1.4em;
+	margin-bottom:1em;
+}
+.project-issues {	margin-bottom:20px;}
+.project-issues li {
+	float:left;
+	margin: 0 5px 5px 0;
+}
+.project-issues a {
+	display: inline-block;
+	padding: 7px;
+	background:#f5f5f5;
+	border-radius: 4px;
+	font-size:14px;
+	line-height:1em;
+	color:#777;
+	text-decoration: none;
+}
+.project-issues a:hover, .project-issues a:focus {
+	background:#37acc2;
+	color:#fff;
+}
+.project-contributors {
+	-webkit-perspective: 50px;
+	-moz-perspective: 50px;
+	-o-perspective: 50px;
+	-ms-perspective: 50px;
+	perspective: 50px;
+}
+.project-contributor {
+	position:relative;
+	margin: 0 10px 10px 0;
+	display: block;
+	float:left;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	border-radius: 50%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.project-contributor:nth-child(0n + 1) {box-shadow:0 0 1px 3px gold;}
+.project-contributor:nth-child(0n + 2) {box-shadow:0 0 1px 3px silver;}
+.project-contributor:nth-child(0n + 3) {box-shadow:0 0 1px 3px #c65510;}
+.project-contributor img {
+	position:absolute;
+	top:0;
+	left:0;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+	</style>
+</head>
+<body>
+	<div class="project">
+			<div class="project-media"><img src="thumb.jpg" alt="nome do projeto" /></div>
+			<h1 class="project-name"><a href="#" title="nome do projeto">Nome do projeto</a></h1>
+			<span class="project-website"><strong>website:</strong> <a href="http://confboilerplate.com" title="confboilerplate.com">confboilerplate.com</a></span>
+			<p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			<ul class="project-issues">
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+			</ul>
+			<div class="project-contributors">
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+			</div>
+	</div>
+	<div class="project">
+			<div class="project-media"><img src="thumb.jpg" alt="nome do projeto" /></div>
+			<h1 class="project-name"><a href="#" title="nome do projeto">Nome do projeto</a></h1>
+			<span class="project-website"><strong>website:</strong> <a href="http://confboilerplate.com" title="confboilerplate.com">confboilerplate.com</a></span>
+			<p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			<ul class="project-issues">
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+			</ul>
+			<div class="project-contributors">
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+			</div>
+	</div>
+	<div class="project">
+			<div class="project-media"><img src="thumb.jpg" alt="nome do projeto" /></div>
+			<h1 class="project-name"><a href="#" title="nome do projeto">Nome do projeto</a></h1>
+			<span class="project-website"><strong>website:</strong> <a href="http://confboilerplate.com" title="confboilerplate.com">confboilerplate.com</a></span>
+			<p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			<ul class="project-issues">
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+			</ul>
+			<div class="project-contributors">
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+			</div>
+	</div>
+	<div class="project">
+			<div class="project-media"><img src="thumb.jpg" alt="nome do projeto" /></div>
+			<h1 class="project-name"><a href="#" title="nome do projeto">Nome do projeto</a></h1>
+			<span class="project-website"><strong>website:</strong> <a href="http://confboilerplate.com" title="confboilerplate.com">confboilerplate.com</a></span>
+			<p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			<ul class="project-issues">
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+			</ul>
+			<div class="project-contributors">
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+			</div>
+	</div>
+	<div class="project">
+			<div class="project-media"><img src="thumb.jpg" alt="nome do projeto" /></div>
+			<h1 class="project-name"><a href="#" title="nome do projeto">Nome do projeto</a></h1>
+			<span class="project-website"><strong>website:</strong> <a href="http://confboilerplate.com" title="confboilerplate.com">confboilerplate.com</a></span>
+			<p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			<ul class="project-issues">
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+				<li><a href="https://github.com/braziljs/conf-boilerplate" title="Testando e fornecendo feedback">Testando e fornecendo feedback</a></li>
+			</ul>
+			<div class="project-contributors">
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+				<span class="project-contributor">
+					<img src="contributor.jpg" alt="Nome do contribuidor" />
+					<span class="project-contributor-qt">190</span>
+				</span>
+			</div>
+	</div>
+</body>
+</html>

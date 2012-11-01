@@ -23,20 +23,6 @@
 
   </footer>
 
-
-  <script src='<?php bloginfo('template_url'); ?>/js/jquery.js'></script>
-  <script src='<?php bloginfo('template_url'); ?>/js/contact.js'></script>
-  <script src="http://ajax.microsoft.com/ajax/jquery.validate/1.6/jquery.validate.js"></script>
-
-
-
-  <script>
-    $(document).ready(function() {
-        var c = new Contact();
-        c.init();
-    });
-  </script>
-
   <script>
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-33656081-1']);

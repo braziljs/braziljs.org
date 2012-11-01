@@ -792,6 +792,9 @@ footer .license {
   width: 1000px;
   margin: 0 auto;
   position:relative;
+}
+
+.content .wrapper {
   padding-top: 60px;
 }
 

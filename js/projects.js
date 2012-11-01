@@ -27,11 +27,10 @@
     Plugin.prototype.init = function () {
 
       var self = this,
-          MEMBER = '<li class="member">' +
-                   '  <a class="url" href="#{url}" title="@#{login}" data-contributions="#{contributions}">' +
-                   '    <img class="photo" src="#{avatar}" width="50" height="50" alt="@#{login}">' +
-                   '  </a>' +
-                   '</li>';
+          MEMBER = '<a class="project-contributor" href="#{url}" title="@#{login}">' +
+                   '  <img src="#{avatar}" width="50" height="50" alt="@#{login}">' +
+                   // '  <span class="project-contributor-qt">#{contributions}</span>' +
+                   '</a>';
 
       $.getJSON("https://api.github.com/repos/" + self.repo + "/contributors?callback=?", function (result) {
 

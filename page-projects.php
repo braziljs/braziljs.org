@@ -6,50 +6,57 @@
 
     <div class="wrapper">
 
-      <h2>Projetos</h2>
+      <h2></h2>
 
         <?php query_posts('cat=7&showposts=-1'); ?>
 
           <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>
 
-          <div>
+          <div class="project">
 
             <?php
 
+              $imagem = get_post_custom_values('imagem');
               $onde = get_post_custom_values('onde');
+              $site = get_post_custom_values('site');
               $descricao = get_post_custom_values('descricao');
               $quem = get_post_custom_values('quem');
               $conhecimento = get_post_custom_values('conhecimento');
 
+              // Imagem
+              if ($imagem[0] != '') {
+                echo '<div class="project-media"><a href="http://github.com/' . $onde[0] . '"><img src="' . $imagem[0] . '" alt="Capa do Projeto" /></a></div>';
+              }
+
               // Título
               if ($onde[0] != '') {
-                echo '<a href="http://github.com/' . $onde[0] . '" target="_blank">'; the_title(); echo '</a>';
+                echo '<h1 class="project-name"><a href="http://github.com/' . $onde[0] . '" title="'; the_title(); echo '">'; the_title(); echo '</a></h1>';
               } else {
-                the_title();
+                echo '<h1 class="project-name">'; the_title(); echo'</h1>';
+              }
+
+              // Website
+              if ($site[0] != '') {
+                echo '<span class="project-website"><strong>website:</strong> <a href="' . $site[0] . '" title="' . $site[0] . '">' . $site[0] . '</a></span>';
               }
 
               // Descrição
               if ($descricao[0] != '') {
-                echo '<p class="descricao">' . $descricao[0] . '</p>';
+                echo '<p class="project-description">' . $descricao[0] . '</p>';
               }
 
-              echo '<br />';
-
               // Como posso ajudar?
-              echo '<p>Como posso ajudar?</p>';
+              echo '<div class="project-issues">';
+              echo '<h3 class="project-issues-title">Como posso ajudar?</h3>';
               the_content();
-
-              echo '<br />';
+              echo '</div>';
 
               // Participantes
               if ($onde[0] != '') {
-                echo '<p>Participantes:</p>';
-                echo '<ul class="members" data-repo="' . $onde[0] . '"></ul>';
+                echo '<ul class="project-contributors" data-repo="' . $onde[0] . '"></ul>';
               }
 
             ?>
-
-        <br /><br /><br /><br />
 
         </div>
 
@@ -62,7 +69,7 @@
   <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/projects.js"></script>
   <script>
-    $('.members').githubContributors();
+    $('.project-contributors').githubContributors();
   </script>
 
   <?php get_footer(); ?>

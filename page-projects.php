@@ -19,6 +19,7 @@
               $onde = get_post_custom_values('onde');
               $descricao = get_post_custom_values('descricao');
               $quem = get_post_custom_values('quem');
+              $conhecimento = get_post_custom_values('conhecimento');
 
               // Título
               if ($onde[0] != '') {
@@ -52,6 +53,25 @@
               }
 
               echo '<br />';
+
+              // Responsável
+              if ($quem[0] != '') {
+
+                if (count($quem) == 0) {
+                  echo '<p>Responsável:</p>';
+                } else {
+                  echo '<p>Responsáveis:</p>';
+                }
+
+                echo '<ul class="quem">';
+
+                for ($j = 0; $j < count($quem); ++$j) {
+                  echo '<li>' . $quem[$j] . '</li>';
+                }
+
+                echo '</ul>';
+
+              }
 
             ?>
 

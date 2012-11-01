@@ -16,6 +16,7 @@
     function Plugin( element, options ) {
         this.element = element;
         this.$element = $(element);
+        this.repo = $(element).data("repo");
         this.options = $.extend( {}, defaults, options) ;
         this._defaults = defaults;
         this._name = pluginName;
@@ -27,12 +28,12 @@
 
       var self = this,
           MEMBER = '<li class="member">' +
-                   '  <a class="url" href="#{url}" title="@#{login}">' +
+                   '  <a class="url" href="#{url}" title="@#{login}" data-contributions="#{contributions}">' +
                    '    <img class="photo" src="#{avatar}" width="50" height="50" alt="@#{login}">' +
                    '  </a>' +
                    '</li>';
 
-      $.getJSON("https://api.github.com/repos/braziljs/foundation/contributors?callback=?", function (result) {
+      $.getJSON("https://api.github.com/repos/" + self.repo + "/contributors?callback=?", function (result) {
 
           if (result.data && result.data.length > 0) {
 
@@ -41,10 +42,11 @@
             for ( var i = 0; i < result.data.length ; i++ ) {
 
               members += MEMBER.replace("#{avatar}", result.data[i].avatar_url)
-                              .replace("#{login}", result.data[i].login)
-                              .replace("#{url}", result.data[i].url)
-                              .replace("api.", "")
-                              .replace("users/", "");
+                               .replace("#{login}", result.data[i].login)
+                               .replace("#{url}", result.data[i].url)
+                               .replace("#{contributions}", result.data[i].contributions)
+                               .replace("api.", "")
+                               .replace("users/", "");
             }
 
             self.$element.append(members);

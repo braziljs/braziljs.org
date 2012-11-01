@@ -18,6 +18,7 @@
 
               $onde = get_post_custom_values('onde');
               $descricao = get_post_custom_values('descricao');
+              $quem = get_post_custom_values('quem');
 
               // Título
               if ($onde[0] != '') {
@@ -30,6 +31,27 @@
               if ($descricao[0] != '') {
                 echo '<p class="descricao">' . $descricao[0] . '</p>';
               }
+
+              echo '<br />';
+
+              // Conhecimento
+              if ($conhecimento[0] != '') {
+
+                if (count($conhecimento) >= 0) {
+                  echo '<p>Conhecimento necessário:</p>';
+                }
+
+                echo '<ul class="conhecimento">';
+
+                for ($i = 0; $i < count($conhecimento); ++$i) {
+                  echo '<li>' . $conhecimento[$i] . '</li>';
+                }
+
+                echo '</ul>';
+
+              }
+
+              echo '<br />';
 
             ?>
 

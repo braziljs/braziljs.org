@@ -16,6 +16,7 @@
     function Plugin( element, options ) {
         this.element = element;
         this.$element = $(element);
+        this.repo = $(element).data("repo");
         this.options = $.extend( {}, defaults, options) ;
         this._defaults = defaults;
         this._name = pluginName;
@@ -32,7 +33,7 @@
                    '  </a>' +
                    '</li>';
 
-      $.getJSON("https://api.github.com/repos/braziljs/foundation/contributors?callback=?", function (result) {
+      $.getJSON("https://api.github.com/repos/" + self.repo + "/contributors?callback=?", function (result) {
 
           if (result.data && result.data.length > 0) {
 

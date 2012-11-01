@@ -23,7 +23,7 @@
 
               // Título
               if ($onde[0] != '') {
-                echo '<a href="' . $onde[0] . '" target="_blank">'; the_title(); echo '</a>';
+                echo '<a href="http://github.com/' . $onde[0] . '" target="_blank">'; the_title(); echo '</a>';
               } else {
                 the_title();
               }
@@ -73,6 +73,14 @@
 
               }
 
+              echo '<br />';
+
+              // Participantes
+              if ($onde[0] != '') {
+                echo '<p>Participantes:</p>';
+                echo '<ul class="members" data-repo="' . $onde[0] . '"></ul>';
+              }
+
             ?>
 
         <br /><br /><br /><br />
@@ -81,8 +89,6 @@
 
         <?php endwhile; endif; wp_reset_query(); ?>
 
-        <ul id="members"></ul>
-
     </div>
 
   </section>
@@ -90,7 +96,7 @@
   <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/projects.js"></script>
   <script>
-    $('#members').githubContributors();
+    $('.members').githubContributors();
   </script>
 
   <?php get_footer(); ?>

@@ -28,7 +28,7 @@
 
       var self = this,
           MEMBER = '<li class="member">' +
-                   '  <a class="url" href="#{url}" title="@#{login}">' +
+                   '  <a class="url" href="#{url}" title="@#{login}" data-contributions="#{contributions}">' +
                    '    <img class="photo" src="#{avatar}" width="50" height="50" alt="@#{login}">' +
                    '  </a>' +
                    '</li>';
@@ -42,10 +42,11 @@
             for ( var i = 0; i < result.data.length ; i++ ) {
 
               members += MEMBER.replace("#{avatar}", result.data[i].avatar_url)
-                              .replace("#{login}", result.data[i].login)
-                              .replace("#{url}", result.data[i].url)
-                              .replace("api.", "")
-                              .replace("users/", "");
+                               .replace("#{login}", result.data[i].login)
+                               .replace("#{url}", result.data[i].url)
+                               .replace("#{contributions}", result.data[i].contributions)
+                               .replace("api.", "")
+                               .replace("users/", "");
             }
 
             self.$element.append(members);

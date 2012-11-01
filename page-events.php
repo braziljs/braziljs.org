@@ -6,33 +6,42 @@
 
     <div class="wrapper">
 
-      <h2>Eventos</h2>
-
-        <?php query_posts('cat=3&showposts=-1'); ?>
+        <?php query_posts('cat=3&showposts=-1&order=ASC'); ?>
 
           <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>
 
-          <div>
+          <div class="event">
+            <div class="event-media">
+              <a href="<?php echo excerpt(100); ?>" title="<?php the_title(); ?>">
 
-            <a href="<?php echo excerpt(100); ?>" target="_blank"><?php the_title(); ?></a>
-            <p><?php the_content(); ?></p>
+              <?php
 
-            <?php
+                $imagem = get_post_custom_values('imagem');
 
-              $preco = get_post_custom_values('preco');
+                // Imagem
+                if ($imagem[0] != '') {
+                  echo '<img src="' . $imagem[0] . '" alt="" />';
+                }
 
-              // Título
-              if ($preco[0] != '') {
-                echo '<p>Preço: ' . $preco[0] . '</p>';
-              }
+              ?>
 
-             ?>
+              <span class="event-date"><?php the_time('d/m'); ?></span>
 
-            <div class="date">
-              <p class="day"><?php the_time('d'); ?></p>
-              <p class="month"><?php the_time('M'); ?></p>
+              <?php
+
+                $preco = get_post_custom_values('preco');
+
+                // Preço
+                if ($preco[0] != '') {
+                  echo '<span class="event-price">R$ ' . $preco[0] . '</span>';
+                }
+
+              ?>
+
+              </a>
             </div>
-
+            <h1 class="event-name"><a href="#" title="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
+            <span class="event-city"><?php the_content(); ?></span>
           </div>
 
         <?php endwhile; endif; wp_reset_query(); ?>

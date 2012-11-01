@@ -821,7 +821,6 @@ footer .license {
 input.error, textarea.error {
   border: 1px solid #B94A48;
   color: #B94A48 !important;
-
   -moz-box-shadow: inset 2px 2px 11px 0 #EED3D7;
   -webkit-box-shadow: inset 2px 2px 11px 0 #EED3D7;
   box-shadow: inset 2px 2px 11px 0 #EED3D7;
@@ -832,10 +831,9 @@ label.error {
 }
 
 /* ==========================================================================
-   Projects
+   Projects Page
    ========================================================================== */
 
-/* project */
 .project {
   position:relative;
   padding: 0 0 30px 230px;
@@ -943,4 +941,96 @@ label.error {
   height: 50px;
   overflow: hidden;
   border-radius: 50%;
+}
+
+/* ==========================================================================
+   Events Page
+   ========================================================================== */
+
+.event {
+  width: 227px;
+  height: 260px;
+  float: left;
+  margin: 0 10px 50px;
+}
+.event-city {
+  display: block;
+  margin-bottom:.3em;
+  font-size:14px;
+  line-height:1em;
+  color:#aaa;
+  text-align:center;
+}
+.event-media {
+  position:relative;
+  z-index:1;
+  margin-bottom:.3em;
+  width: 227px;
+  height:200px;
+  position:relative;
+  overflow:hidden;
+  border-radius: 4px;
+}
+.event-media a {
+  display: block;
+  box-shadow: inset 0 0 200px -10px rgba(0,0,0,0.4);
+  -webkit-transition: box-shadow 0.3s ease-out;
+  -moz-transition: box-shadow 0.3s ease-out;
+  -o-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+.event:hover .event-media a {
+  display: block;
+  box-shadow: inset 0 0 200px -10px rgba(0,0,0,0);
+}
+.event-media img {
+  position:relative;
+  z-index:-1;
+  width: 227px;
+  height: 200px;
+  border-radius: 4px;
+}
+.event-date {
+  position: absolute;
+  bottom:0;
+  right:0;
+  z-index:2;
+  width:40px;
+  text-align:center;
+  padding: 10px;
+  background:#2b2b2b;
+  color:#e7e7e7;
+  font-size:14px;
+  border-radius: 4px 0 4px 0;
+}
+.event-price {
+  position: absolute;
+  bottom:0;
+  right:-20px;
+  z-index:1;
+  width: 55px;
+  text-align:center;
+  padding: 10px;
+  background:#86C841;
+  color:#fff;
+  font-size:14px;
+  font-weight: bolder;
+  border-radius: 4px 0 4px 0;
+  -webkit-transition: right 0.3s ease-out;
+  -moz-transition: right 0.3s ease-out;
+  -o-transition: right 0.3s ease-out;
+  transition: right 0.3s ease-out;
+}
+.event:hover .event-price  {right:58px;}
+.event-name {
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.2em;
+  font-weight: 700;
+  letter-spacing: -.06em;
+  margin-bottom:.1em;
+}
+.event-name a {
+  color:#86C841;
+  text-decoration: none;
 }

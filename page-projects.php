@@ -17,12 +17,18 @@
             <?php
 
               $onde = get_post_custom_values('onde');
+              $descricao = get_post_custom_values('descricao');
 
               // Título
               if ($onde[0] != '') {
                 echo '<a href="' . $onde[0] . '" target="_blank">'; the_title(); echo '</a>';
               } else {
                 the_title();
+              }
+
+              // Descrição
+              if ($descricao[0] != '') {
+                echo '<p class="descricao">' . $descricao[0] . '</p>';
               }
 
             ?>

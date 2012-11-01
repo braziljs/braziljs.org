@@ -1,31 +1,66 @@
-(function ($, undefined) {
+/*
+ *  Project: BrazilJS Projects - Github Contributors
+ *  Description: List all contributors of some Github Repository
+ *  Author: Zeno Rocha
+ *  License: WTFPL
+ */
 
-  var MEMBER = '<li class="member">' +
-               '  <a class="url" href="#{url}" title="@#{login}">' +
-               '    <img class="photo" src="#{avatar}" width="50" height="50" alt="@#{login}">' +
-               '  </a>' +
-               '</li>';
+;(function ( $, window, undefined ) {
 
-  $.getJSON("https://api.github.com/repos/braziljs/foundation/contributors?callback=?", function (result) {
+    var pluginName = 'githubContributors',
+        document = window.document,
+        defaults = {
+            propertyName: "value"
+        };
 
-      if (result.data && result.data.length > 0) {
+    function Plugin( element, options ) {
+        this.element = element;
+        this.$element = $(element);
+        this.options = $.extend( {}, defaults, options) ;
+        this._defaults = defaults;
+        this._name = pluginName;
 
-        var members = "", item = "";
+        this.init();
+    }
 
-        for ( var i = 0; i < result.data.length ; i++ ) {
+    Plugin.prototype.init = function () {
 
-          members += MEMBER.replace("#{avatar}", result.data[i].avatar_url)
-                   .replace("#{login}", result.data[i].login)
-                   .replace("#{url}", result.data[i].url
-                                    .replace("api.", "")
-                                    .replace("users/", ""));
+      var self = this,
+          MEMBER = '<li class="member">' +
+                   '  <a class="url" href="#{url}" title="@#{login}">' +
+                   '    <img class="photo" src="#{avatar}" width="50" height="50" alt="@#{login}">' +
+                   '  </a>' +
+                   '</li>';
 
-        }
+      $.getJSON("https://api.github.com/repos/braziljs/foundation/contributors?callback=?", function (result) {
 
-        $(".members").empty().append(members);
-        $(".member").fadeIn(1000);
-      }
+          if (result.data && result.data.length > 0) {
 
-  });
+            var members = "", item = "";
 
-})(jQuery);
+            for ( var i = 0; i < result.data.length ; i++ ) {
+
+              members += MEMBER.replace("#{avatar}", result.data[i].avatar_url)
+                              .replace("#{login}", result.data[i].login)
+                              .replace("#{url}", result.data[i].url)
+                              .replace("api.", "")
+                              .replace("users/", "");
+            }
+
+            self.$element.append(members);
+
+          }
+
+      });
+
+    };
+
+    $.fn[pluginName] = function ( options ) {
+        return this.each(function () {
+            if (!$.data(this, 'plugin_' + pluginName)) {
+                $.data(this, 'plugin_' + pluginName, new Plugin( this, options ));
+            }
+        });
+    };
+
+}(jQuery, window));

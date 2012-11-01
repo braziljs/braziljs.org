@@ -81,7 +81,7 @@
 
         <?php endwhile; endif; wp_reset_query(); ?>
 
-        <ul class="thumbnails members" id="members"></ul>
+        <ul id="members"></ul>
 
     </div>
 
@@ -89,5 +89,8 @@
 
   <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/projects.js"></script>
+  <script>
+    $('#members').githubContributors();
+  </script>
 
   <?php get_footer(); ?>

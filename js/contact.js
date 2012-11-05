@@ -26,7 +26,7 @@ Contact = function(){
 
             $.ajax({
                   type: "POST",
-                  url: "app/contact.php",
+                  url: "/app/contact.php",
                   data: data,
                 }).done(function( msg ) {
 

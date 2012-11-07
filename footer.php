@@ -7,9 +7,9 @@
       <p class="about">BrazilJS Foundation é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade de JavaScript no Brasil.</p>
 
       <ul class="nav">
-        <li><a href="/team" title="Time">Time</a></li>
+        <li><a href="<?php bloginfo('home'); ?>/team" title="Time">Time</a></li>
         <li><a href="http://braziljs.com.br/" title="Conferência">Conferência</a></li>
-        <!-- <li><a href="/contact" title="Contact">Contato</a></li> -->
+        <li><a href="<?php bloginfo('home'); ?>/contact" title="Contact">Contato</a></li>
       </ul>
 
       <ul class="social">

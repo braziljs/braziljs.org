@@ -59,7 +59,7 @@
       <div class="wrapper">
         <img class="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="BrazilJS Logo">
         <h1>unidos crescemos</h1>
-        <p>Não levamos apenas conteúdo para as pessoas, nós queremos uní-las.</p>
+        <p>Não levamos apenas conteúdo para as pessoas, nós queremos uni-las.</p>
       </div>
 
     </section>

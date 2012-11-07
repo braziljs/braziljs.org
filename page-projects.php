@@ -6,6 +6,10 @@
 
     <div class="wrapper">
 
+      <p>Conheça os projetos que idealizamos e as iniciativas da comunidade que apoiamos.</p>
+      <p>Além disso, saiba quem está por trás deles e como você também pode ajudar.</p>
+      <p style="margin-bottom: 50px;">Tem uma ideia legal? É só falar com a gente =D</p>
+
         <?php query_posts('cat=7&showposts=-1'); ?>
 
           <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>

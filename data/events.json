@@ -55,6 +55,54 @@
       "location": "Porto Alegre, RS",
       "date": "30/08/12",
       "price": "R$ 150"
+    },
+    {
+      "name": "Tableless Conference",
+      "website": "http://tableless.com.br/tablelessconf/",
+      "thumbnail": "http://braziljs.org/wp-content/uploads/2012/11/tablelessconf.jpg",
+      "location": "São Paulo, SP",
+      "date": "24/08/12",
+      "price": "R$ 150"
+    },
+    {
+      "name": "Front in Porto Alegre",
+      "website": "http://abradirs.com.br/frontinpoa/",
+      "thumbnail": "http://braziljs.org/wp-content/uploads/2012/11/frontinpoa.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "28/08/12",
+      "price": "R$ 100"
+    },
+    {
+      "name": "Front in BH",
+      "website": "http://abradirs.com.br/frontinpoa/",
+      "thumbnail": "http://braziljs.org/wp-content/uploads/2012/11/frontinbh.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "14/07/12",
+      "price": "R$ 45"
+    },
+    {
+      "name": "Front in Curitiba",
+      "website": "http://www.frontincuritiba.com.br/",
+      "thumbnail": "http://braziljs.org/wp-content/uploads/2012/11/frontincuritiba.jpg",
+      "location": "Curitiba, PR",
+      "date": "23/06/12",
+      "price": "R$ 60"
+    },
+    {
+      "name": "Front in Rio",
+      "website": "http://frontinrio.com.br",
+      "thumbnail": "http://braziljs.org/wp-content/uploads/2012/11/frontinrio.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "02/06/12",
+      "price": "R$ 35"
+    },
+    {
+      "name": "PernambucoJS",
+      "website": "http://www.pernambucojs.com/",
+      "thumbnail": "http://braziljs.org/wp-content/uploads/2012/11/pernambucojs.jpg",
+      "location": "Recife, PE",
+      "date": "21/04/12",
+      "price": "R$ 30"
     }
   ]
 }

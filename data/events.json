@@ -48,5 +48,13 @@
       "date": "06/10/12",
       "price": "R$ 50"
     },
+    {
+      "name": "BrazilJS Conf",
+      "website": "http://braziljs.com.br",
+      "thumbnail": "http://braziljs.org/wp-content/uploads/2012/11/braziljs.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "30/08/12",
+      "price": "R$ 150"
+    }
   ]
 }

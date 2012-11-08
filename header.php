@@ -38,7 +38,6 @@
 
       <div class="wrapper">
         <a href="<?php bloginfo('url'); ?>" title="Home" rel="home"><img src="<?php bloginfo('template_url'); ?>/img/logo-mini.png" alt="BrazilJS Logo" /></a>
-        <p>fundação</p>
 
         <ul>
           <li>/ <a href="/projetos">Projetos</a></li>

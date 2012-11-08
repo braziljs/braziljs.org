@@ -4,7 +4,7 @@
 
       <img src="<?php bloginfo('template_url'); ?>/img/logo-pb.png" alt="BrazilJS Logo" width="150" height="51">
 
-      <p class="about">BrazilJS é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade de JavaScript no Brasil.</p>
+      <p class="about">BrazilJS é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade em torno do JavaScript no Brasil.</p>
 
       <ul class="nav">
         <li><a href="<?php bloginfo('home'); ?>/team" title="Time">Time</a></li>

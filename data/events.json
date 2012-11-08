@@ -7,6 +7,14 @@
       "date": "24/11/12",
       "where": "Bauru, SP",
       "price": "R$ 80"
+    },
+    {
+      "name": "Front in Sampa",
+      "website": "http://www.frontinsampa.com.br/",
+      "thumbnail": "http://braziljs.org/wp-content/uploads/2011/11/frontinsampa.jpg",
+      "date": "03/11/12",
+      "where": "São Paulo, SP",
+      "price": "R$ 199"
     }
   ]
 }

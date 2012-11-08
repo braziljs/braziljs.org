@@ -15,6 +15,7 @@
       <ul class="social">
         <li><a href="https://twitter.com/braziljs" title="Twitter">Twitter</a></li>
         <li><a href="http://www.facebook.com/braziljs" title="Facebook">Facebook</a></li>
+        <li><a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Google Groups</a></li>
       </ul>
 
       <p class="license">© 2012. Conteúdo disponível sob a licença <a href="http://creativecommons.org/licenses/by/3.0/br/">Creative Commons</a>.</p>

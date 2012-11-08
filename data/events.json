@@ -39,6 +39,14 @@
       "location": "São Paulo, SP",
       "date": "18/10/12",
       "price": "R$ 150"
-    }
+    },
+    {
+      "name": "Front in Maringá",
+      "website": "http://frontinmaringa.com.br",
+      "thumbnail": "http://braziljs.org/wp-content/uploads/2012/11/w3c.jpg",
+      "location": "Maringá, PR",
+      "date": "06/10/12",
+      "price": "R$ 50"
+    },
   ]
 }

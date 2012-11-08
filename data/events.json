@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "name": "FrontInterior",
+      "website": "http://frontinterior.com.br",
+      "thumbnail": "http://braziljs.org/wp-content/uploads/2011/11/frontininterior.jpg",
+      "date": "24/11/12",
+      "where": "Bauru, SP",
+      "price": "R$ 80"
+    }
+  ]
+}

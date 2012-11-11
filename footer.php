@@ -4,7 +4,7 @@
 
       <img src="<?php bloginfo('template_url'); ?>/img/logo-pb.png" alt="BrazilJS Logo" width="150" height="51">
 
-      <p class="about">BrazilJS Foundation é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade de JavaScript no Brasil.</p>
+      <p class="about">BrazilJS é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade em torno do JavaScript no Brasil.</p>
 
       <ul class="nav">
         <li><a href="<?php bloginfo('home'); ?>/team" title="Time">Time</a></li>
@@ -15,6 +15,7 @@
       <ul class="social">
         <li><a href="https://twitter.com/braziljs" title="Twitter">Twitter</a></li>
         <li><a href="http://www.facebook.com/braziljs" title="Facebook">Facebook</a></li>
+        <li><a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Google Groups</a></li>
       </ul>
 
       <p class="license">© 2012. Conteúdo disponível sob a licença <a href="http://creativecommons.org/licenses/by/3.0/br/">Creative Commons</a>.</p>

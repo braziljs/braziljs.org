@@ -38,14 +38,13 @@
 
       <div class="wrapper">
         <a href="<?php bloginfo('url'); ?>" title="Home" rel="home"><img src="<?php bloginfo('template_url'); ?>/img/logo-mini.png" alt="BrazilJS Logo" /></a>
-        <p>fundação</p>
 
-        <!-- <ul>
-          <li>/ <a href="#projects">Comunidade</a></li>
-          <li>/ <a href="#projects">Eventos</a></li>
+        <ul>
+          <li>/ <a href="/projetos">Projetos</a></li>
+          <!-- <li>/ <a href="#projects">Eventos</a></li>
           <li>/ <a href="#projects">Podcast</a></li>
-          <li>/ <a href="#projects">Weekly</a></li>
-        </ul> -->
+          <li>/ <a href="#projects">Weekly</a></li> -->
+        </ul>
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>
 
@@ -59,7 +58,7 @@
       <div class="wrapper">
         <img class="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="BrazilJS Logo">
         <h1>unidos crescemos</h1>
-        <p>Não levamos apenas conteúdo para as pessoas, nós queremos uní-las.</p>
+        <p>Não levamos apenas conteúdo para as pessoas, nós queremos uni-las.</p>
       </div>
 
     </section>

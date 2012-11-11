@@ -74,6 +74,15 @@
 
           <ul>
             <?php if ( have_posts() ) : while( have_posts() ) : the_post() ?>
+
+            <?php $data = get_post_custom_values('data');
+
+                if ($data[0] != '') {
+                  // $date = date("d/m/y", strtotime($data[0]));
+                  $date = $data[0];
+                  echo '<span style="display: none;">' . $date . '</span>';
+                }
+            ?>
               <li>
                 <div class="date">
                   <p class="day"><?php the_time('d'); ?></p>
@@ -152,13 +161,6 @@
         <h3>Junte-se a nós</h3>
         <p>Estamos iniciando um movimento de unificação das comunidades brasileiras de desenvolvimento em torno do JavaScript, seja front-end ou back-end. Fique ligado nas novidades que estamos preparando para vocês. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Entre no grupo de discussão</a>.</p>
 
-        <!-- <form id="get-involved-form">
-          <input id="get-involved-form-email" name="email" type="text" placeholder="Entre seu email aqui">
-          <input id="get-involved-form-button" type="submit" value="Cadastrar">
-        </form> -->
-
-        <!-- <div id="success" class="alert success"></div>
-        <div id="error" class="alert error"></div> -->
 
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
@@ -167,7 +169,6 @@
             <input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button">
           </form>
         </div>
-      <!--End mc_embed_signup-->
 
       </article>
 

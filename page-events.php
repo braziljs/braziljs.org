@@ -7,9 +7,8 @@
   </section>
 
   <script type="text/x-handlebars-template" id="list-events">
-  	<h1>Proximos eventos</h1>
   	{{#each events}}
-  	
+
 		<div class="event">
 	       <div class="event-media">
 	         <a href="{{website}}" title="{{name}}">

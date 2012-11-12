@@ -1,23 +1,29 @@
 $(document).ready(function(){
 
   $.getJSON("http://braziljs.org/services/events/2012.json", function (response) {
-  //$.getJSON('/themeBrazilJS/wp-content/themes/foundation/js/2012.json', function(response) {
 
-  var data = new Date(),
-      dia = data.getDate(),
-      mes = data.getMonth() + 1,
-      ano = data.getFullYear(),
-      dateAtual = ano + "/" + mes + "/" + dia;
+    var nextEvents = [],
+        pastEvents = "",
+        currentDate = new Date(),
+        currentDay = currentDate.getDate(),
+        currentMonth = currentDate.getMonth() + 1,
+        currentYear = currentDate.getFullYear(),
+        fullCurrentDate = currentYear + "/" + currentMonth + "/" + currentDay;
 
     for ( var i = 0; i < response.events.length ; i++ ) {
 
-      date = (response.events[i].date).replace(/-/g,'/');
+      fullEventDate = (response.events[i].date).replace(/-/g,'/');
+
+      eventDay = fullEventDate.substring(8, 10);
+      eventMonth = fullEventDate.substring(5, 7);
+
+      minEventDate = eventDay + "/" + eventMonth;
 
       EVENT = '<div class="event">' +
-           '<div class="event-media">' +  
-              '<a href="'+ response.events[i].website +'" title="'+ response.events[i].name +'">' + 
+           '<div class="event-media">' +
+              '<a href="'+ response.events[i].website +'" title="'+ response.events[i].name +'">' +
                 '<img src="'+ response.events[i].thumbnail +'" alt="'+ response.events[i].name +'" />' +
-                '<span class="event-date">'+ date +'</span>' +
+                '<span class="event-date">'+ minEventDate +'</span>' +
                 '<span class="event-price">'+ response.events[i].price +'</span>' +
               '</a>' +
             '</div>' +
@@ -25,14 +31,22 @@ $(document).ready(function(){
             '<span class="event-city">'+ response.events[i].location +'</span>' +
           '</div>';
 
-      if ( date >= dateAtual ) {
-        $("#event-new").append(EVENT);
+      if ( fullEventDate >= fullCurrentDate ) {
+        nextEvents.push(EVENT);
       }
       else {
-        $("#events-older").append(EVENT);
+        pastEvents += EVENT;
       }
-      
+
     }
+
+    nextEvents = nextEvents.reverse();
+
+    for ( var j = 0; j < nextEvents.length; j++ ) {
+      $("#event-new").append(nextEvents[j]);
+    }
+
+    $("#events-older").html(pastEvents);
 
   });
 

@@ -947,6 +947,10 @@ label.error {
    Events Page
    ========================================================================== */
 
+#events h3 {
+  margin-left: 6px;
+}
+
 .event {
   width: 227px;
   height: 260px;
@@ -995,7 +999,7 @@ label.error {
   bottom:0;
   right:0;
   z-index:2;
-  width:70px;
+  width:40px;
   text-align:center;
   padding: 10px;
   background:#2b2b2b;
@@ -1021,7 +1025,7 @@ label.error {
   -o-transition: right 0.3s ease-out;
   transition: right 0.3s ease-out;
 }
-.event:hover .event-price  {right:85px;}
+.event:hover .event-price  {right:58px;}
 .event-name {
   text-align: center;
   font-size: 25px;

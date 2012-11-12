@@ -6,9 +6,9 @@
 
     <div class="wrapper">
 
-      <p>Conheça os projetos que idealizamos e as iniciativas da comunidade que apoiamos.</p>
-      <p>Além disso, saiba quem está por trás deles e como você também pode ajudar.</p>
-      <p style="margin-bottom: 50px;">Tem uma ideia legal? É só falar com a gente =D</p>
+      <p style="font-size: 16px; text-align: center;">Conheça os projetos que idealizamos e as iniciativas da comunidade que apoiamos.</p>
+      <p style="font-size: 16px; text-align: center;">Além disso, saiba quem está por trás deles e como você também pode ajudar.</p>
+      <p style="font-size: 16px; text-align: center; margin-bottom: 50px;">Tem uma ideia legal? É só falar com a gente =D</p>
 
         <?php query_posts('cat=7&showposts=-1'); ?>
 

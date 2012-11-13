@@ -237,7 +237,7 @@ footer {
   clear:both;
   border-top:1px solid #ddd;
   width: 100%;
-  height: 160px;
+  height: 185px;
   padding: 40px 0 70px;
   position: relative;
 }
@@ -469,7 +469,7 @@ footer {
 .join-us input[type="submit"] {
   float: left;
   width: 150px;
-  margin: 25px 20px;
+  margin: 10px 20px;
   font-size: 21px;
   font-weight: 800;
 }
@@ -705,7 +705,11 @@ input[type="submit"]:active {
   width: 500px;
   float: left;
   font-size: 20px;
-  margin: 25px 0;
+  margin: 10px 0 25px 0;
+}
+
+#mc-embedded-subscribe-form {
+  margin-top: 25px;
 }
 
 /* ==========================================================================

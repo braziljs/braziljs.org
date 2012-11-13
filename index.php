@@ -160,11 +160,12 @@
         <img src="<?php bloginfo('template_url'); ?>/img/img-getinvolved.png" alt="Brazilian Heart" width="167" height="145">
         <h3>Junte-se a nós</h3>
         <p>Estamos iniciando um movimento de unificação das comunidades brasileiras de desenvolvimento em torno do JavaScript, seja front-end ou back-end. Fique ligado nas novidades que estamos preparando para vocês. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Entre no grupo de discussão</a>.</p>
-
+        
 
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
           <form action="http://braziljs.us5.list-manage1.com/subscribe/post?u=77b6594f10bba05dcc722c80e&amp;id=e6beed4270" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <label for="">Inscreva-se na BrazilJS Weekly, nossa seleção semanal de conteúdo:</label>
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="seu@email.com" required>
             <input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button">
           </form>

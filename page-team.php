@@ -24,7 +24,7 @@
       <li>
         <a href="http://twitter.com/keppelen" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/avatar/giovanni.jpg" alt="Giovanni's Photo"></a>
         <p class="name"><a href="http://twitter.com/keppelen" target="_blank">Giovanni Keppelen</a></p>
-        <p class="description">Fundador do Front in BH e moderador do Rio.js. Estudante de  Produção Multimídia Production na UNI-BH. Front-end Engineer e Tech Leader no Peixe Urbano, sempre focando em performance.</p>
+        <p class="description">Fundador do Front in BH e moderador do Rio.js. Estudante de  Produção Multimídia na UNI-BH. Front-end Engineer e Tech Leader no Peixe Urbano, sempre focando em performance.</p>
       </li>
       <li>
         <a href="http://twitter.com/jaydson" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/avatar/jaydson.jpg" alt="Jaydson's Photo"></a>

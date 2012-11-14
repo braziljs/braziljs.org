@@ -934,9 +934,9 @@ label.error {
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-.project-contributor:nth-child(0n + 1) {box-shadow:0 0 1px 3px gold;}
-.project-contributor:nth-child(0n + 2) {box-shadow:0 0 1px 3px silver;}
-.project-contributor:nth-child(0n + 3) {box-shadow:0 0 1px 3px #c65510;}
+.project-contributor:nth-child(3n - 2) {box-shadow:0 0 1px 3px gold;}
+.project-contributor:nth-child(3n - 1) {box-shadow:0 0 1px 3px silver;}
+.project-contributor:nth-child(3n) {box-shadow:0 0 1px 3px #c65510;}
 .project-contributor img {
   position:absolute;
   top:0;

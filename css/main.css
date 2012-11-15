@@ -203,7 +203,10 @@ footer {
    ========================================================================== */
 
 .banner div {
-  padding: 90px 0 0 90px;
+  /*padding: 90px 0 0 90px;*/
+  padding-top: 90px;
+  text-align: center;
+  
 }
 
 .logo {

@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $.getJSON("http://braziljs.org/services/events/2012.json", function (response) {
+  $.getJSON("http://braziljs.org/services/events/2013.json", function (response) {
 
     var nextEvents = [],
         pastEvents = "",

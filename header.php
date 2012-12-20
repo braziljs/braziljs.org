@@ -40,8 +40,8 @@
         <a href="<?php bloginfo('url'); ?>" title="Home" rel="home"><img src="<?php bloginfo('template_url'); ?>/img/logo-mini.png" alt="BrazilJS Logo" /></a>
 
         <ul>
-          <li>/ <a href="<?php bloginfo('url'); ?>/eventos">Eventos</a></li>
-          <li>/ <a href="<?php bloginfo('url'); ?>/projetos">Projetos</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/eventos">Eventos</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/projetos">Projetos</a></li>
         </ul>
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>

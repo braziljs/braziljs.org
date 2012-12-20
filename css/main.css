@@ -155,12 +155,25 @@ footer {
 
 .top-bar li {
   display: inline-block;
+  position: relative;
+}
+
+.top-bar li:before {
+  content: "";
+  width: 1px;
+  height: 14px;
+  background: #838383;
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  border-left: 1px solid #fff;
 }
 
 .top-bar li a {
   font-size: 16px;
   color: #2b2b2b;
-  margin: 0 5px;
+  margin: 0 5px 0 12px;
 }
 
 .facebook-share-button,

@@ -48,6 +48,13 @@ $(document).ready(function(){
 
     $("#events-older").html(pastEvents);
 
+    //verifico se tem algum novo evento, caso não tenha, removo o title "Proximos Eventos"
+    var newEvents = $("#event-new").html();
+
+    if( newEvents === "" ) {
+      $("#title-new-events").hide();
+    }
+
   });
 
 })

@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php get_header(); ?>
 
   <section class="content">
 

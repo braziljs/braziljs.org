@@ -27,6 +27,9 @@
   <meta property="og:site_name" content="BrazilJS"/>
   <meta property="og:locale" content="pt_BR" />
   <meta property="fb:app_id" content="372862979453673" />
+  
+  <!-- carrega os scripts padrões do WordPress -->
+  <?php wp_head(); ?>
 
 
 </head>

@@ -17,6 +17,10 @@
 
   <!-- styles -->
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
+  
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
   <!-- open graph -->
   <meta property="og:title" content="BrazilJS Foundation" />

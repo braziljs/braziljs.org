@@ -923,10 +923,18 @@ label.error {
   line-height:1em;
   color:#777;
   text-decoration: none;
+   -webkit-transition: all 2s linear;
+   -moz-transition: all 2s linear;
+   -o-transition: all 2s linear;
+   transition: all 2s linear;
 }
 .project-issues a:hover, .project-issues a:focus {
   background:#37acc2;
   color:#fff;
+  -webkit-transition: all 2s linear;
+   -moz-transition: all 2s linear;
+   -o-transition: all 2s linear;
+   transition: all 2s linear;
 }
 .project-contributors {
   -webkit-perspective: 50px;

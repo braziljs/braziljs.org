@@ -923,6 +923,11 @@ label.error {
   line-height:1em;
   color:#777;
   text-decoration: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .project-issues a:hover, .project-issues a:focus {
   background:#37acc2;

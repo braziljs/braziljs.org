@@ -1119,7 +1119,12 @@ label.error {
   line-height: 1.2em;
   margin-bottom:.5em;
 }
-.how-to-issues ul { margin-bottom:20px;}
+.how-to-issues ul { 
+  margin-bottom:20px;
+}
+.how-to-issues ol {
+  margin: 10px 0 0 50px; 
+} 
 .how-to-issues li {
   float:left;
   margin: 0 5px 5px 0;

@@ -204,7 +204,7 @@ Dividir os patrocínios por cotas podem ajudar a atingir também pequenas empres
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="#" title="@thiagoprado"> 
+            <a class="how-to-contributor" href="https://github.com/thiagotpc" title="@thiagotpc"> 
               <img src="http://f.cl.ly/items/022i3T3f2j0o303e1A2I/15433_189702181801_8049958_n.jpg" width="50" height="50" alt="@#{login}" class="avatar">
               Thiago Prado de Campos, organizador do Front in Curitiba, Front in Londrina e Front in Maringá
             </a>

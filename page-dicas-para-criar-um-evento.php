@@ -1,0 +1,228 @@
+<?php /* Template Name: Dicas para criar um evento */
+
+  get_header(); ?>
+
+  <section class="content">
+
+    <div class="wrapper">
+
+      <p style="font-size: 16px; text-align: center;">Um guia elaborado pela <a href="http://braziljs.org">BrazilJS Foundation</a> com o auxílio de diversos organizadores para direcionar aqueles que procuram organizar um evento de front-end no Brasil.</p>
+      <p style="font-size: 16px; text-align: center; margin-bottom: 50px;">Esse guia está em fase de construção, esperamos sua contribuição :)</p>
+
+      <div class="how-to">
+        <h1 class="how-to-name">
+          <a href="http://github.com/braziljs/zofe" title="Site">Site</a>
+        </h1>
+        <p class="how-to-description">Faça um já!</p>
+        <div class="how-to-issues">
+          <p class="how-to-issues-title">        
+            O evento é de front-end. Portanto, o mínimo que esperam dele é um site bem feito. Só não deixe que isso atrapalhe seus planos, o site precisa ser funcional e abrir as portas do seu evento.
+
+            <blockquote class="how-to-cite">
+              <p class="text">
+                Consiga auxílio de um designer, de preferência da região. Dessa forma conseguirão fortalecer ainda mais a comunidade. Um bom design ajuda muito a passar confiabilidade no evento.
+              </p>
+              <span class="author">
+                — <cite><a href="http://github.com/bernarddeluna" title="Github do Bernard">Bernard de Luna, organizador do Front in Rio</a></cite>
+              </span>
+            </blockquote>
+            
+            Nós recomendamos o uso do <a href="https://github.com/braziljs/conf-boilerplate">ConfBoilerplate</a>, um projeto desenvolvido pela BrazilJS que irá agilizar muito seu trabalho. Uma outra dica é deixar o repositório aberto no Github para que outras pessoas possam colaborar.
+          </p>
+        </div>
+      </div>
+
+      <div class="how-to">
+        <h1 class="how-to-name">
+          <a href="http://github.com/braziljs/zofe" title="Público">Público</a>
+        </h1>
+        <p class="how-to-description">Caso seja a primeira edição desse evento na sua região, crie um formulário para verificar o volume de pessoas interessadas no evento</p>
+        <div class="how-to-issues">
+          <p class="how-to-issues-title">        
+            Crie encontros informais com apoio de faculdades e empresas locais para divulgar a iniciativa, assim você consegue ter ideia do público interessado e também uma base de pessoas interessadas.
+
+            <blockquote class="how-to-cite">
+              <p class="text">
+                Antes de lançarmos o evento, mandamos um Google Docs para os interessados fazerem um pré-cadastro de interesse (mesmo sem saber data, local ou palestrantes) e dar sugestões do que queriam que fosse abordado. E isso nos ajudou muito!
+              </p>
+              <span class="author">
+                — <cite><a href="http://github.com/bernarddeluna" title="Github do Luiz Tiago">Luiz Tiago, organizador do Pernambuco.JS</a></cite>
+              </span>
+            </blockquote>
+          </p>
+        </div>
+      </div>
+
+      <div class="how-to">
+        <h1 class="how-to-name">
+          <a href="http://github.com/braziljs/zofe" title="Data">Data</a>
+        </h1>
+        <p class="how-to-description">Determine uma data para seu evento!</p>
+        <div class="how-to-issues">
+          <p class="how-to-issues-title">
+            A data é bastante importante para conseguir passar mais credibilidade para os interessados e principalmente marcar um local. Vale lembrar que a data pode sofrer alterações por influência de qualquer um dos itens acima, porém não é recomendado para garantir uma boa visão do evento por parte de inscritos e patrocinadores.
+            <blockquote class="how-to-cite">
+              <p class="text">
+              Os melhores dias para um evento acontecer são do dia 11 ao 23, pois é tempo suficiente para os participantes receberem seus salários no início do mês e também longe do stress de fim de mês. Por incrível que pareça esses fatores psicológicos facilitam a inscrição e participação das pessoas. Sábado é uma boa opção já que as pessoas não precisam faltar ao trabalho, além da facilidade no trânsito e estacionamento.
+              </p>
+              <span class="author">
+                — <cite><a href="http://github.com/leobalter" title="Github do Leo Balter">Leo Balter, organizador do Front in Rio</a></cite>
+              </span>
+            </blockquote>
+            Um cuidado muito importante na hora de agendar uma data para o evento é não marcar no mesmo dia de outro evento da área, o mesmo pode acabar influenciando negativamente em um ou outro e não queremos isso certo? Consulte a <a href="http://braziljs.org/eventos">página de eventos da BrazilJS</a> para saber os eventos de front-end que estão já agendados no Brasil.
+          </p>
+        </div>
+      </div>
+
+      <div class="how-to">
+        <h1 class="how-to-name">
+          <a href="http://github.com/braziljs/zofe" title="Local">Local</a>
+        </h1>
+        <p class="how-to-description">Consiga um espaço para o evento...</p>
+        <div class="how-to-issues">
+          <p class="how-to-issues-title">
+            Determine para quantas pessoas você quer fazer o evento e comece a listar os locais que suportam essa quantidade de forma confortável.
+
+            Uma dica para conseguir auditórios de graça ou mais barato é tentar parcerias com universidades e outros locais de ensino. Dê preferência por locais de fácil acesso e não deixe de verificar o espaço, luz, equipamentos de som e vídeo com antecedência.
+
+            <blockquote class="how-to-cite">
+              <p class="text">
+                Esse é um ponto que se deve tomar muito cuidado, pois grande parte dos locais fazem venda casada com coffee-break, ou seja,
+                se você alugar o espaço, não poderá comprar o coffee em outro fornecedor. Muitas vezes o aluguel do espaço sai num preço bom,
+                mas quando se soma com o coffee, eleva muito o custo do evento.
+              </p>
+              <span class="author">
+                — <cite><a href="http://github.com/davidsonfellipe" title="Github do Davidson Fellipe">Davidson Fellipe, organizador do Rio.JS</a></cite>
+              </span>
+            </blockquote>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="how-to">
+        <h1 class="how-to-name">
+          <a href="http://github.com/braziljs/zofe" title="Data">Palestrantes</a>
+        </h1>
+        <p class="how-to-description">A grade de palestrantes é um dos pontos principais do evento, assim como o conteúdo das palestras!</p>
+        <div class="how-to-issues">
+          <p class="how-to-issues-title">
+
+            Para eventos regionais, procure ter palestrantes regionais. Isso fortalece a comunidade local. 
+            Nem sempre é possível fazer isso, então procure levar palestrantes conhecidos da comunidade nacional. 
+            Uma pesquisa pode ajudar a descobrir quem o público quer ver.
+
+            <blockquote class="how-to-cite">
+              <p class="text">
+              Faça o possível para bancar o transporte e hospedagem do palestrante, são eles que fazem a magia do evento. O conforto que você proporciona para seu palestrante é refletido diretamente na palestra que ele vai apresentar.
+              </p>
+              <span class="author">
+                — <cite><a href="http://github.com/keppelen" title="Github do Keppelen">Giovanni Keppelen, organizador do Front in BH</a></cite>
+              </span>
+            </blockquote>
+
+            Existem algumas opções para selecionar palestrantes:<br>
+            
+            <ol>
+              <li>Selecionado pelos organizadores. Para garantir a qualidade do evento ou por não existir uma demanda de palestrantes, os organizadores podem ficar responsáveis pela escolha.</li>
+              <li>Selecionado pelo público. Diversas ferramentas te ajudam neste processo, uma delas é o <a href="http://call4paperz.com/">Call4Paperz</a></li>
+            </ol>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="how-to">
+        <h1 class="how-to-name">
+          <a href="http://github.com/braziljs/zofe" title="Data">Patrocínios</a>
+        </h1>
+        <p class="how-to-description">Faça um Mídia Kit!</p>
+        <div class="how-to-issues">
+          <p class="how-to-issues-title">
+ Priorize empresas que rotineiramente apoiam eventos. Com alguns patrocinadores e apoios de grande nome, irá facilitar para persuadir outras empresas, principalmente locais.
+
+Empresas locais estão sempre à procura de bons profissionais. É importante que no cadastro do evento você organize informações que possam ser repassadas para as empresas que irão patrociná-lo (tempo de experiência, onde estuda/trabalha, especialização, cargo).
+
+Dividir os patrocínios por cotas podem ajudar a atingir também pequenas empresas.
+          </p>
+        </div>
+      </div>
+
+      <!-- end of tips -->
+<!--
+Leonardo Balter, organizador do Front in Rio e Rio.JS
+ -->  
+       <div class="how-to">
+        <h1 class="how-to-name">
+          <a href="http://github.com/braziljs/zofe" title="Site">Agradecimentos</a>
+        </h1>
+        <br>
+        <ul class="how-to-contributors">
+          <li>
+            <a class="how-to-contributor" href="https://github.com/bernarddeluna" title="@bernarddeluna"> 
+              <img src="https://secure.gravatar.com/avatar/bc16c9be1e05e65395487b78b1cc72c0?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
+              Bernard De Luna, organizador do Front in Rio
+            </a>
+          </li>
+          <li>
+            <a class="how-to-contributor" href="https://github.com/davidsonfellipe" title="@davidsonfellipe"> 
+              <img src="https://secure.gravatar.com/avatar/054c583ad5dc09a861874e14dcb43e4c?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
+              Davidson Fellipe, organizador do Pernambuco.JS, Front in Maceió, Front in BH e Rio.JS
+            </a>
+          </li>
+          <li>
+            <a class="how-to-contributor" href="https://github.com/felipenmoura" title="@felipenmoura"> 
+              <img src="https://secure.gravatar.com/avatar/929ed9958756c5c829a9eed068910646?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
+              Felipe Nascimento, organizador do BrazilJS e RS.JS
+            </a>
+          </li>
+          <li>
+            <a class="how-to-contributor" href="https://github.com/keppelen" title="@keppelen"> 
+              <img src="https://secure.gravatar.com/avatar/8f5c490b5b30ac6d655eced70cea4e5f?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
+              Giovanni Keppelen, organizador do Front in BH e Rio.JS
+            </a>
+          </li>
+          <li>
+            <a class="how-to-contributor" href="https://github.com/jaydson" title="@jaydson"> 
+              <img src="https://secure.gravatar.com/avatar/572696200604e59baa59ee90d61f7d02?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
+              Jaydson Gomes, organizador do BrazilJS e RS.JS
+            </a>
+          </li>
+          <li>
+            <a class="how-to-contributor" href="https://github.com/juarezpafilho" title="@juarezpafilho"> 
+              <img src="https://secure.gravatar.com/avatar/46a730baf23edd64c0e9ccaee2c3fc85?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
+              Juarez P. A. Filho, organizador do Front in Maceió
+            </a>
+          </li>
+          <li>
+            <a class="how-to-contributor" href="https://github.com/leobalter" title="@leobalter"> 
+              <img src="https://secure.gravatar.com/avatar/7d57b597729e6ef3fc558bb82ff9416c?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
+              Léo Balter, organizador do Front in Rio e Rio.JS
+            </a>
+          </li>
+          <li>
+            <a class="how-to-contributor" href="https://github.com/luiztiago" title="@luiztiago"> 
+              <img src="https://secure.gravatar.com/avatar/96c1c9dd9a5f1806dedf1470ee856550?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
+              Luiz Tiago Oliveira, organizador do Pernambuco.JS
+            </a>
+          </li>
+          <li>
+            <a class="how-to-contributor" href="#" title="@thiagoprado"> 
+              <img src="http://f.cl.ly/items/022i3T3f2j0o303e1A2I/15433_189702181801_8049958_n.jpg" width="50" height="50" alt="@#{login}" class="avatar">
+              Thiago Prado de Campos, organizador do Front in Curitiba, Front in Londrina e Front in Maringá
+            </a>
+          </li>
+          <li>
+            <a class="how-to-contributor" href="https://github.com/zenorocha" title="@zenorocha"> 
+              <img src="https://secure.gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
+              Zeno Rocha, organizador de festas sertanejas
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+
+  <?php get_footer(); ?>

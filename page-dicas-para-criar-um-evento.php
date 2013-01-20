@@ -7,7 +7,8 @@
     <div class="wrapper">
 
       <p style="font-size: 16px; text-align: center;">Um guia elaborado pela BrazilJS Foundation com o auxílio de diversos organizadores<br>para direcionar aqueles que procuram organizar um evento de front-end no Brasil.</p>
-      <p style="font-size: 16px; text-align: center; margin-bottom: 50px;">Esse guia está em constante melhoramento,<br> portanto esperamos sua contribuição :)</p>
+      <br>
+      <p style="font-size: 16px; text-align: center; margin-bottom: 50px;">Esse guia está em constante evolução, portanto esperamos sua contribuição :)</p>
 
       <div class="how-to">
         <h1 class="how-to-name">

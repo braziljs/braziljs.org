@@ -149,9 +149,6 @@ Dividir os patrocínios por cotas podem ajudar a atingir também pequenas empres
       </div>
 
       <!-- end of tips -->
-<!--
-Leonardo Balter, organizador do Front in Rio e Rio.JS
- -->  
        <div class="how-to">
         <h1 class="how-to-name">
           <a href="http://github.com/braziljs/zofe" title="Site">Agradecimentos</a>

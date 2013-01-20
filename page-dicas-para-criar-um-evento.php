@@ -217,9 +217,21 @@ Dividir os patrocínios por cotas podem ajudar a atingir também pequenas empres
           </li>
         </ul>
       </div>
+     <div id="disqus_thread"></div>
     </div>
   </section>
 
   <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+
+  <script type="text/javascript">
+    var disqus_shortname = 'braziljs',
+        disqus_url = "<?php the_permalink(); ?>";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
 
   <?php get_footer(); ?>

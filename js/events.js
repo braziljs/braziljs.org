@@ -7,8 +7,17 @@ $(document).ready(function(){
         currentDate = new Date(),
         currentDay = currentDate.getDate(),
         currentMonth = currentDate.getMonth() + 1,
-        currentYear = currentDate.getFullYear(),
-        fullCurrentDate = currentYear + "/" + currentMonth + "/" + currentDay;
+        currentYear = currentDate.getFullYear();
+
+    if (currentMonth.toString().length == 1) {
+      currentMonth = '0' + currentMonth;
+    }
+
+    if (currentDay.toString().length == 1) {
+      currentDay = '0' + currentDay;
+    }
+
+    var fullCurrentDate = currentYear + "/" + currentMonth + "/" + currentDay;
 
     for ( var i = 0; i < response.events.length ; i++ ) {
 
@@ -48,11 +57,16 @@ $(document).ready(function(){
 
     $("#events-older").html(pastEvents);
 
-    //verifico se tem algum novo evento, caso não tenha, removo o title "Proximos Eventos"
-    var newEvents = $("#event-new").html();
+    // If we don't have new or passed events, remove its title
+    var newEvents = $("#event-new").html(),
+        oldEvents = $("#events-older").html();
 
-    if( newEvents === "" ) {
+    if ( newEvents === "" ) {
       $("#title-new-events").hide();
+    }
+
+    if ( oldEvents === "" ) {
+      $("#title-old-events").hide();
     }
 
   });

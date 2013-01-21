@@ -9,7 +9,7 @@
       <h3 id="title-new-events">Próximos eventos</h3>
       <div id="event-new"></div>
 
-      <h3>Eventos Anteriores</h3>
+      <h3 id="title-old-events">Eventos Anteriores</h3>
       <div id="events-older"></div>
     </div>
   </section>

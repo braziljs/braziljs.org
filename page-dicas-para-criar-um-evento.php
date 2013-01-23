@@ -54,6 +54,7 @@
         </div>
       </div>
 
+
       <div class="how-to">
         <h1 class="how-to-name">
           <a href="http://github.com/braziljs/zofe" title="Data">Data</a>
@@ -71,6 +72,32 @@
               </span>
             </blockquote>
             Um cuidado muito importante na hora de agendar uma data para o evento é não marcar no mesmo dia de outro evento da área, o mesmo pode acabar influenciando negativamente em um ou outro e não queremos isso certo? Consulte a <a href="http://braziljs.org/eventos">página de eventos da BrazilJS</a> para saber os eventos de front-end que estão já agendados no Brasil.
+          </p>
+        </div>
+      </div>
+      
+      
+      <div class="how-to">
+        <h1 class="how-to-name">
+          <a href="http://github.com/braziljs/zofe" title="Data">Formato</a>
+        </h1>
+        <p class="how-to-description">Determine se o formato será de uma ou mais palestra por vez</p>
+        <div class="how-to-issues">
+          <p class="how-to-issues-title">
+            Conforme o número de palestrantes, seu evento pode ter palestras concorrentes.<br/>
+            Alguns participantes veem isto como uma coisa boa, outros, como algo negativo, o que deve variar conforme os temas abordados em sua conferência.<br/>
+            Caso seu evento atenda mais de um assunto ou área, pode ser interessante aborda-lo com palestras simultâneas, acontecendo em salas separadas, porém isso tem seu preço. Os participantes não poderão assistir a duas palestras que possam ter interesse e que estejam acontecendo no mesmo horário.<br/>
+            Além disso, alugar duas ou mais salas fará o local do evendo ficar um pouco mais caro.
+            
+            <blockquote class="how-to-cite">
+              <p class="text"></p>
+              Você pode escolher por colocar outras atividades em salas diferentes, como mini-cursos, Dojos ou algum mão na massa, por exemplo.
+              </p>
+              <span class="author">
+                — <cite><a href="http://github.com/felipenmoura" title="Github do Felipe N. Moura">Felipe N. Moura, organizador do BrazilJS e do RSJS</a></cite>
+              </span>
+            </blockquote>
+            Após a primeira execução do evento, você provavelmente já terá uma boa noção de o que se enquadra melhor para o seu evento, mas você pode seguir o padrão adotado por eventos do mesmo seguimento e que deram certo.
           </p>
         </div>
       </div>

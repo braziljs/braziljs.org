@@ -220,7 +220,7 @@
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="https://github.com/juarezpafilho" title="@juarezpafilho">
+            <a class="how-to-contributor" href="https://github.com/juarezpaf" title="@juarezpafilho">
               <img src="https://secure.gravatar.com/avatar/46a730baf23edd64c0e9ccaee2c3fc85?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
               Juarez P. A. Filho, organizador do Front in Maceió
             </a>

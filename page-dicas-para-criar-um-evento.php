@@ -16,7 +16,7 @@
         </h1>
         <p class="how-to-description">Faça um já!</p>
         <div class="how-to-issues">
-          <p class="how-to-issues-title">        
+          <p class="how-to-issues-title">
             O evento é de front-end. Portanto, o mínimo que esperam dele é um site bem feito. Só não deixe que isso atrapalhe seus planos, o site precisa ser funcional e abrir as portas do seu evento.
 
             <blockquote class="how-to-cite">
@@ -27,7 +27,7 @@
                 — <cite><a href="http://github.com/bernarddeluna" title="Github do Bernard">Bernard de Luna, organizador do Front in Rio</a></cite>
               </span>
             </blockquote>
-            
+
             Nós recomendamos o uso do <a href="https://github.com/braziljs/conf-boilerplate">ConfBoilerplate</a>, um projeto desenvolvido pela BrazilJS que irá agilizar muito seu trabalho. Uma outra dica é deixar o repositório aberto no Github para que outras pessoas possam colaborar.
           </p>
         </div>
@@ -39,7 +39,7 @@
         </h1>
         <p class="how-to-description">Caso seja a primeira edição desse evento na sua região, crie um formulário para verificar o volume de pessoas interessadas no evento</p>
         <div class="how-to-issues">
-          <p class="how-to-issues-title">        
+          <p class="how-to-issues-title">
             Crie encontros informais com apoio de faculdades e empresas locais para divulgar a iniciativa, assim você consegue ter ideia do público interessado e também uma base de pessoas interessadas.
 
             <blockquote class="how-to-cite">
@@ -75,8 +75,8 @@
           </p>
         </div>
       </div>
-      
-      
+
+
       <div class="how-to">
         <h1 class="how-to-name">
           <a href="http://github.com/braziljs/zofe" title="Data">Formato</a>
@@ -88,7 +88,7 @@
             Alguns participantes veem isto como uma coisa boa, outros, como algo negativo, o que deve variar conforme os temas abordados em sua conferência.<br/>
             Caso seu evento atenda mais de um assunto ou área, pode ser interessante aborda-lo com palestras simultâneas, acontecendo em salas separadas, porém isso tem seu preço. Os participantes não poderão assistir a duas palestras que possam ter interesse e que estejam acontecendo no mesmo horário.<br/>
             Além disso, alugar duas ou mais salas fará o local do evendo ficar um pouco mais caro.
-            
+
             <blockquote class="how-to-cite">
               <p class="text"></p>
               Você pode escolher por colocar outras atividades em salas diferentes, como mini-cursos, Dojos ou algum mão na massa, por exemplo.
@@ -136,8 +136,8 @@
         <div class="how-to-issues">
           <p class="how-to-issues-title">
 
-            Para eventos regionais, procure ter palestrantes regionais. Isso fortalece a comunidade local. 
-            Nem sempre é possível fazer isso, então procure levar palestrantes conhecidos da comunidade nacional. 
+            Para eventos regionais, procure ter palestrantes regionais. Isso fortalece a comunidade local.
+            Nem sempre é possível fazer isso, então procure levar palestrantes conhecidos da comunidade nacional.
             Uma pesquisa pode ajudar a descobrir quem o público quer ver.
 
             <blockquote class="how-to-cite">
@@ -150,7 +150,7 @@
             </blockquote>
 
             Existem algumas opções para selecionar palestrantes:<br>
-            
+
             <ol>
               <li>Selecionado pelos organizadores. Para garantir a qualidade do evento ou por não existir uma demanda de palestrantes, os organizadores podem ficar responsáveis pela escolha.</li>
               <li>Selecionado pelo público. Diversas ferramentas te ajudam neste processo, uma delas é o <a href="http://call4paperz.com/">Call4Paperz</a></li>
@@ -184,61 +184,61 @@ Dividir os patrocínios por cotas podem ajudar a atingir também pequenas empres
         <br>
         <ul class="how-to-contributors">
           <li>
-            <a class="how-to-contributor" href="https://github.com/bernarddeluna" title="@bernarddeluna"> 
+            <a class="how-to-contributor" href="https://github.com/bernarddeluna" title="@bernarddeluna">
               <img src="https://secure.gravatar.com/avatar/bc16c9be1e05e65395487b78b1cc72c0?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
               Bernard De Luna, organizador do Front in Rio
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="https://github.com/davidsonfellipe" title="@davidsonfellipe"> 
+            <a class="how-to-contributor" href="https://github.com/davidsonfellipe" title="@davidsonfellipe">
               <img src="https://secure.gravatar.com/avatar/054c583ad5dc09a861874e14dcb43e4c?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
               Davidson Fellipe, organizador do Pernambuco.JS, Front in Maceió, Front in BH e Rio.JS
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="https://github.com/felipenmoura" title="@felipenmoura"> 
+            <a class="how-to-contributor" href="https://github.com/felipenmoura" title="@felipenmoura">
               <img src="https://secure.gravatar.com/avatar/929ed9958756c5c829a9eed068910646?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
               Felipe Nascimento, organizador do BrazilJS e RS.JS
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="https://github.com/keppelen" title="@keppelen"> 
+            <a class="how-to-contributor" href="https://github.com/keppelen" title="@keppelen">
               <img src="https://secure.gravatar.com/avatar/8f5c490b5b30ac6d655eced70cea4e5f?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
               Giovanni Keppelen, organizador do Front in BH e Rio.JS
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="https://github.com/jaydson" title="@jaydson"> 
+            <a class="how-to-contributor" href="https://github.com/jaydson" title="@jaydson">
               <img src="https://secure.gravatar.com/avatar/572696200604e59baa59ee90d61f7d02?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
               Jaydson Gomes, organizador do BrazilJS e RS.JS
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="https://github.com/juarezpafilho" title="@juarezpafilho"> 
+            <a class="how-to-contributor" href="https://github.com/juarezpafilho" title="@juarezpafilho">
               <img src="https://secure.gravatar.com/avatar/46a730baf23edd64c0e9ccaee2c3fc85?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
               Juarez P. A. Filho, organizador do Front in Maceió
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="https://github.com/leobalter" title="@leobalter"> 
+            <a class="how-to-contributor" href="https://github.com/leobalter" title="@leobalter">
               <img src="https://secure.gravatar.com/avatar/7d57b597729e6ef3fc558bb82ff9416c?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
               Léo Balter, organizador do Front in Rio e Rio.JS
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="https://github.com/luiztiago" title="@luiztiago"> 
+            <a class="how-to-contributor" href="https://github.com/luiztiago" title="@luiztiago">
               <img src="https://secure.gravatar.com/avatar/96c1c9dd9a5f1806dedf1470ee856550?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
               Luiz Tiago Oliveira, organizador do Pernambuco.JS
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="https://github.com/thiagotpc" title="@thiagotpc"> 
+            <a class="how-to-contributor" href="https://github.com/thiagotpc" title="@thiagotpc">
               <img src="http://f.cl.ly/items/022i3T3f2j0o303e1A2I/15433_189702181801_8049958_n.jpg" width="50" height="50" alt="@#{login}" class="avatar">
               Thiago Prado de Campos, organizador do Front in Curitiba, Front in Londrina e Front in Maringá
             </a>
           </li>
           <li>
-            <a class="how-to-contributor" href="https://github.com/zenorocha" title="@zenorocha"> 
+            <a class="how-to-contributor" href="https://github.com/zenorocha" title="@zenorocha">
               <img src="https://secure.gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="50" height="50" alt="@#{login}" class="avatar">
               Zeno Rocha, organizador de festas sertanejas
             </a>

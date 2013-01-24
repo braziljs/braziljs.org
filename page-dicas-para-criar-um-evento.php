@@ -40,7 +40,7 @@
         <p class="how-to-description">Caso seja a primeira edição desse evento na sua região, crie um formulário para verificar o volume de pessoas interessadas no evento</p>
         <div class="how-to-issues">
           <p class="how-to-issues-title">
-            Crie encontros informais com apoio de faculdades e empresas locais para divulgar a iniciativa, assim você consegue ter ideia do público interessado e também uma base de pessoas interessadas.
+            Crie encontros informais com apoio de faculdades e empresas locais para divulgar a iniciativa, assim você consegue ter uma ideia da quantidade de pessoas interessadas.
 
             <blockquote class="how-to-cite">
               <p class="text">
@@ -71,36 +71,12 @@
                 — <cite><a href="http://github.com/leobalter" title="Github do Leo Balter">Leo Balter, organizador do Front in Rio</a></cite>
               </span>
             </blockquote>
-            Um cuidado muito importante na hora de agendar uma data para o evento é não marcar no mesmo dia de outro evento da área, o mesmo pode acabar influenciando negativamente em um ou outro e não queremos isso certo? Consulte a <a href="http://braziljs.org/eventos">página de eventos da BrazilJS</a> para saber os eventos de front-end que estão já agendados no Brasil.
+            Um cuidado muito importante na hora de agendar uma data para o evento é não marcar no mesmo dia de outro evento da área, o mesmo pode acabar influenciando negativamente em um ou outro e não queremos isso certo?<br/><br/>
+            Consulte a <a href="http://braziljs.org/eventos">página de eventos da BrazilJS</a> para saber os eventos de front-end que estão já agendados no Brasil.
           </p>
         </div>
       </div>
 
-
-      <div class="how-to">
-        <h1 class="how-to-name">
-          <a href="http://github.com/braziljs/zofe" title="Data">Formato</a>
-        </h1>
-        <p class="how-to-description">Determine se o formato será de uma ou mais palestra por vez</p>
-        <div class="how-to-issues">
-          <p class="how-to-issues-title">
-            Conforme o número de palestrantes, seu evento pode ter palestras concorrentes.<br/>
-            Alguns participantes veem isto como uma coisa boa, outros, como algo negativo, o que deve variar conforme os temas abordados em sua conferência.<br/>
-            Caso seu evento atenda mais de um assunto ou área, pode ser interessante aborda-lo com palestras simultâneas, acontecendo em salas separadas, porém isso tem seu preço. Os participantes não poderão assistir a duas palestras que possam ter interesse e que estejam acontecendo no mesmo horário.<br/>
-            Além disso, alugar duas ou mais salas fará o local do evendo ficar um pouco mais caro.
-
-            <blockquote class="how-to-cite">
-              <p class="text"></p>
-              Você pode escolher por colocar outras atividades em salas diferentes, como mini-cursos, Dojos ou algum mão na massa, por exemplo.
-              </p>
-              <span class="author">
-                — <cite><a href="http://github.com/felipenmoura" title="Github do Felipe N. Moura">Felipe N. Moura, organizador do BrazilJS e do RSJS</a></cite>
-              </span>
-            </blockquote>
-            Após a primeira execução do evento, você provavelmente já terá uma boa noção de o que se enquadra melhor para o seu evento, mas você pode seguir o padrão adotado por eventos do mesmo seguimento e que deram certo.
-          </p>
-        </div>
-      </div>
 
       <div class="how-to">
         <h1 class="how-to-name">
@@ -136,8 +112,8 @@
         <div class="how-to-issues">
           <p class="how-to-issues-title">
 
-            Para eventos regionais, procure ter palestrantes regionais. Isso fortalece a comunidade local.
-            Nem sempre é possível fazer isso, então procure levar palestrantes conhecidos da comunidade nacional.
+            Para eventos regionais, procure ter palestrantes da região, pois isso fortalece a comunidade local.
+            Só que nem sempre isso é possível, então procure levar palestrantes reconhecidos nacionalmente.
             Uma pesquisa pode ajudar a descobrir quem o público quer ver.
 
             <blockquote class="how-to-cite">
@@ -160,6 +136,31 @@
         </div>
       </div>
 
+
+      <div class="how-to">
+        <h1 class="how-to-name">
+          <a href="http://github.com/braziljs/zofe" title="Data">Formato</a>
+        </h1>
+        <p class="how-to-description">Determine se o formato será de uma ou mais palestras por vez</p>
+        <div class="how-to-issues">
+          <p class="how-to-issues-title">
+            Conforme o número de palestrantes e o local definido, seu evento pode ter palestras simultâneas em outras salas. Alguns participantes veem isto como uma coisa boa, já outros como algo negativo.<br/><br/>
+            Caso seu evento atenda mais de um assunto ou área, pode ser interessante abordá-lo com múltiplas trilhas, acontecendo em salas separadas, porém isso tem seu preço. Os participantes não poderão assistir duas palestras que possam ter interesse e que estejam acontecendo no mesmo horário.
+            Além disso, alugar duas ou mais salas fará o local do evendo ficar um pouco mais caro.
+            <blockquote class="how-to-cite">
+              <p class="text"></p>
+              Você pode escolher por colocar outras atividades em salas diferentes, como mini-cursos, dojos ou algum workshop, por exemplo.
+              </p>
+              <span class="author">
+                — <cite><a href="http://github.com/felipenmoura" title="Github do Felipe N. Moura">Felipe N. Moura, organizador do BrazilJS</a></cite>
+              </span>
+            </blockquote>
+            Após a primeira execução do evento, você provavelmente já terá uma boa noção do que se enquadra melhor para o seu evento.
+          </p>
+        </div>
+      </div>
+
+
       <div class="how-to">
         <h1 class="how-to-name">
           <a href="http://github.com/braziljs/zofe" title="Data">Patrocínios</a>
@@ -167,11 +168,16 @@
         <p class="how-to-description">Faça um Mídia Kit!</p>
         <div class="how-to-issues">
           <p class="how-to-issues-title">
- Priorize empresas que rotineiramente apoiam eventos. Com alguns patrocinadores e apoios de grande nome, irá facilitar para persuadir outras empresas, principalmente locais.
-
-Empresas locais estão sempre à procura de bons profissionais. É importante que no cadastro do evento você organize informações que possam ser repassadas para as empresas que irão patrociná-lo (tempo de experiência, onde estuda/trabalha, especialização, cargo).
-
-Dividir os patrocínios por cotas podem ajudar a atingir também pequenas empresas.
+            Priorize empresas que rotineiramente apoiam eventos. Com alguns patrocinadores e apoios de grande nome, irá facilitar para persuadir outras empresas, principalmente locais.
+            Empresas locais estão sempre à procura de bons profissionais. É importante que no cadastro do evento você organize informações que possam ser repassadas para as empresas que irão patrociná-lo (tempo de experiência, onde estuda/trabalha, especialização, cargo).<br/><br/>
+            <blockquote class="how-to-cite">
+              <p class="text">
+              Dividir os patrocínios por cotas também pode ajudar a atingir pequenas empresas.
+              </p>
+              <span class="author">
+                — <cite><a href="http://github.com/jaydson" title="Github do Jaydson">Jaydson Gomes, organizador do BrazilJS</a></cite>
+              </span>
+            </blockquote>
           </p>
         </div>
       </div>

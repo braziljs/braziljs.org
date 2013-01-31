@@ -219,7 +219,7 @@ footer {
   /*padding: 90px 0 0 90px;*/
   padding-top: 90px;
   text-align: center;
-  
+
 }
 
 .logo {
@@ -1037,7 +1037,7 @@ label.error {
   bottom:0;
   right:-20px;
   z-index:1;
-  width: 55px;
+  width: 60px;
   text-align:center;
   padding: 10px;
   background:#86C841;
@@ -1119,12 +1119,12 @@ label.error {
   line-height: 1.2em;
   margin-bottom:.5em;
 }
-.how-to-issues ul { 
+.how-to-issues ul {
   margin-bottom:20px;
 }
 .how-to-issues ol {
-  margin: 10px 0 0 50px; 
-} 
+  margin: 10px 0 0 50px;
+}
 .how-to-issues li {
   float:left;
   margin: 0 5px 5px 0;

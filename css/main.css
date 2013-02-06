@@ -138,7 +138,7 @@ footer {
   padding: 10px 20px;
 }
 
-.top-bar img {
+.logo-header {
   float: left;
   margin: 7px 0 0 10px;
 }
@@ -263,6 +263,73 @@ footer {
   padding: 40px 0 0;
 }
 
+/* Sprites Home
+   ========================================================================== */
+.sprite-home {
+  display: inline-block;
+  background: url(../img/sprite-home.png) no-repeat;
+}
+
+.sprite-arrow {
+  width: 53px;
+  height: 37px;
+  background-position: -212px -238px;
+}
+
+.sprite-cast {
+  width: 40px;
+  height: 66px;
+  background-position: -161px -238px;
+}
+
+.sprite-community {
+  width: 76px;
+  height: 41px;
+  background-position: -242px -186px;
+}
+
+.sprite-conf {
+  width: 82px;
+  height: 82px;
+  background-position: -178px -0px;
+}
+
+.sprite-labs {
+  width: 60px;
+  height: 60px;
+  background-position: -271px -71px;
+}
+
+.sprite-weekly {
+  width: 60px;
+  height: 60px;
+  background-position: -271px -0px;
+}
+
+.sprite-getinvolved {
+  width: 167px;
+  height: 145px;
+  background-position: -0px -0px;
+}
+
+.sprite-logo-mini {
+  width: 92px;
+  height: 33px;
+  background-position: -242px -142px;
+}
+
+.sprite-logo-pb {
+  width: 150px;
+  height: 51px;
+  background-position: -0px -238px;
+}
+
+.sprite-logo {
+  width: 231px;
+  height: 71px;
+  background-position: -0px -156px;
+}
+
 /* Projects
    ========================================================================== */
 
@@ -289,7 +356,7 @@ footer {
   border-radius: 50%;
 }
 
-.projects img {
+.project-figure {
   top: 50%;
   left: 50%;
   position: absolute;
@@ -300,10 +367,8 @@ footer {
   text-align: center;
 }
 
-.projects .arrow {
-  width: 53px;
-  height: 37px;
-  background: url(../img/arrow.png);
+.projects .sprite-arrow {
+  display: block;
   margin: 40px auto;
 }
 
@@ -314,7 +379,7 @@ footer {
   background: #37acc2;
 }
 
-.project-1 img {
+.project-1 .project-figure {
   margin: -20px 0 0 -38px;
 }
 
@@ -325,7 +390,7 @@ footer {
   background: #86c841;
 }
 
-.project-2 img {
+.project-2 .project-figure {
   margin: -41px 0 0 -41px;
 }
 
@@ -336,7 +401,7 @@ footer {
   background: #F0DB4F;
 }
 
-.project-3 img {
+.project-3 .project-figure {
   margin: -33px 0 0 -20px;
 }
 
@@ -347,7 +412,7 @@ footer {
   background: #d866d1;
 }
 
-.project-4 img {
+.project-4 .project-figure {
   margin: -30px 0 0 -30px;
 }
 
@@ -464,7 +529,7 @@ footer {
   font-size: 72px;
 }
 
-.join-us img {
+.join-us .sprite-home {
   float: left;
   margin: 20px 50px 70px;
 }
@@ -732,7 +797,7 @@ input[type="submit"]:active {
    Footer
    ========================================================================== */
 
-footer img {
+footer .sprite-home {
   float: left;
 }
 

@@ -37,7 +37,7 @@
     <nav class="top-bar">
 
       <div class="wrapper">
-        <a href="<?php bloginfo('url'); ?>" title="Home" rel="home"><img src="<?php bloginfo('template_url'); ?>/img/logo-mini.png" alt="BrazilJS Logo" /></a>
+        <a href="<?php bloginfo('url'); ?>" title="Home" rel="home" class="sprite-home sprite-logo-mini logo-header"></a>
 
         <ul>
           <li><a href="<?php bloginfo('url'); ?>/eventos">Eventos</a></li>
@@ -54,7 +54,7 @@
     <section class="banner">
 
       <div class="wrapper">
-        <img class="logo" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="BrazilJS Logo">
+        <span class="sprite-home sprite-logo logo"></span>
         <h1>unidos crescemos</h1>
         <p>Não levamos apenas conteúdo para as pessoas, nós queremos uni-las.</p>
       </div>

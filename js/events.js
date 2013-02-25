@@ -41,15 +41,13 @@ $(document).ready(function(){
           '</div>';
 
       if ( fullEventDate <= fullCurrentDate ) {
-        nextEvents.push(EVENT);
+        pastEvents += EVENT;
       }
       else {
-        pastEvents += EVENT;
+        nextEvents.push(EVENT);
       }
 
     }
-
-    nextEvents = nextEvents.reverse();
 
     for ( var j = 0; j < nextEvents.length; j++ ) {
       $("#event-new").append(nextEvents[j]);

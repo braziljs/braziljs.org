@@ -10,38 +10,38 @@
 
         <li class="project-1">
           <figure>
-            <img src="<?php bloginfo('template_url'); ?>/img/icon-community.png" alt="Icon - Community">
+            <span class="sprite-home sprite-community project-figure"></span>
           </figure>
           <h4>Comunidade</h4>
           <p>Mantenha-se antenado no que somos, como pensamos e o que estamos fazendo.</p>
-          <div class="arrow"></div>
+          <div class="sprite-home sprite-arrow"></div>
         </li>
 
         <li class="project-2">
           <figure>
-            <img src="<?php bloginfo('template_url'); ?>/img/icon-conf.png" alt="Icon - Conference">
+            <span class="sprite-home sprite-conf project-figure"></span>
           </figure>
           <h4>Eventos</h4>
           <p>Confira os próximos eventos de desenvolvimento front-end que estamos apoiando pelo Brasil.</p>
-          <div class="arrow"></div>
+          <div class="sprite-home sprite-arrow"></div>
         </li>
 
         <li class="project-3">
           <figure>
-            <img src="<?php bloginfo('template_url'); ?>/img/icon-cast.png" alt="Icon - Cast">
+            <span class="sprite-home sprite-cast project-figure"></span>
           </figure>
           <h4>Podcast</h4>
           <p>Trazendo novidades, entrevistas e multiplicando conhecimento sobre desenvolvimento web.</p>
-          <div class="arrow"></div>
+          <div class="sprite-home sprite-arrow"></div>
         </li>
 
         <li class="project-4">
           <figure>
-            <img src="<?php bloginfo('template_url'); ?>/img/icon-weekly.png" alt="Icon - Labs">
+            <span class="sprite-home sprite-weekly project-figure"></span>
           </figure>
           <h4>Weekly</h4>
           <p>Seleção semanal que reúne as melhores novidades sobre desenvolvimento web no Brasil.</p>
-          <div class="arrow"></div>
+          <div class="sprite-home sprite-arrow"></div>
         </li>
 
       </ul>
@@ -157,7 +157,8 @@
 
       <article class="join-us" id="get-involved">
 
-        <img src="<?php bloginfo('template_url'); ?>/img/img-getinvolved.png" alt="Brazilian Heart" width="167" height="145">
+        <!-- <img src="<?php bloginfo('template_url'); ?>/img/img-getinvolved.png" alt="Brazilian Heart" width="167" height="145"> -->
+        <span class="sprite-home sprite-getinvolved"></span>
         <h3>Junte-se a nós</h3>
         <p>Estamos iniciando um movimento de unificação das comunidades brasileiras de desenvolvimento em torno do JavaScript, seja front-end ou back-end. Fique ligado nas novidades que estamos preparando para vocês. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Entre no grupo de discussão</a>.</p>
         

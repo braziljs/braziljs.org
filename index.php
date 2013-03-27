@@ -174,22 +174,15 @@
 
       </article>
 
-      <!-- <hr />
+      <hr />
 
       <section class="sponsors">
 
-        <h5>Sponsorship and Donations</h5>
-        <a href="#" class="help-link">Help us to realize our dreams</a>
+        <h5>22nd International World Wide Web Conference</h5>
 
-        <ul>
-          <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/sponsor-1.png" alt="Sponsor 1"></a></li>
-          <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/sponsor-2.png" alt="Sponsor 2"></a></li>
-          <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/sponsor-3.png" alt="Sponsor 3"></a></li>
-          <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/sponsor-4.png" alt="Sponsor 4"></a></li>
-          <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/sponsor-5.png" alt="Sponsor 5"></a></li>
-        </ul>
+        <a href="http://www2013.org/?utm_source=WWW2013%2BBrazilJSFoundation&utm_medium=BannerWWW2013&utm_content=WorldWideWeb%2BBrazilJS&utm_campaign=BrazilJS%2BW3C" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/www2013.gif" alt="WWW2013  Rio de Janeiro"></a>
 
-      </section> -->
+      </section>
 
     </div>
 

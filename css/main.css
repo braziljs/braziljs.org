@@ -692,11 +692,6 @@ footer {
 
 /* Sponsors
    ========================================================================== */
-
-.sponsors h5 {
-  float: left;
-}
-
 .sponsors .help-link {
   float: right;
   display: block;
@@ -716,6 +711,19 @@ footer {
 .sponsors img {
   display: block;
   margin: 0 auto;
+}
+
+.sponsors {
+  margin: 90px 0 0 0;
+  float: left;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 50px;
+}
+
+.sponsors h5 {
+  float: none;
 }
 
 /* ==========================================================================

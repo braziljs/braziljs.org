@@ -174,16 +174,6 @@
 
       </article>
 
-      <hr />
-
-      <section class="sponsors">
-
-        <h5>22nd International World Wide Web Conference</h5>
-
-        <a href="http://www2013.org/?utm_source=WWW2013%2BBrazilJSFoundation&utm_medium=BannerWWW2013&utm_content=WorldWideWeb%2BBrazilJS&utm_campaign=BrazilJS%2BW3C" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/www2013.gif" alt="WWW2013  Rio de Janeiro"></a>
-
-      </section>
-
     </div>
 
   </section>

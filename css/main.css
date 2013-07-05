@@ -120,7 +120,7 @@ p {
 .content {
   width: 100%;
   background: #f7f7f7;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   float: left;
 }
 
@@ -790,11 +790,22 @@ input[type="submit"]:active {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
 }
 
-#mc_embed_signup input[type="text"], input[type="email"] {
+#mc_embed_signup input[type="text"], #mc_embed_signup input[type="email"] {
   width: 500px;
   float: left;
   font-size: 20px;
   margin: 10px 0 25px 0;
+}
+#mc_embed_signup input[type="email"]{
+  margin: 10px 0 8px 0;
+}
+
+#bookmarklet-lnk{
+    clear: both;
+    width: 705px;
+    margin-left: 266px;
+    padding: 0px;
+    margin-bottom: 20px;
 }
 
 #mc-embedded-subscribe-form {

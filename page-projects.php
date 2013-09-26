@@ -36,7 +36,6 @@
                 $html .= '<h1 class="project-name"><a href="http://github.com/' . $onde[0] . '" title="' . get_the_title() . '">' . get_the_title() . '</a></h1>';
 
                 // Busca no github o número de stars para ordenar depois,
-                //$git_url = "https://api.github.com/repos/" . $onde[0] ;
                 $git_url = "https://api.github.com/repos/" . $onde[0] ;
                 $ch = curl_init( $git_url ) ;
                 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

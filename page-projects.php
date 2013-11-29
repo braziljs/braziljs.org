@@ -11,7 +11,7 @@
       <p style="font-size: 16px; text-align: center; margin-bottom: 50px;">Tem uma ideia legal? É só falar com a gente =D</p>
 
         <?php
-          query_posts('cat=7&showposts=-1'); 
+          query_posts('cat=4&showposts=-1'); 
           $projetos = array();
         ?>
 

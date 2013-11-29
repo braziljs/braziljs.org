@@ -48,7 +48,7 @@
 
       <div class="highlights news" id="news">
 
-        <?php query_posts('cat=1&showposts=3'); ?>
+        <?php query_posts('cat=3&showposts=3'); ?>
 
           <h5><?php single_cat_title() ?></h5>
 
@@ -68,7 +68,7 @@
 
       <div class="highlights confs" id="confs">
 
-        <?php query_posts('cat=3&showposts=3&order=ASC'); ?>
+        <?php query_posts('cat=5&showposts=3&order=ASC'); ?>
 
           <h5><?php single_cat_title() ?></h5>
 
@@ -98,7 +98,7 @@
 
       <div class="highlights cast" id="cast">
 
-        <?php query_posts('cat=4&showposts=1'); ?>
+        <?php query_posts('cat=7&showposts=1'); ?>
 
           <h5><?php single_cat_title() ?></h5>
 
@@ -161,7 +161,7 @@
         <span class="sprite-home sprite-getinvolved"></span>
         <h3>Junte-se a nós</h3>
         <p>Estamos iniciando um movimento de unificação das comunidades brasileiras de desenvolvimento em torno do JavaScript, seja front-end ou back-end. Fique ligado nas novidades que estamos preparando para vocês. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Entre no grupo de discussão</a>.</p>
-
+        
 
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
@@ -169,9 +169,6 @@
             <label for="">Inscreva-se na BrazilJS Weekly, nossa seleção semanal de conteúdo:</label>
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="seu@email.com" required>
             <input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button">
-            <div id="bookmarklet-lnk">
-                Submeta o que você gostaria de ver na Weekly da BrazilJS usando nosso <a href="services/add2weekly/">bookmarklet</a>.
-            </div>
           </form>
         </div>
 

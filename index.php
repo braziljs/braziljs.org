@@ -169,6 +169,9 @@
             <label for="">Inscreva-se na BrazilJS Weekly, nossa seleção semanal de conteúdo:</label>
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="seu@email.com" required>
             <input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button">
+             <div id="bookmarklet-lnk">
+                Submeta o que você gostaria de ver na Weekly da BrazilJS usando nosso <a href="services/add2weekly/">bookmarklet</a>.
+            </div>
           </form>
         </div>
 

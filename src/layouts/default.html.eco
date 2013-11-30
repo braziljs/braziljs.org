@@ -8,6 +8,7 @@
   <meta charset="UTF-8">
   <meta name="robots" content="all, index, follow" />
   <meta name="description" content="<%= @site.description %>" />
+  <meta name="google-site-verification" content="COZxy1HKlPIx8brzPzijp_eTgMvQrnVtbduoUP2K3Z8" />
 
   <!-- favicon -->
   <link rel="shortcut icon" href="<%= @site.url %>/img/favicon.ico">

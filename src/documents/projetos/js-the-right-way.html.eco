@@ -1,0 +1,11 @@
+---
+title: "JavaScript The Right Way"
+description: "Um guia com 'a forma certa de escrever JavaScript'. Abordando as melhores práticas, dicas para desenvolvimento, padrões, performance, entre outras coisas."
+site: "http://jstherightway.com"
+github: "braziljs/js-the-right-way"
+image: "http://braziljs.org/wp-content/uploads/2012/08/project-js-right-way.jpg"
+---
+
+<ul>
+  <li><a href="https://github.com/braziljs/js-the-right-way">Contribua com conteúdo</a></li>
+</ul>

@@ -1,0 +1,28 @@
+{
+  "name": "braziljs",
+  "version": "2.0.0",
+  "description": "A non-profit foundation with a mission to move and unify JavaScript community in Brazil.",
+  "engines": {
+    "node": "0.10",
+    "npm": "1.3"
+  },
+  "dependencies": {
+    "docpad": "~6.56.0",
+    "docpad-plugin-cleanurls": "~2.5.2",
+    "docpad-plugin-eco": "~2.0.2",
+    "docpad-plugin-ghpages": "~2.4.0",
+    "docpad-plugin-highlightjs": "~2.1.8",
+    "docpad-plugin-marked": "~2.1.2",
+    "docpad-plugin-partials": "~2.8.1",
+    "docpad-plugin-moment": "~2.0.2",
+    "moment": "~2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/braziljs/foundation.git"
+  },
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server",
+    "deploy": "node_modules/docpad/bin/docpad deploy-ghpages --env static"
+  }
+}

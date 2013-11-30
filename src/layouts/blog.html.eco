@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<style type="text/css">
+  .content-blog p {
+    margin-bottom: 15px;
+  }
+</style>
+
+<section class="content">
+
+  <div class="wrapper" style="width: 700px;">
+
+    <article class="content-blog">
+
+      <h2 style="text-align: left;"><%= @document.title %></h2>
+        <%- @document.content %>
+      <br>
+
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'braziljs',
+            disqus_url = "<%= @document.url %>";
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+
+    </article>
+
+  </div>
+
+</section>

@@ -1,0 +1,133 @@
+---
+layout: default
+---
+
+<section class="content">
+
+  <div class="wrapper">
+
+    <h2><span>Fique por dentro de algumas das nossas iniciativas!</span></h2>
+
+      <ul class="projects" id="projects">
+
+        <li class="project-1">
+          <figure>
+            <span class="sprite-home sprite-community project-figure"></span>
+          </figure>
+          <h4>Comunidade</h4>
+          <p>Mantenha-se antenado no que somos, como pensamos e o que estamos fazendo.</p>
+          <div class="sprite-home sprite-arrow"></div>
+        </li>
+
+        <li class="project-2">
+          <figure>
+            <span class="sprite-home sprite-conf project-figure"></span>
+          </figure>
+          <h4>Eventos</h4>
+          <p>Confira os próximos eventos de desenvolvimento front-end que estamos apoiando pelo Brasil.</p>
+          <div class="sprite-home sprite-arrow"></div>
+        </li>
+
+        <li class="project-3">
+          <figure>
+            <span class="sprite-home sprite-cast project-figure"></span>
+          </figure>
+          <h4>Podcast</h4>
+          <p>Trazendo novidades, entrevistas e multiplicando conhecimento sobre desenvolvimento web.</p>
+          <div class="sprite-home sprite-arrow"></div>
+        </li>
+
+        <li class="project-4">
+          <figure>
+            <span class="sprite-home sprite-weekly project-figure"></span>
+          </figure>
+          <h4>Weekly</h4>
+          <p>Seleção semanal que reúne as melhores novidades sobre desenvolvimento web no Brasil.</p>
+          <div class="sprite-home sprite-arrow"></div>
+        </li>
+
+      </ul>
+
+    <div class="highlights news" id="news">
+
+        <h5>Novidades</h5>
+
+        <ul>
+          <% for blogpost in @getCollection("blogposts").toJSON().slice(0, 3): %>
+            <li>
+              <div class="date">
+                <p class="day"><%= blogpost.day %></p>
+                <p class="month"><%= blogpost.month %></p>
+              </div>
+              <a href="<%= blogpost.url %>" title="<%= blogpost.title %>"><%= blogpost.title %></a>
+            </li>
+          <% end %>
+        </ul>
+
+    </div>
+
+    <div class="highlights confs" id="confs">
+
+        <h5>Próximos eventos</h5>
+
+        <ul id="conf-list">
+          <li>
+            <p>Carregando eventos...</p>
+          </li>
+        </ul>
+
+    </div>
+
+    <div class="highlights cast" id="cast">
+
+        <h5>Últimos episódios</h5>
+
+        <ul id="cast-list">
+          <li>
+            <p>Carregando episódios...</p>
+          </li>
+        </ul>
+
+    </div>
+
+    <div class="highlights weekly" id="weekly">
+
+        <h5>Seleção semanal</h5>
+
+        <ul id="weekly-list">
+          <li>
+            <p>Carregando seleção...</p>
+          </li>
+        </ul>
+
+    </div>
+
+    <hr />
+
+    <article class="join-us" id="get-involved">
+
+      <span class="sprite-home sprite-getinvolved"></span>
+      <h3>Junte-se a nós</h3>
+      <p>Estamos iniciando um movimento de unificação das comunidades brasileiras de desenvolvimento em torno do JavaScript, seja front-end ou back-end. Fique ligado nas novidades que estamos preparando para vocês. <a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Entre no grupo de discussão</a>.</p>
+
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="http://braziljs.us5.list-manage1.com/subscribe/post?u=77b6594f10bba05dcc722c80e&amp;id=e6beed4270" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <label for="">Inscreva-se na BrazilJS Weekly, nossa seleção semanal de conteúdo:</label>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="seu@email.com" required>
+          <input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button">
+           <div id="bookmarklet-lnk">
+              Submeta o que você gostaria de ver na Weekly da BrazilJS usando nosso <a href="services/add2weekly/">bookmarklet</a>.
+          </div>
+        </form>
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script src="<%= @site.url %>/js/moment.js"></script>
+<script src="<%= @site.url %>/js/home.js"></script>

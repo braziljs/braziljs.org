@@ -1,0 +1,11 @@
+---
+title: "Conf Boilerplate"
+description: "Um pontapé inicial para acelerar o processo de desenvolvimento de sites para conferências."
+site: "http://confboilerplate.com"
+github: "braziljs/conf-boilerplate"
+image: "http://braziljs.org/wp-content/uploads/2012/10/logo.jpg"
+---
+
+<ul>
+  <li><a href="https://github.com/braziljs/conf-boilerplate">Testando e fornecendo feedback</a></li>
+</ul>

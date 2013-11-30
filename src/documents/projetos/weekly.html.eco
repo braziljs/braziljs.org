@@ -1,0 +1,12 @@
+---
+title: "Weekly"
+description: "Seleção semanal que reúne as novidades sobre o desenvolvimento Web no Brasil."
+site: ""
+github: "braziljs/weekly"
+image: "http://braziljs.org/wp-content/uploads/2012/09/logo.jpg"
+---
+
+<ul>
+  <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dDFFX3h3YkVpdV9mNnpYMzBvLXNaLUE6MQ">Envie sugestões de conteúdo</a></li>
+  <li><a href="https://github.com/braziljs/weekly">Contribua com o código-fonte da newsletter</a></li>
+</ul>

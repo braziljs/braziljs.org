@@ -1,0 +1,11 @@
+---
+title: "Foundation"
+description: "Site oficial da BrazilJS Foundation."
+site: "http://braziljs.org"
+github: "braziljs/foundation"
+image: "http://braziljs.org/wp-content/uploads/2012/07/project-foundation.jpg"
+---
+
+<ul>
+  <li><a href="https://github.com/braziljs/foundation">Contribua com melhorias no código-fonte</a></li>
+</ul>

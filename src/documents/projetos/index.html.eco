@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<section class="content">
+
+  <div class="wrapper">
+
+    <p style="font-size: 16px; text-align: center;">Conheça os projetos que idealizamos e as iniciativas da comunidade que apoiamos.</p>
+    <p style="font-size: 16px; text-align: center;">Além disso, saiba quem está por trás deles e como você também pode ajudar.</p>
+    <p style="font-size: 16px; text-align: center; margin-bottom: 50px;">Tem uma ideia legal? É só falar com a gente =D</p>
+
+    <% for project in @getCollection("projects").toJSON(): %>
+
+      <% if project.title: %>
+
+        <div class="project">
+
+          <% if project.image: %>
+            <div class="project-media">
+              <a href="<%= project.github %>">
+                <img src="<%= project.image %>" alt="<%= project.title %>" />
+              </a>
+            </div>
+          <% end %>
+
+          <h1 class="project-name">
+            <a href="<%= project.github %>" title="<%= project.title %>"><%= project.title %></a>
+          </h1>
+
+          <% if project.site: %>
+            <span class="project-website">
+              <strong>Website:</strong>
+              <a href="<%= project.site %>" title="<%= project.title %>"><%= project.site %></a>
+            </span>
+          <% end %>
+
+          <% if project.description: %>
+            <p class="project-description"><%= project.description %></p>
+          <% end %>
+
+          <div class="project-issues">
+            <h3 class="project-issues-title">Como posso ajudar?</h3>
+            <%- project.content %>
+          </div>
+
+          <ul class="project-contributors" data-repo="<%= project.github %>"></ul>
+
+        </div>
+
+      <% end %>
+
+    <% end %>
+
+  </div>
+
+</section>
+
+<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script src="<%= @site.url %>/js/projects.js"></script>
+<script>
+  $('.project-contributors').githubContributors();
+</script>

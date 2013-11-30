@@ -2,7 +2,7 @@
 .DS_Store
 
 # NPM
-node_modues
+node_modules
 npm-debug.log
 
 # DocPad

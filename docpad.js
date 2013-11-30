@@ -7,7 +7,7 @@ module.exports = {
     site: {
     	name: "BrazilJS",
       description: "Uma fundação sem fins lucrativos com a missão de mover e unir a comunidade de JavaScript no Brasil.",
-    	url: "http://braziljs.github.io/foundation"
+    	url: "http://braziljs.org"
     }
 
   },

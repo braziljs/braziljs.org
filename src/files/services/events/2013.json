@@ -207,6 +207,14 @@
       "location": "Belo Horizonte, MG",
       "date": "2013-11-30",
       "price": "R$ 35"
+    },
+    {
+      "name": "Front in Recife",
+      "website": "http://frontinrecife.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/front-in-recife.jpg",
+      "location": "Recife, PE",
+      "date": "2013-12-14",
+      "price": "R$ 80"
     }
   ]
 }

@@ -9,6 +9,14 @@
       "price": "R$ 80"
     },
     {
+      "name": "Front in POA",
+      "website": "http://frontinpoa.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/front-in-poa.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2013-11-30",
+      "price": "R$ ??"
+    },
+    {
       "name": "Dev in Company BH",
       "website": "http://devincompany.org/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/devincompanybh.jpg",

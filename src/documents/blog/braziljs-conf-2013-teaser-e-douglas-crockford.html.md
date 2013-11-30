@@ -4,20 +4,21 @@ date: '2013-02-20'
 layout: blog
 ---
 
-Que tal uma notícia super bacana para começar muito bem o ano de 2013?
-Que tal 2 notícias super bacanas? Bem melhor né?
+<p>Que tal uma notícia super bacana para começar muito bem o ano de 2013?</p>
 
-A primeira, é que acabamos de publicar o *teaser* da BrazilJS Conf 2013 o/
+<p>Que tal 2 notícias super bacanas? Bem melhor né?</p>
 
-[![http://braziljs.org/wp-content/uploads/2013/02/braziljs20131-1024x484.png]](http://braziljs.com.br/)
+<p>A primeira, é que acabamos de publicar o <em>teaser</em> da BrazilJS Conf 2013 o/</p>
 
-O evento  acontecerá em Agosto em Porto Alegre, mesmo local do ano passado.
+<p><a href="http://braziljs.com.br/"><img src="http://braziljs.org/wp-content/uploads/2013/02/braziljs20131-1024x484.png" alt="" /></a></p>
 
-A segunda, é que já temos o primeiro grande nome confirmado:
-**Douglas Crockford!**
+<p>O evento  acontecerá em Agosto em Porto Alegre, mesmo local do ano passado.</p>
 
-Sim, ele mesmo! Um dos gurus, e um dos principais nomes no mundo JavaScript.
+<p>A segunda, é que já temos o primeiro grande nome confirmado:
+<strong>Douglas Crockford!</strong></p>
 
-E este é só o início, aguardem que em breve teremos mais novidades!
+<p>Sim, ele mesmo! Um dos gurus, e um dos principais nomes no mundo JavaScript.</p>
 
-:)
+<p>E este é só o início, aguardem que em breve teremos mais novidades!</p>
+
+<p>:)</p>

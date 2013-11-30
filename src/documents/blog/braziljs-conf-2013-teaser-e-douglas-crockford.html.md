@@ -11,7 +11,7 @@ old_url: http://braziljs.org/braziljs-conf-2013-teaser-e-douglas-crockford/
 
 <p>A primeira, é que acabamos de publicar o <em>teaser</em> da BrazilJS Conf 2013 o/</p>
 
-<p><a href="http://braziljs.com.br/"><img src="http://braziljs.org/img/blogposts/braziljs-conf-teaser-2013.png" alt="" /></a></p>
+<p><a href="http://braziljs.com.br/"><img style="max-width: 100%;" src="http://braziljs.org/img/blogposts/braziljs-conf-teaser-2013.png" alt="" /></a></p>
 
 <p>O evento  acontecerá em Agosto em Porto Alegre, mesmo local do ano passado.</p>
 

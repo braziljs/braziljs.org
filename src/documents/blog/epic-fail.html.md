@@ -2,6 +2,7 @@
 title: Epic fail
 date: '2012-12-12'
 layout: blog
+old_url: http://braziljs.org/epic-fail/
 ---
 
 <p>Em agosto, o Terra apoiou a conferência BrazilJS 2012 levando para mais de 70 mil pessoas a transmissão ao vivo do evento!</p>

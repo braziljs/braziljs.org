@@ -20,7 +20,13 @@ layout: default
       <div id="disqus_thread"></div>
       <script type="text/javascript">
         var disqus_shortname = 'braziljs',
-            disqus_url = "<%= @document.url %>";
+            disqus_url = '';
+
+        <% if @document.old_url: %>
+        disqus_url = "<%= @document.old_url %>";
+        <% else: %>
+        disqus_url = "<%= @document.url %>";
+        <% end %>
 
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -2,6 +2,7 @@
 title: 'Anunciando a BrazilJS Foundation'
 date: '2012-07-22'
 layout: blog
+old_url: http://braziljs.org/anunciando-a-braziljs-foundation/
 ---
 
 <p>2012 tem sido um excelente ano para o JavaScript no Brasil. Na verdade, a linguagem está em extrema ascensão nos últimos anos, no mundo inteiro.</p>

@@ -2,6 +2,7 @@
 title: 'Momento BrazilJS na Web.br'
 date: '2012-10-02'
 layout: blog
+old_url: http://braziljs.org/momento-braziljs-webbr/
 ---
 
 <p>Durante a conferência da W3C, grandes especialistas em desenvolvimento web vão mostrar o potencial e explorar ao máximo as possibilidades de desenvolvimento da Plataforma Aberta da Web. No <strong>Momento BrazilJS,</strong> muito mais do que mostrar exemplos, serão apresentados cases práticos e dicas de como usufruir do poder do HTML5, CSS3 e cia.</p>

@@ -41,7 +41,7 @@ old_url: http://braziljs.org/a-descentralizacao-de-conteudo-no-facebook/
 
 <p>Por isso criei essa lista com todos os grupos que conheço, tanto para facilitar os iniciantes para encontrar grupos legais onde eles podem discutir suas dúvidas, quanto para aqueles que pensam em criar novos grupos, e pra esses por favor reflitam sobre a necessidade do mesmo e consultem essa lista antes.</p>
 
-<p><a href="https://gist.github.com/3860568"><img src="http://braziljs.org/wp-content/uploads/2012/10/grupos-facebook-gist1.jpg" alt="Facebook Gist" /></a></p>
+<p><a href="https://gist.github.com/3860568"><img src="http://braziljs.org/img/blogposts/facebook-groups-gist.jpg" alt="Facebook Gist" /></a></p>
 
 <h5>Concluindo</h5>
 

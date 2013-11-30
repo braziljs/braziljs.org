@@ -11,11 +11,8 @@
     "docpad-plugin-cleanurls": "~2.5.2",
     "docpad-plugin-eco": "~2.0.2",
     "docpad-plugin-ghpages": "~2.4.0",
-    "docpad-plugin-highlightjs": "~2.1.8",
     "docpad-plugin-marked": "~2.1.2",
-    "docpad-plugin-partials": "~2.8.1",
-    "docpad-plugin-moment": "~2.0.2",
-    "moment": "~2.4.0"
+    "docpad-plugin-moment": "~2.0.2"
   },
   "repository": {
     "type": "git",
@@ -23,7 +20,7 @@
   },
   "scripts": {
     "deploy": "node_modules/docpad/bin/docpad deploy-ghpages --env static",
-    "generate": "node_modules/docpad/bin/docpad generate",
+    "generate": "node_modules/docpad/bin/docpad generate --env static",
     "watch": "node_modules/docpad/bin/docpad run"
   }
 }

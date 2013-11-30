@@ -62,12 +62,6 @@ module.exports = {
         { raw: 'date', format: 'D', formatted: 'day' },
         { raw: 'date', format: 'MMM', formatted: 'month' }
       ]
-    },
-    cleanurls: {
-      enabled: true
-    },
-    marked: {
-      enabled: true
     }
   }
 

@@ -5,7 +5,7 @@ layout: default
 <section class="content">
   <div class="wrapper" id="events">
     <p style="text-align: center; font-size: 16px;">Seja bem-vindo a página com todos os eventos de front-end que aconteceram ou ainda irão acontecer em 2013.</p>
-    <p style="text-align: center; font-size: 16px; margin-bottom: 30px;">Sentiu falta de algum evento por aqui? Basta <a href="https://github.com/braziljs/services/blob/master/events/2013.json">alterar o JSON</a> e fazer um <a href="https://github.com/braziljs/services/">pull request</a> :)</p>
+    <p style="text-align: center; font-size: 16px; margin-bottom: 30px;">Sentiu falta de algum evento por aqui? Basta <a href="https://github.com/braziljs/foundation#submit-an-event-to-braziljsorgeventos">alterar o JSON, incluir uma imagem</a> e mandar o pull request :)</p>
     <h3 id="title-new-events">Próximos eventos</h3>
     <div id="event-new"></div>
 

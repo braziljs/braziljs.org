@@ -161,7 +161,7 @@
       "price": "R$ 30"
     },
     {
-      "name": "FEEC Brazil",
+      "name": "FEEC Fortaleza",
       "website": "http://www.feecbr.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
       "location": "Fortaleza, CE",
@@ -169,7 +169,7 @@
       "price": "R$ ??"
     },
     {
-      "name": "FEEC Brazil",
+      "name": "FEEC Salvador",
       "website": "http://www.feecbr.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
       "location": "Salvador, BA",
@@ -193,20 +193,20 @@
       "price": "R$ 50,00"
     },
     {
+      "name": "FEEC Recife",
+      "website": "http://www.feecbr.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
+      "location": "Recife, PE",
+      "date": "2013-11-23",
+      "price": "R$ ??"
+    },
+    {
       "name": "Dev in Company BH",
       "website": "http://devincompany.org/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/devincompanybh.jpg",
       "location": "Belo Horizonte, MG",
       "date": "2013-11-30",
       "price": "R$ 35"
-    },
-    {
-      "name": "FEEC Brazil",
-      "website": "http://www.feecbr.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
-      "location": "Recife, PE",
-      "date": "2013-11-30",
-      "price": "R$ ??"
     }
   ]
 }

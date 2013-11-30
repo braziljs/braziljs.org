@@ -1,4 +1,10 @@
+# Mac OSx
 .DS_Store
+
+# NPM
 node_modues
 npm-debug.log
+
+# DocPad
+.docpad.db
 out

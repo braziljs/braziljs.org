@@ -185,38 +185,6 @@
       "price": "R$ 160"
     },
     {
-      "name": "FEEC Brazil",
-      "website": "http://www.feecbr.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
-      "location": "Recife, PE",
-      "date": "2013-11-30",
-      "price": "R$ ??"
-    },
-    {
-      "name": "Front in Fortaleza",
-      "website": "http://f.ront.in/fortaleza",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/fif.jpg",
-      "location": "Fortaleza, CE",
-      "date": "2013-11-??",
-      "price": "R$ ??"
-    },
-    {
-      "name": "PernambucoJS",
-      "website": "http://www.pernambucojs.com/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/pernambucojs.jpg",
-      "location": "Recife, PE",
-      "date": "2013-??-??",
-      "price": "R$ ??"
-    },
-    {
-      "name": "Front in Teresina",
-      "website": "http://rafaelfranca.net/fit",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/fit.jpg",
-      "location": "Teresina, PI",
-      "date": "2013-??-??",
-      "price": "R$ ??"
-    },
-    {
       "name": "Front in Floripa",
       "website": "http://www.frontinfloripa.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinfloripa.jpg",
@@ -231,7 +199,7 @@
       "location": "Belo Horizonte, MG",
       "date": "2013-11-30",
       "price": "R$ 35"
-    }
+    },
     {
       "name": "FEEC Brazil",
       "website": "http://www.feecbr.com.br/",

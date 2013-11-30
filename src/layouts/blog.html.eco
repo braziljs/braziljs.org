@@ -15,8 +15,7 @@ layout: default
     <article class="content-blog">
 
       <h2 style="text-align: left;"><%= @document.title %></h2>
-        <%- @document.content %>
-      <br>
+      <%- @document.content %>
 
       <div id="disqus_thread"></div>
       <script type="text/javascript">

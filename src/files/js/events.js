@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $.getJSON("/events/2013.json", function (response) {
+  $.getJSON("../events/2013.json", function (response) {
 
     var nextEvents = [],
         pastEvents = "",

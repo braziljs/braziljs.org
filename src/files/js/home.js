@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   // Events
   $.ajax({
-    url: '/events/2013.json',
+    url: './events/2013.json',
     dataType: 'json',
     success: function(response) {
 

@@ -2,6 +2,22 @@
 
 A non-profit foundation with a mission to move and unify JavaScript community in Brazil.
 
+## Contributing
+
+There are tons of ways to contribute to this project.
+
+###### Submit an event to [braziljs.org/eventos](http://braziljs.org/eventos/)
+
+This is a list of all brazilian front-end conferences that happened or will
+happen this year.
+
+1. Edit the JSON file in [src/files/services/events](https://github.com/braziljs/foundation/tree/master/src/files/services/events).
+2. Provide a thumbnail (227x200) in [src/files/services/events/media](https://github.com/braziljs/foundation/tree/master/src/files/services/events/media).
+
+###### Submit a project to [braziljs.org/projetos](http://braziljs.org/projetos/)
+
+*TODO - Write instructions.*
+
 ## Dependencies
 
 1. Install [Git](http://git-scm.com/download/), if you don't have it yet.

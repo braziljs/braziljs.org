@@ -1,0 +1,3 @@
+[submodule "src/files/services/add2weekly"]
+	path = src/files/services/add2weekly
+	url = git://github.com/braziljs/add2weekly.git

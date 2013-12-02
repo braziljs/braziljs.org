@@ -39,7 +39,13 @@ Once you have all [dependencies](#dependencies) installed, you just need to:
 	$ cd foundation
 	```
 
-3. And install local dependencies.
+3. Initialize the submodules.
+
+	```sh
+	$ git submodule update --init
+	```
+
+4. And install local dependencies.
 
 	```sh
 	$ npm install

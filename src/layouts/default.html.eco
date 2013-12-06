@@ -1,10 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
   <title><%= @site.name %></title>
 
-   <!-- general meta tags -->
+  <!-- general meta tags -->
   <meta charset="UTF-8">
   <meta name="robots" content="all, index, follow" />
   <meta name="description" content="<%= @site.description %>" />
@@ -28,8 +27,8 @@
   <meta property="og:site_name" content="<%= @site.name %>"/>
   <meta property="og:locale" content="pt_BR" />
   <meta property="fb:app_id" content="372862979453673" />
-
 </head>
+
 <body>
 
   <header>
@@ -64,31 +63,31 @@
   </header>
 
 
-<%- @content %>
-
-<footer>
-
-    <div class="wrapper">
-
-      <span class="sprite-home sprite-logo-pb"></span>
-
-      <p class="about">BrazilJS é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade em torno do JavaScript no Brasil.</p>
-
-      <ul class="nav">
-        <li><a href="<%= @site.url %>/fundadores/" title="Fundadores">Fundadores</a></li>
-        <li><a href="http://braziljs.com.br/" title="Conferência">Conferência</a></li>
-        <li><a href="<%= @site.url %>/contato/" title="Contato">Contato</a></li>
-      </ul>
-
-      <ul class="social">
-        <li><a href="https://twitter.com/braziljs" title="Twitter">Twitter</a></li>
-        <li><a href="http://www.facebook.com/braziljs" title="Facebook">Facebook</a></li>
-        <li><a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Google Groups</a></li>
-      </ul>
-
-      <p class="license">© 2013. Conteúdo disponível sob a licença <a href="http://creativecommons.org/licenses/by/3.0/br/">Creative Commons</a>.</p>
-
-    </div>
+  <%- @content %>
+  
+  <footer>
+  
+      <div class="wrapper">
+  
+        <span class="sprite-home sprite-logo-pb"></span>
+  
+        <p class="about">BrazilJS é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade em torno do JavaScript no Brasil.</p>
+  
+        <ul class="nav">
+          <li><a href="<%= @site.url %>/fundadores/" title="Fundadores">Fundadores</a></li>
+          <li><a href="http://braziljs.com.br/" title="Conferência">Conferência</a></li>
+          <li><a href="<%= @site.url %>/contato/" title="Contato">Contato</a></li>
+        </ul>
+  
+        <ul class="social">
+          <li><a href="https://twitter.com/braziljs" title="Twitter">Twitter</a></li>
+          <li><a href="http://www.facebook.com/braziljs" title="Facebook">Facebook</a></li>
+          <li><a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Google Groups</a></li>
+        </ul>
+  
+        <p class="license">© 2013. Conteúdo disponível sob a licença <a href="http://creativecommons.org/licenses/by/3.0/br/">Creative Commons</a>.</p>
+  
+      </div>
 
   </footer>
 

@@ -1,42 +1,41 @@
 Contact = function(){
 
-    var self = this;
+  var self = this;
 
-    self.init = function(){
+  self.init = function(){
 
-     $('#contact-form').validate({
-          rules:{
-            name:{
-              required: true
-            },
-            email:{
-              required: true,
-              email: true
-            },
-            subject:{
-              required: true
-            },
-            message:{
-              required: true
-            }
-          },
-          submitHandler: function() {
+   $('#contact-form').validate({
 
-            var data = $('#contact-form').serialize();
+      rules:{
+        name:{
+          required: true
+        },
+        email:{
+          required: true,
+          email: true
+        },
+        subject:{
+          required: true
+        },
+        message:{
+          required: true
+        }
+      },
+      submitHandler: function() {
+        var data = $('#contact-form').serialize();
 
-            $.ajax({
-                  type: "POST",
-                  url: "/app/contact.php",
-                  data: data,
-                }).done(function( msg ) {
+        $.ajax({
+          type: "POST",
+          url: "/app/contact.php",
+          data: data,
+        }).done(function( msg ) {
+          $("#contact-form").find(".alert-box").html(msg).fadeIn();
+        });
 
-                    $("#contact-form").find(".alert-box").html(msg).fadeIn();
-            });
+        return false;
+      }
 
-            return false;
+    });
 
-          }
-      })
-
-    };
+  };
 };

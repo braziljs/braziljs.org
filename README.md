@@ -29,27 +29,27 @@ Once you have all [dependencies](#dependencies) installed, you just need to:
 
 1. Open your terminal and clone the project.
 
-	```sh
-	$ git clone git@github.com:braziljs/foundation.git
-	```
+  ```sh
+  $ git clone git@github.com:braziljs/foundation.git
+  ```
 
 2. Then go to the project's folder.
 
-	```sh
-	$ cd foundation
-	```
+  ```sh
+  $ cd foundation
+  ```
 
 3. Initialize the submodules.
 
-	```sh
-	$ git submodule update --init
-	```
+  ```sh
+  $ git submodule update --init
+  ```
 
 4. And install local dependencies.
 
-	```sh
-	$ npm install
-	```
+  ```sh
+  $ npm install
+  ```
 
 ## Usage
 

@@ -23,6 +23,14 @@
       "location": "Teresina, PI",
       "date": "2014-??-??",
       "price": "R$ ??"
+    },
+    {
+      "name": "Alagoas Dev Day",
+      "website": "http://alagoasdevday.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/alagoasdevday.jpg",
+      "location": "Maceió, AL",
+      "date": "2014-04-12",
+      "price": "R$ ??"
     }
   ]
 }

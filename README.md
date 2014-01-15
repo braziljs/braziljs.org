@@ -2,6 +2,8 @@
 
 A non-profit foundation with a mission to move and unify JavaScript community in Brazil.
 
+> **Product Owner:** [Diogo Moretti](https://github.com/diogomoretti)
+
 ## Contributing
 
 There are tons of ways to contribute to this project.

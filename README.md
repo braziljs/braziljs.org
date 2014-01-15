@@ -1,8 +1,10 @@
-# BrazilJS Foundation
+# BrazilJS.org
+
+![Cover](http://braziljs.org/img/projects/foundation.jpg)
 
 A non-profit foundation with a mission to move and unify JavaScript community in Brazil.
 
-> **Product Owner:** [Diogo Moretti](https://github.com/diogomoretti)
+> **Maintainer:** [Diogo Moretti](https://github.com/diogomoretti)
 
 ## Contributing
 

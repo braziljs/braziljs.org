@@ -18,14 +18,14 @@ layout: default
 
           <% if project.image: %>
             <div class="project-media">
-              <a href="<%= project.github %>">
+              <a href="https://github.com/<%= project.github %>/">
                 <img src="<%= project.image %>" alt="<%= project.title %>" />
               </a>
             </div>
           <% end %>
 
           <h1 class="project-name">
-            <a href="<%= project.github %>" title="<%= project.title %>"><%= project.title %></a>
+            <a href="https://github.com/<%= project.github %>/" title="<%= project.title %>"><%= project.title %></a>
           </h1>
 
           <% if project.site: %>

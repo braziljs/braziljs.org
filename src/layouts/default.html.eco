@@ -74,7 +74,6 @@
       <p class="about">BrazilJS é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade em torno do JavaScript no Brasil.</p>
 
       <ul class="nav">
-        <li><a href="<%= @site.url %>/fundadores/" title="Fundadores">Fundadores</a></li>
         <li><a href="http://braziljs.com.br/" title="Conferência">Conferência</a></li>
         <li><a href="<%= @site.url %>/contato/" title="Contato">Contato</a></li>
       </ul>

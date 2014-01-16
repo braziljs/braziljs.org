@@ -1,28 +1,12 @@
 {
   "events": [
     {
-      "name": "Front in Fortaleza",
-      "website": "http://f.ront.in/fortaleza",
-      "thumbnail": "http://braziljs.org/services/events/media/2014/fif.jpg",
-      "location": "Fortaleza, CE",
-      "date": "2014-??-??",
-      "price": "R$ ??"
-    },
-    {
-      "name": "PernambucoJS",
-      "website": "http://www.pernambucojs.com/",
-      "thumbnail": "http://braziljs.org/services/events/media/2014/pernambucojs.jpg",
-      "location": "Recife, PE",
-      "date": "2014-??-??",
-      "price": "R$ ??"
-    },
-    {
-      "name": "Front in Teresina",
-      "website": "http://rafaelfranca.net/fit",
-      "thumbnail": "http://braziljs.org/services/events/media/2014/fit.jpg",
-      "location": "Teresina, PI",
-      "date": "2014-??-??",
-      "price": "R$ ??"
+      "name": "BrazilJS Conf",
+      "website": "http://braziljs.com.br/2014",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/braziljs.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2014-08-21",
+      "price": "R$ 140"
     },
     {
       "name": "Alagoas Dev Day",

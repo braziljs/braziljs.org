@@ -1,12 +1,20 @@
 {
   "events": [
     {
+      "name": "BrazilJS Conf",
+      "website": "http://braziljs.com.br/2014",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/braziljs.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2014-08-21",
+      "price": "R$ 140"
+    },
+    {
       "name": "Alagoas Dev Day",
       "website": "http://alagoasdevday.com.br",
       "thumbnail": "http://braziljs.org/services/events/media/2014/alagoasdevday.jpg",
       "location": "Maceió, AL",
       "date": "2014-04-12",
-      "price": "R$ ??"
+      "price": "R$ 45"
     },
     {
       "name": "Front in Fortaleza",

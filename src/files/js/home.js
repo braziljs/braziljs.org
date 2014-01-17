@@ -72,7 +72,7 @@ $(document).ready(function(){
       }
     }
 
-    $("#conf-list").html('');
+    $("#conf-list").empty();
     for ( var j = 0; j < 3; j++ ) {
         $("#conf-list").append(nextEvents[j]);
       }

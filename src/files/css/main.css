@@ -1130,12 +1130,18 @@ label.error {
   font-size:14px;
   font-weight: bolder;
   border-radius: 4px 0 4px 0;
-  -webkit-transition: right 0.3s ease-out;
-  -moz-transition: right 0.3s ease-out;
-  -o-transition: right 0.3s ease-out;
-  transition: right 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
 }
-.event:hover .event-price  {right:58px;}
+.event:hover .event-price  {
+   -webkit-transform: translateX(-78px);
+   -moz-transform: translateX(-78px);
+   -ms-transform: translateX(-78px);
+   -o-transform: translateX(-78px);
+   transform: translateX(-78px);
+}
 .event-name {
   text-align: center;
   font-size: 25px;

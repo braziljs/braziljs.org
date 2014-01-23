@@ -1,34 +1,83 @@
+
+
 $(document).ready(function(){
+
+
+  function isDate_(input) {
+    var status = false;
+    if (!input || input.length <= 0) {
+      status = false;
+    } else {
+      var result = new Date(input);
+      if (result == 'Invalid Date') {
+        status = false;
+      } else {
+        status = true;
+      }
+    }
+    return status;
+  }
 
   // Events
   $.ajax({
-    url: './services/events/2013.json',
+    url: './services/events/2014.json',
     dataType: 'json',
     success: function(response) {
 
-      var events = response.events;
-      var eventsHTML = '';
 
-      for ( var i = 0; i < 3; i++ ) {
+      var nextEvents = [],
+        currentDate = new Date(),
+        currentDay = currentDate.getDate(),
+        currentMonth = currentDate.getMonth() + 1,
+        currentYear = currentDate.getFullYear();
 
-        var day = moment(events[i].date).format('D');
-        var month = moment(events[i].date).format('MMM');
-        var title = events[i].name;
-        var url = events[i].website;
-        var location = events[i].location;
-
-        eventsHTML += '<li>' +
-                        '<div class="date">' +
-                          '<p class="day">' + day + '</p>' +
-                          '<p class="month">' + month + '</p>' +
-                        '</div>' +
-                        '<a href="' + url + '" title="' + title + '">' + title + '</a>' +
-                        '<p>' + location + '</p>' +
-                      '</li>';
+      if (currentMonth.toString().length == 1) {
+        currentMonth = '0' + currentMonth;
       }
 
-      $("#conf-list").html(eventsHTML);
+      if (currentDay.toString().length == 1) {
+        currentDay = '0' + currentDay;
+      }
+
+      var fullCurrentDate = currentYear + "/" + currentMonth + "/" + currentDay;
+
+
+      for ( var i = 0; i < response.events.length ; i++ ) {
+
+
+
+        fullEventDate = (response.events[i].date).replace(/-/g,'/');
+
+
+        if (isDate_(response.events[i].date)) {
+          eventDay = moment(response.events[i].date).format('D');
+          eventMonth = moment(response.events[i].date).format('MMM');
+        }
+        else {
+          eventDay = fullEventDate.substring(8, 10);
+          eventMonth = fullEventDate.substring(5, 7);
+        }
+
+        EVENT = '<li>' +
+                  '<div class="date">' +
+                    '<p class="day">' + eventDay + '</p>' +
+                    '<p class="month">' + eventMonth + '</p>'+
+                  '</div>' +
+                  '<a href="' + response.events[i].website  + '" title="' + response.events[i].name + '">' + response.events[i].name + '</a>' +
+                  '<p>' + response.events[i].location + '</p>' +
+                '</li>';
+
+      if ( fullEventDate >= fullCurrentDate ) {
+        nextEvents.push(EVENT);
+      }
     }
+
+    $("#conf-list").empty();
+    for ( var j = 0; j < 3; j++ ) {
+        $("#conf-list").append(nextEvents[j]);
+      }
+    }
+
   });
 
   // Podcast

@@ -49,9 +49,7 @@ $(document).ready(function(){
 
     }
 
-    for ( var j = 0; j < nextEvents.length; j++ ) {
-      $("#event-new").append(nextEvents[j]);
-    }
+    $("#event-new").html(nextEvents.join(''))
 
     $("#events-older").html(pastEvents);
 

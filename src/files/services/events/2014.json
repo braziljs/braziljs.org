@@ -9,6 +9,14 @@
       "price": "R$ 140"
     },
     {
+      "name": "JSConfBR",
+      "website": "http://2014.jsconfbr.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/jsconfbr-logo.png",
+      "location": "Fortaleza, CE",
+      "date": "2014-04-26",
+      "price": "R$ 300"
+    },
+    {
       "name": "Alagoas Dev Day",
       "website": "http://alagoasdevday.com.br",
       "thumbnail": "http://braziljs.org/services/events/media/2014/alagoasdevday.jpg",

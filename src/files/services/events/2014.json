@@ -31,6 +31,14 @@
       "location": "Aracaju, SE",
       "date": "2014-08-02",
       "price": "R$ ??"
+    },
+    {
+      "name": "Front in Fortaleza",
+      "website": "http://www.frontinfortaleza.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/fif-2014.jpg",
+      "location": "Fortaleza, CE",
+      "date": "2014-05-17",
+      "price": "R$ 50"
     }
   ]
 }

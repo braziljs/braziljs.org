@@ -1,13 +1,19 @@
 $(document).ready(function(){
 
+  function sortEventsAsc(a, b){  
+      return new Date(a.date).getTime() - new Date(b.date).getTime();
+  };
+
   // Events
   $.ajax({
-    url: './services/events/2013.json',
+    url: './services/events/2014.json',
     dataType: 'json',
     success: function(response) {
 
       var events = response.events;
       var eventsHTML = '';
+
+      events.sort(sortEventsAsc);
 
       for ( var i = 0; i < 3; i++ ) {
 

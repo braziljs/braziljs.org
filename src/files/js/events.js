@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  function sortEventsAsc(a, b){  
+      return new Date(a.date).getTime() - new Date(b.date).getTime();
+  };
+
   $.getJSON("../services/events/2014.json", function (response) {
 
     var nextEvents = [],
@@ -20,6 +24,8 @@ $(document).ready(function(){
     var fullCurrentDate = currentYear + "/" + currentMonth + "/" + currentDay;
 
     for ( var i = 0; i < response.events.length ; i++ ) {
+
+      response.events.sort(sortEventsAsc);
 
       fullEventDate = (response.events[i].date).replace(/-/g,'/');
 

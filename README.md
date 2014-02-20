@@ -57,7 +57,7 @@ Once you have all [dependencies](#dependencies) installed, you just need to:
 
 ## Usage
 
-Generate the website into `out` directory:
+Execute the command below to generate the website into `out` directory:
 
 ```sh
 $ npm run-script generate

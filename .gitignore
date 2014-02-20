@@ -8,3 +8,6 @@ npm-debug.log
 # DocPad
 .docpad.db
 out
+
+# Grunt HTML validation
+validation-status.json

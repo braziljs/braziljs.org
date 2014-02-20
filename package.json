@@ -22,5 +22,9 @@
     "deploy": "node_modules/docpad/bin/docpad deploy-ghpages --env static",
     "generate": "node_modules/docpad/bin/docpad generate --env static",
     "watch": "node_modules/docpad/bin/docpad run"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-html-validation": "~0.1.13"
   }
 }

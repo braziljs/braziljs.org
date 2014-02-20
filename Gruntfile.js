@@ -4,6 +4,7 @@ module.exports = function(grunt) {
 
     validation: {
       options: {
+        failHard: true,
         reportpath: false,
         reset: true,
         stoponerror: false

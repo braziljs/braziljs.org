@@ -113,7 +113,7 @@ layout: default
       <!-- Begin MailChimp Signup Form -->
       <div id="mc_embed_signup">
         <form action="http://braziljs.us5.list-manage1.com/subscribe/post?u=77b6594f10bba05dcc722c80e&amp;id=e6beed4270" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <label for="">Inscreva-se na BrazilJS Weekly, nossa seleção semanal de conteúdo:</label>
+          <label for="mce-EMAIL">Inscreva-se na BrazilJS Weekly, nossa seleção semanal de conteúdo:</label>
           <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="seu@email.com" required>
           <input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button">
            <div id="bookmarklet-lnk">

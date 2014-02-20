@@ -17,4 +17,6 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-html-validation');
 
+  grunt.registerTask('default', 'validation');
+
 };

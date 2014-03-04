@@ -25,6 +25,14 @@
       "price": "R$ 45"
     },
     {
+      "name": "Front in BH",
+      "website": "http://www.frontinbh.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinbh.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2014-08-02",
+      "price": "R$ 65,00"
+    },
+    {
       "name": "Front in Aracaju",
       "website": "http://www.frontinaracaju.com.br",
       "thumbnail": "http://braziljs.org/services/events/media/2014/frontinaracaju.jpg",

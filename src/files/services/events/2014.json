@@ -47,6 +47,14 @@
       "location": "Fortaleza, CE",
       "date": "2014-05-17",
       "price": "R$ 50"
+    },
+    {
+      "name": "RSJS",
+      "website": "http://rsjs.org/2014/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/rsjs.png",
+      "location": "Porto Alegre, RS",
+      "date": "2014-05-17",
+      "price": "-"
     }
   ]
 }

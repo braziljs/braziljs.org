@@ -38,7 +38,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2014/frontinaracaju.jpg",
       "location": "Aracaju, SE",
       "date": "2014-08-02",
-      "price": "R$ ??"
+      "price": "R$ 75"
     },
     {
       "name": "Front in Fortaleza",
@@ -54,7 +54,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2014/rsjs.png",
       "location": "Porto Alegre, RS",
       "date": "2014-05-17",
-      "price": "-"
+      "price": "R$ 50"
     }
   ]
 }

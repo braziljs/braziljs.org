@@ -563,16 +563,16 @@ footer {
 }
 
 .irc {
-  padding-left: 260px;
+  margin-left: 266px;
 }
 
 .irc h4 {
-  color: #ccc;
-  font-size: 240%;
-  font-style: italic;
-  font-weight: bolder;
+  color: #16454e;
+  font-size: 32px;
+  font-weight: 600;
   margin: 5px 0;
   text-align: left;
+  text-transform: none;
 }
 
 /* Manifesto

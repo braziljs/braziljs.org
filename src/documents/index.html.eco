@@ -121,7 +121,10 @@ layout: default
           </div>
         </form>
       </div>
-
+      <section class="irc" id="irc">
+        <h4>Canal no IRC</h4>
+        <p>Agora também estamos no IRC! Conecte-se em nosso canal <strong>#braziljs</strong> no servidor <a href="http://freenode.net/">freenode</a>.</p>
+      </section>
     </article>
 
   </div>

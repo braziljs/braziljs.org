@@ -120,7 +120,7 @@ p {
 .content {
   width: 100%;
   background: #f7f7f7;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
   float: left;
 }
 
@@ -253,8 +253,7 @@ footer {
   clear:both;
   border-top:1px solid #ddd;
   width: 100%;
-  height: 185px;
-  padding: 40px 0 70px;
+  padding: 40px 0 0;
   position: relative;
 }
 
@@ -561,6 +560,19 @@ footer {
   margin: 30px 180px 0 262px;
   text-align: center;
   width: 660px;
+}
+
+.irc {
+  margin-left: 266px;
+}
+
+.irc h4 {
+  color: #16454e;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 5px 0;
+  text-align: left;
+  text-transform: none;
 }
 
 /* Manifesto

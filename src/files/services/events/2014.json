@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "W3C Web.br 2014",
+      "website": "http://conferenciaweb.w3c.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/webbr.png",
+      "location": "São Paulo, SP",
+      "date": "2014-09-25",
+      "price": "R$"
+    },
+    {
       "name": "BrazilJS Conf",
       "website": "http://braziljs.com.br/2014",
       "thumbnail": "http://braziljs.org/services/events/media/2014/braziljs.jpg",

@@ -63,6 +63,14 @@
       "location": "Porto Alegre, RS",
       "date": "2014-05-17",
       "price": "R$ 50"
+    },
+    {
+      "name": "Fron End Carioca",
+      "website": "http://frontendcarioca.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/frontendcarioca.png",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2014-09-27",
+      "price": "R$ 50"
     }
   ]
 }

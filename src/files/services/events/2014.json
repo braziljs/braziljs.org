@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "3º Tableless Conf",
+      "website": "http://tableless.com.br/tablelessconf/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/tablelessconf.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-10-23",
+      "price": "R$ 150"
+    },
+    {
       "name": "Front in Sampa",
       "website": "http://www.frontinsampa.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinsampa.jpg",

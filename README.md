@@ -60,19 +60,19 @@ Once you have all [dependencies](#dependencies) installed, you just need to:
 Execute the command below to generate the website into `out` directory:
 
 ```sh
-$ npm run-script generate
+$ npm run generate
 ```
 
 Generate and watch for any changes in `http://localhost:9778`:
 
 ```sh
-$ npm run-script watch
+$ npm run watch
 ```
 
 Generate and deploy to [gh-pages branch](https://github.com/braziljs/foundation/tree/gh-pages):
 
 ```sh
-$ npm run-script deploy
+$ npm run deploy
 ```
 
 ## License

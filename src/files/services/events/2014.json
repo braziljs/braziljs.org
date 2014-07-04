@@ -1,12 +1,28 @@
 {
   "events": [
     {
+      "name": "Front in Sampa",
+      "website": "http://www.frontinsampa.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinsampa.jpg",
+      "location": "São Paulo, SP",
+      "date": "2014-10-25",
+      "price": "R$ 99"
+    },
+    {
+      "name": "Front End Carioca",
+      "website": "http://frontendcarioca.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/frontendcarioca.png",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2014-09-27",
+      "price": "R$ 50"
+    },
+    {
       "name": "W3C Web.br 2014",
       "website": "http://conferenciaweb.w3c.br",
       "thumbnail": "http://braziljs.org/services/events/media/2014/webbr.png",
       "location": "São Paulo, SP",
       "date": "2014-09-25",
-      "price": "R$"
+      "price": "R$ ??"
     },
     {
       "name": "BrazilJS Conf",
@@ -17,28 +33,12 @@
       "price": "R$ 200"
     },
     {
-      "name": "JSConfBR",
-      "website": "http://2014.jsconfbr.org/",
-      "thumbnail": "http://braziljs.org/services/events/media/2014/jsconfbr-logo.png",
-      "location": "Fortaleza, CE",
-      "date": "2014-04-26",
-      "price": "R$ 300"
-    },
-    {
-      "name": "Alagoas Dev Day",
-      "website": "http://alagoasdevday.com.br",
-      "thumbnail": "http://braziljs.org/services/events/media/2014/alagoasdevday.jpg",
-      "location": "Maceió, AL",
-      "date": "2014-04-12",
-      "price": "R$ 45"
-    },
-    {
-      "name": "Front in Sampa",
-      "website": "http://www.frontinsampa.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinsampa.jpg",
-      "location": "São Paulo, SP",
-      "date": "2014-10-25",
-      "price": "R$ 99,00"
+      "name": "Front in Aracaju",
+      "website": "http://www.frontinaracaju.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/frontinaracaju.jpg",
+      "location": "Aracaju, SE",
+      "date": "2014-08-02",
+      "price": "R$ 75"
     },
     {
       "name": "Front in BH",
@@ -46,15 +46,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinbh.jpg",
       "location": "Belo Horizonte, MG",
       "date": "2014-07-26",
-      "price": "R$ 70,00"
-    },
-    {
-      "name": "Front in Aracaju",
-      "website": "http://www.frontinaracaju.com.br",
-      "thumbnail": "http://braziljs.org/services/events/media/2014/frontinaracaju.jpg",
-      "location": "Aracaju, SE",
-      "date": "2014-08-02",
-      "price": "R$ 75"
+      "price": "R$ 70"
     },
     {
       "name": "Front in Fortaleza",
@@ -73,12 +65,20 @@
       "price": "R$ 50"
     },
     {
-      "name": "Front End Carioca",
-      "website": "http://frontendcarioca.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2014/frontendcarioca.png",
-      "location": "Rio de Janeiro, RJ",
-      "date": "2014-09-27",
-      "price": "R$ 50"
+      "name": "JSConfBR",
+      "website": "http://2014.jsconfbr.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/jsconfbr-logo.png",
+      "location": "Fortaleza, CE",
+      "date": "2014-04-26",
+      "price": "R$ 300"
+    },
+    {
+      "name": "Alagoas Dev Day",
+      "website": "http://alagoasdevday.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/alagoasdevday.jpg",
+      "location": "Maceió, AL",
+      "date": "2014-04-12",
+      "price": "R$ 45"
     }
   ]
 }

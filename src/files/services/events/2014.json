@@ -38,7 +38,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2014/braziljs.jpg",
       "location": "Porto Alegre, RS",
       "date": "2014-08-21",
-      "price": "R$ 200"
+      "price": "R$ 240"
     },
     {
       "name": "Front in Aracaju",
@@ -46,7 +46,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2014/frontinaracaju.jpg",
       "location": "Aracaju, SE",
       "date": "2014-08-02",
-      "price": "R$ 75"
+      "price": "R$ 125"
     },
     {
       "name": "Front in BH",

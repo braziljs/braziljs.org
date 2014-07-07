@@ -19,9 +19,9 @@
     "url": "https://github.com/braziljs/foundation.git"
   },
   "scripts": {
-    "deploy": "node_modules/docpad/bin/docpad deploy-ghpages --env static",
-    "generate": "node_modules/docpad/bin/docpad generate --env static",
-    "watch": "node_modules/docpad/bin/docpad run"
+    "deploy": "docpad deploy-ghpages --env static",
+    "generate": "docpad generate --env static",
+    "watch": "docpad run"
   },
   "devDependencies": {
     "grunt": "~0.4.2",

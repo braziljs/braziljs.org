@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  function sortEventsAsc(a, b){  
+  function sortEventsAsc(a, b){
       return new Date(a.date).getTime() - new Date(b.date).getTime();
   };
 
@@ -9,14 +9,19 @@ $(document).ready(function(){
     url: './services/events/2014.json',
     dataType: 'json',
     success: function(response) {
-
       var events = response.events;
       var eventsHTML = '';
+
+      events = events.filter(function (el) {
+        var today = new Date();
+        var eventDate = new Date(el.date);
+
+        return moment(eventDate).isAfter(today);
+      });
 
       events.sort(sortEventsAsc);
 
       for ( var i = 0; i < 3; i++ ) {
-
         var day = moment(events[i].date).format('D');
         var month = moment(events[i].date).format('MMM');
         var title = events[i].name;
@@ -45,12 +50,10 @@ $(document).ready(function(){
     url: 'http://pipes.yahoo.com/pipes/pipe.run?_id=6b599fe5b44c8cb4d403d2fa7717b08a&_render=json&_callback=?',
     dataType: 'jsonp',
     success: function(response) {
-
       var podcasts = response.value.items[0].entry;
       var podcastsHTML = '';
 
       for ( var i = 0; i < 3; i++ ) {
-
         var day = moment(podcasts[i].updated).format('D');
         var month = moment(podcasts[i].updated).format('MMM');
         var title = podcasts[i].title;
@@ -77,12 +80,10 @@ $(document).ready(function(){
     url: 'http://pipes.yahoo.com/pipes/pipe.run?_id=998042f077e1a48948d8a957b6b3bb80&_render=json&_callback=?',
     dataType: 'jsonp',
     success: function(response) {
-
       var weeklys = response.value.items[0].channel.item;
       var weeklysHTML = '';
 
       for ( var i = 0; i < 3; i++ ) {
-
         var day = moment(weeklys[i].pubDate).format('D');
         var month = moment(weeklys[i].pubDate).format('MMM');
         var title = weeklys[i].title;

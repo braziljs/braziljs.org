@@ -1,7 +1,6 @@
 # BrazilJS.org
 
-<!-- imagem temporária -->
--![Cover](http://braziljs.org/img/projects/braziljsorg.jpg)
+![Cover](http://braziljs.org/img/projects/braziljsorg.jpg)
 
 A non-profit foundation with a mission to move and unify JavaScript community in Brazil.
 

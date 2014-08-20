@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "Front in Maceió",
+      "website": "http://frontinmaceio.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/frontinmaceio.png",
+      "location": "Maceió, AL",
+      "date": "2014-11-15",
+      "price": "R$ 65"
+    },
+    {
       "name": "3º Tableless Conf",
       "website": "http://tableless.com.br/tablelessconf/",
       "thumbnail": "http://braziljs.org/services/events/media/2014/tablelessconf.jpg",
@@ -14,7 +22,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2013/frontinsampa.jpg",
       "location": "São Paulo, SP",
       "date": "2014-10-25",
-      "price": "R$ 99"
+      "price": "R$ 170"
     },
     {
       "name": "Front End Carioca",
@@ -30,7 +38,7 @@
       "thumbnail": "http://braziljs.org/services/events/media/2014/webbr.png",
       "location": "São Paulo, SP",
       "date": "2014-09-25",
-      "price": "R$ ??"
+      "price": "R$ 160"
     },
     {
       "name": "BrazilJS Conf",

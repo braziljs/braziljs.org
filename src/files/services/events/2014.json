@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "name": "Front Interior",
-      "website": "http://frontinterior.com.br/",
-      "thumbnail": "http://braziljs.org/services/events/media/2014/frontinterior.png",
-      "location": "Bauru, SP",
-      "date": "2014-08-29",
-      "price": "R$ 59,90"
-    },
-    {
       "name": "Front in Maceió",
       "website": "http://frontinmaceio.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2014/frontinmaceio.png",
@@ -47,6 +39,14 @@
       "location": "São Paulo, SP",
       "date": "2014-09-25",
       "price": "R$ 160"
+    },
+    {
+      "name": "Front Interior",
+      "website": "http://frontinterior.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/frontininterior.jpg",
+      "location": "Bauru, SP",
+      "date": "2014-08-29",
+      "price": "R$ 59,90"
     },
     {
       "name": "BrazilJS Conf",

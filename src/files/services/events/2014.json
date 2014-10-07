@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "Front in Floripa",
+      "website": "http://frontinfloripa.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/frontinfloripa.jpg",
+      "location": "Florianópolis, SC",
+      "date": "2014-11-21",
+      "price": "R$ 60"
+    },
+    {
       "name": "Front in Maceió",
       "website": "http://frontinmaceio.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2014/frontinmaceio.png",

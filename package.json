@@ -21,7 +21,7 @@
   "scripts": {
     "deploy": "docpad deploy-ghpages --env static",
     "generate": "docpad generate --env static",
-    "watch": "docpad run"
+    "watch": "docpad run --silent"
   },
   "devDependencies": {
     "grunt": "~0.4.2",

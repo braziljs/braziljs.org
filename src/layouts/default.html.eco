@@ -85,7 +85,7 @@
         <li><a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Google Groups</a></li>
       </ul>
 
-      <p class="license">© 2013. Conteúdo disponível sob a licença <a href="http://creativecommons.org/licenses/by/3.0/br/">Creative Commons</a>.</p>
+      <p class="license">© #{Date.today.year}. Conteúdo disponível sob a licença <a href="http://creativecommons.org/licenses/by/3.0/br/">Creative Commons</a>.</p>
 
     </div>
 

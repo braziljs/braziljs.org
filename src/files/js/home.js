@@ -21,7 +21,9 @@ $(document).ready(function(){
 
       events.sort(sortEventsAsc);
 
-      for ( var i = 0; i < 3; i++ ) {
+      var eventsLentgh = (events.length < 4) ? events.length : 3;
+
+      for ( var i = 0; i < eventsLentgh; i++ ) {
         var day = moment(events[i].date).format('D');
         var month = moment(events[i].date).format('MMM');
         var title = events[i].name;

@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "Siga in Front",
+      "website": "http://sigainfront.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/sigainfront.png",
+      "location": "Campo Grande, MS",
+      "date": "2014-11-22",
+      "price": "R$ 20"
+    },
+    {
       "name": "Front in Floripa",
       "website": "http://frontinfloripa.com.br",
       "thumbnail": "http://braziljs.org/services/events/media/2014/frontinfloripa.jpg",

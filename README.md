@@ -1,5 +1,9 @@
 # BrazilJS.org
 
+[![Build Status](http://img.shields.io/travis/braziljs/braziljs.org/master.svg?style=flat)](https://travis-ci.org/braziljs/braziljs.org)
+[![Dependency Status](http://img.shields.io/david/braziljs/braziljs.org.svg?style=flat)](https://david-dm.org/braziljs/braziljs.org)
+[![DevDependencies Status](http://img.shields.io/david/dev/braziljs/braziljs.org.svg?style=flat)](https://david-dm.org/braziljs/braziljs.org#info=devDependencies)
+
 ![Cover](http://braziljs.org/img/projects/braziljsorg.jpg)
 
 A non-profit foundation with a mission to move and unify JavaScript community in Brazil.
@@ -60,7 +64,7 @@ Once you have all [dependencies](#dependencies) installed, you just need to:
 Execute the command below to generate the website into `out` directory:
 
 ```sh
-$ npm run generate
+$ npm run build
 ```
 
 Generate and watch for any changes in `http://localhost:9778`:

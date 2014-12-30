@@ -46,18 +46,20 @@ $(document).ready(function(){
 
   // Podcast
   //
-  // Data fetched from: http://zofe.com.br/feed/posts.xml
-  // Converted from XML to JSON: http://pipes.yahoo.com/braziljs/zofe
+  // Data fetched from:
+  // - http://zofe.com.br/feed/posts.xml
+  // - http://feeds.feedburner.com/codetalkspod
+  // Converted from XML to JSON: http://pipes.yahoo.com/pipes/pipe.info?_id=d51b326a64868bc09883dcf8ccbb0964
   $.ajax({
-    url: 'http://pipes.yahoo.com/pipes/pipe.run?_id=6b599fe5b44c8cb4d403d2fa7717b08a&_render=json&_callback=?',
+    url: 'http://pipes.yahoo.com/pipes/pipe.run?_id=d51b326a64868bc09883dcf8ccbb0964&_render=json&_callback=?',
     dataType: 'jsonp',
     success: function(response) {
-      var podcasts = response.value.items[0].entry;
+      var podcasts = response.value.items;
       var podcastsHTML = '';
 
       for ( var i = 0; i < 3; i++ ) {
-        var day = moment(podcasts[i].updated).format('D');
-        var month = moment(podcasts[i].updated).format('MMM');
+        var day = moment(podcasts[i].pubDate).format('D');
+        var month = moment(podcasts[i].pubDate).format('MMM');
         var title = podcasts[i].title;
         var url = podcasts[i].id;
 

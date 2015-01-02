@@ -61,7 +61,7 @@ $(document).ready(function(){
         var day = moment(podcasts[i].pubDate).format('D');
         var month = moment(podcasts[i].pubDate).format('MMM');
         var title = podcasts[i].title;
-        var url = podcasts[i].id;
+        var url = podcasts[i].link;
 
         podcastsHTML += '<li>' +
                         '<div class="date">' +

@@ -25,7 +25,7 @@ layout: default
         <% if @document.old_url: %>
         disqus_url = "<%= @document.old_url %>";
         <% else: %>
-        disqus_url = "<%= @document.url %>";
+        disqus_url = "<%= @site.url %><%= @document.url %>";
         <% end %>
 
         (function() {

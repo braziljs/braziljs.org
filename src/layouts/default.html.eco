@@ -5,9 +5,9 @@
 
   <!-- general meta tags -->
   <meta charset="UTF-8">
-  <meta name="robots" content="all, index, follow" />
-  <meta name="description" content="<%= @site.description %>" />
-  <meta name="google-site-verification" content="COZxy1HKlPIx8brzPzijp_eTgMvQrnVtbduoUP2K3Z8" />
+  <meta name="robots" content="all, index, follow">
+  <meta name="description" content="<%= @site.description %>">
+  <meta name="google-site-verification" content="COZxy1HKlPIx8brzPzijp_eTgMvQrnVtbduoUP2K3Z8">
 
   <!-- favicon -->
   <link rel="shortcut icon" href="<%= @site.url %>/img/favicon.ico">
@@ -19,14 +19,13 @@
   <link rel="stylesheet" href="<%= @site.url %>/css/main.css">
 
   <!-- open graph -->
-  <meta property="og:title" content="<%= @site.name %>" />
-  <meta property="og:type" content="website"/>
-  <meta property="og:description" content="<%= @site.description %>" />
-  <meta property="og:url" content="<%= @site.url %>"/>
-  <meta property="og:image" content="<%= @site.url %>/img/fb-share.jpg" />
+  <meta property="og:title" content="<%= @site.name %>">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="<%= @site.description %>">
+  <meta property="og:url" content="<%= @site.url %><%= @document.url %>">
+  <meta property="og:image" content="<%= @site.url %>/img/fb-share.jpg">
   <meta property="og:site_name" content="<%= @site.name %>"/>
-  <meta property="og:locale" content="pt_BR" />
-  <meta property="fb:app_id" content="372862979453673" />
+  <meta property="og:locale" content="pt_BR">
 </head>
 
 <body>

@@ -2,6 +2,7 @@
 title: 'Anunciando a BrazilJS Foundation'
 date: '2012-07-22'
 layout: blog
+authors: [braziljs]
 old_url: http://braziljs.org/anunciando-a-braziljs-foundation/
 ---
 

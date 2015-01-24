@@ -2,6 +2,7 @@
 title: 'BrazilJS Conf 2013: Teaser e Douglas Crockford'
 date: '2013-02-20'
 layout: blog
+authors: [braziljs]
 old_url: http://braziljs.org/braziljs-conf-2013-teaser-e-douglas-crockford/
 ---
 

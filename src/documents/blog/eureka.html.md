@@ -2,6 +2,7 @@
 title: 'Eureka!'
 date: '2015-01-21'
 layout: blog
+authors: [zeno_rocha]
 ---
 
 Desde quando a gente começou com toda essa história de BrazilJS, várias ideias que tinham potencial para ajudar a comunidade foram aparecendo.

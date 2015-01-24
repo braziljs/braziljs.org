@@ -2,6 +2,7 @@
 title: 'Momento BrazilJS na Web.br'
 date: '2012-10-02'
 layout: blog
+authors: [braziljs]
 old_url: http://braziljs.org/momento-braziljs-webbr/
 ---
 

@@ -61,7 +61,6 @@ h1 {
   font-size: 76px;
   font-weight: 800;
   color: #fff;
-  text-shadow:1px 0 0 #333;
 }
 
 h2 {
@@ -217,10 +216,8 @@ footer {
    ========================================================================== */
 
 .banner div {
-  /*padding: 90px 0 0 90px;*/
   padding-top: 90px;
   text-align: center;
-
 }
 
 .logo {
@@ -237,6 +234,10 @@ footer {
 
 .banner a {
   color: #fffa76;
+}
+
+.banner h1 {
+  text-shadow:1px 0 0 #333;
 }
 
 /* ==========================================================================

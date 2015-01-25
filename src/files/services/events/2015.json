@@ -7,6 +7,14 @@
       "location": "São Paulo, SP",
       "date": "2015-05-09",
       "price": "R$ 170"
+    },
+    {
+      "name": "1º DevCastDay",
+      "website": "http://eventick.com.br/devcastday",
+      "thumbnail": "/services/events/media/2015/devcastday.png",
+      "location": "São Paulo, SP",
+      "date": "2015-01-24",
+      "price": "R$ 27"
     }
   ]
 }

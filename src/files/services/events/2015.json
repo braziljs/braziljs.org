@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "name": "1º Conferência CSS Brasil",
+      "website": "http://www.conferenciacssbrasil.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2015/conferenciacss.jpg",
+      "location": "São Paulo, SP",
+      "date": "2015-05-09",
+      "price": "R$ 170"
+    }
+  ]
+}

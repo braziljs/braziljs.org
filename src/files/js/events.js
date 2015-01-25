@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-  function sortEventsAsc(a, b){  
+  function sortEventsAsc(a, b){
       return new Date(a.date).getTime() - new Date(b.date).getTime();
   };
 
-  $.getJSON("../services/events/2014.json", function (response) {
+  $.getJSON("../services/events/2015.json", function (response) {
 
     var nextEvents = [],
         pastEvents = "",

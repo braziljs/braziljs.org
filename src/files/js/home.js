@@ -6,7 +6,7 @@ $(document).ready(function(){
 
   // Events
   $.ajax({
-    url: './services/events/2014.json',
+    url: './services/events/2015.json',
     dataType: 'json',
     success: function(response) {
       var events = response.events;

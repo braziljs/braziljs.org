@@ -22,7 +22,7 @@ layout: default
   }
 </style>
 
-<link rel="stylesheet" href="/packages/fontawesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/vendor/fontawesome/css/font-awesome.min.css">
 
 <section class="content">
 

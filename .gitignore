@@ -13,4 +13,4 @@ out
 validation-status.json
 
 # Bower Packages
-src/files/packages/
+src/files/vendor/

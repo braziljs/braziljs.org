@@ -5,13 +5,13 @@ layout: blog
 old_url: http://braziljs.org/cerebrobr/
 ---
 
-<p>Já ouviu falar do Cerebro? Possa ser que você conheça o dos X-Men, mas no momento estamos falando da organização criada para reunir muito conteúdo interessante e ser o help nos seus estudos.</p>
+<p>Já ouviu falar do <strong>Cerebro</strong>? Possa ser que você conheça o dos X-Men, mas no momento estamos falando da organização criada para reunir muito conteúdo interessante e ser o help nos seus estudos.</p>
 
 <p>Assim como o dos X-Men, o Cerebro aumenta os seus poderes na medida que você vai colaborando com novos conteúdos para ele e o melhor disso tudo é que o conteúdo é todo em português, assim você vai ficando fera no inglês e vai ajudando muitas pessoas que estão começando assim como você um dia.</p>
 
 <p>A organização é dividida em alguns repositórios específicos, afinal você não quer perder tempo procurando o conteúdo né? </p>
 
-<p>O mais popular, com 171 stars é o Biblioteca. Esse repositório tem como princípio conter conteúdos em geral, mas apenas conteudo em ingles, por exemplo: Frameworks, e-commerce, deploy e etc.
+<p>O mais popular, com 171 stars é o <a href="https://github.com/cerebrobr/biblioteca">Biblioteca</a>. Esse repositório tem como princípio conter conteúdos em geral, mas apenas conteudo em ingles, por exemplo: Frameworks, e-commerce, deploy e etc.
 Para encontrar conteúdo em português, o repositório correto se chama Artigos, nele você irá encontrar diversos conteúdos interessantes.</p>
 <p>Existem outros repositórios como:</p>
 
@@ -31,11 +31,15 @@ Para encontrar conteúdo em português, o repositório correto se chama Artigos,
 
 <a href="https://github.com/cerebrobr/universidade">Universidade</a>: Lista com a grade do respectivo curso de graduação com conteúdos da internet.
 
-Glossário: Lista com termos técnicos utilizados na Ciência da Computação, Programação e afins.
+<a href="https://github.com/cerebrobr/glossario">Glossário</a>: Lista com termos técnicos utilizados na Ciência da Computação, Programação e afins.
 
-CEREBRO no GitHub: <a href="https://github.com/cerebrobr">https://github.com/cerebrobr</a>
-CEREBRO no Facebook: <a href="https://www.facebook.com/cerebroproject">https://www.facebook.com/cerebroproject</a>
+<p>Enfim, um grande acervo de conteúdo que foi criado <strong>pela comunidade para a comunidade</strong>. Quer conhecer mais sobre o projeto, colaborar ou até mesmo propor novos conteúdos?</p>
 
-Visite o nosso site para mais informações: <a href="http://cerebrobr.github.io/cerebro/">http://cerebrobr.github.io/cerebro/</a>
+<p>CEREBRO no GitHub: <a href="https://github.com/cerebrobr">https://github.com/cerebrobr</a></p>
+
+<p>CEREBRO no Facebook: <a href="https://www.facebook.com/cerebroproject">https://www.facebook.com/cerebroproject</a></p>
+
+<p>Visite o nosso site para mais informações: <a href="http://cerebrobr.github.io/cerebro/">http://cerebrobr.github.io/cerebro/</a></p>
+
 
 <p>E muito mais !</p>

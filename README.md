@@ -38,13 +38,13 @@ Once you have all [dependencies](#dependencies) installed, you just need to:
 1. Open your terminal and clone the project.
 
   ```sh
-  $ git clone git@github.com:braziljs/foundation.git
+  $ git clone git@github.com:braziljs/braziljs.org.git
   ```
 
 2. Then go to the project's folder.
 
   ```sh
-  $ cd foundation
+  $ cd braziljs.org
   ```
 
 3. Initialize the submodules.
@@ -73,7 +73,7 @@ Generate and watch for any changes in `http://localhost:9778`:
 $ npm run watch
 ```
 
-Generate and deploy to [gh-pages branch](https://github.com/braziljs/foundation/tree/gh-pages):
+Generate and deploy to [gh-pages branch](https://github.com/braziljs/braziljs.org/tree/gh-pages):
 
 ```sh
 $ npm run deploy

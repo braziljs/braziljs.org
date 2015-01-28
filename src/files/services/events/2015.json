@@ -1,20 +1,20 @@
 {
   "events": [
     {
-      "name": "16º FEMUG SP",
-      "website": "https://sp.femug.com/t/femug-16-plataformatec/229",
-      "thumbnail": "/services/events/media/2015/femug-sp.jpg",
-      "location": "São Paulo, SP",
-      "date": "2015-01-29",
-      "price": "R$ 0"
-    },
-    {
       "name": "1º Conferência CSS Brasil",
       "website": "http://www.conferenciacssbrasil.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2015/conferenciacss.jpg",
       "location": "São Paulo, SP",
       "date": "2015-05-09",
       "price": "R$ 170"
+    },
+    {
+      "name": "16º FEMUG SP",
+      "website": "https://sp.femug.com/t/femug-16-plataformatec/229",
+      "thumbnail": "/services/events/media/2015/femug-sp.jpg",
+      "location": "São Paulo, SP",
+      "date": "2015-01-29",
+      "price": "R$ 0"
     },
     {
       "name": "1º DevCastDay",

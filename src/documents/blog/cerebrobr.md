@@ -1,6 +1,6 @@
 ---
-title: 'Uma sugestão para a descentralização de conteúdo nos Grupos do Facebook'
-date: '2012-10-09'
+title: 'Titulo a definir'
+date: '00/00/0000'
 layout: blog
 old_url: http://braziljs.org/cerebrobr/
 ---

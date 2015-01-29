@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "Front-End Experience",
+      "website": "http://www.frontendexperience.com",
+      "thumbnail": "/services/events/media/2015/fex.png",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2015-??-??",
+      "price": "R$ ??"
+    },
+    {
       "name": "1º Conferência CSS Brasil",
       "website": "http://www.conferenciacssbrasil.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2015/conferenciacss.jpg",

@@ -1,17 +1,19 @@
 $(document).ready(function(){
 
+
+  var nextEvents = [],
+      pastEvents = "",
+      currentDate = new Date(),
+      currentDay = currentDate.getDate(),
+      currentMonth = currentDate.getMonth() + 1,
+      currentYear = currentDate.getFullYear(),
+      url = '../services/events/'+ currentYear +'.json';
+
   function sortEventsAsc(a, b){
       return new Date(a.date).getTime() - new Date(b.date).getTime();
   };
 
-  $.getJSON("../services/events/2015.json", function (response) {
-
-    var nextEvents = [],
-        pastEvents = "",
-        currentDate = new Date(),
-        currentDay = currentDate.getDate(),
-        currentMonth = currentDate.getMonth() + 1,
-        currentYear = currentDate.getFullYear();
+  $.getJSON(url, function (response) {
 
     if (currentMonth.toString().length == 1) {
       currentMonth = '0' + currentMonth;

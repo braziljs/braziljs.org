@@ -46,7 +46,7 @@ $(document).ready(function(){
             '<span class="event-city">'+ response.events[i].location +'</span>' +
           '</div>';
 
-      if ( fullEventDate <= fullCurrentDate ) {
+      if ( fullEventDate < fullCurrentDate ) {
         pastEvents += EVENT;
       }
       else {

@@ -25,6 +25,14 @@
       "price": "R$ 220"
     },
     {
+      "name": "FrontIn Cuiabá",
+      "website": "http://www.frontincuiaba.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2015/front-in-cuiaba.jpg",
+      "location": "Cuiabá, MT",
+      "date": "2015-03-28",
+      "price": "R$ ??"
+    },
+    {
       "name": "5º Meetup CSS",
       "website": "http://www.meetup.com/CSS-SP/events/220119108/",
       "thumbnail": "/services/events/media/2015/meetupcss-sp.jpg",

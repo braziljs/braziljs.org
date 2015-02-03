@@ -3,12 +3,32 @@ module.exports = {
   // -- Basic information ----------------------------------------------------
   templateData: {
 
+    // Authors
+    authors: require("./authors"),
+
     // Production
     site: {
       name: "BrazilJS",
       description: "Uma fundação sem fins lucrativos com a missão de mover e unir a comunidade de JavaScript no Brasil.",
       url: "http://braziljs.org"
-    }
+    },
+
+    /* Helpers
+      ===================================================================== */
+    getAuthor: function(author) {
+      if(author)
+        return this.authors[author];
+
+      return this.authors["braziljs"];
+    },
+
+    getAuthorGooglePlus: function(author) {
+      return "https://plus.google.com/" + this.authors[author].gplus + "/";
+    },
+
+    getAuthorTwitter: function(author) {
+      return "https://twitter.com/" + this.authors[author].twitter;
+    },
 
   },
 

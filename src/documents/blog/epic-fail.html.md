@@ -2,6 +2,7 @@
 title: Epic fail
 date: '2012-12-12'
 layout: blog
+authors: [braziljs]
 old_url: http://braziljs.org/epic-fail/
 ---
 

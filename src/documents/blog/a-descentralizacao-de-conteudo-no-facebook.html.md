@@ -2,6 +2,7 @@
 title: 'Uma sugestão para a descentralização de conteúdo nos Grupos do Facebook'
 date: '2012-10-09'
 layout: blog
+authors: [braziljs]
 old_url: http://braziljs.org/a-descentralizacao-de-conteudo-no-facebook/
 ---
 

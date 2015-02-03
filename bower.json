@@ -1,0 +1,24 @@
+{
+  "name": "braziljs.org",
+  "version": "0.0.0",
+  "homepage": "http://braziljs.org/",
+  "authors": [
+    "Randson Oliveira <randsonjs@gmail.com>"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/braziljs/braziljs.org.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/files/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.3.0"
+  }
+}

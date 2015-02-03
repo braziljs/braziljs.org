@@ -6,7 +6,23 @@ layout: default
   .content-blog p {
     margin-bottom: 15px;
   }
+
+  .post-info {
+    text-transform: uppercase;
+    color: #999;
+    margin: -10px 0px 5px 0px;
+  }
+
+  .post-info span:first-child {
+    margin-left: 0;
+  }
+
+  .post-info span {
+    margin-left: 10px;
+  }
 </style>
+
+<link rel="stylesheet" href="/vendor/fontawesome/css/font-awesome.min.css">
 
 <section class="content">
 
@@ -15,6 +31,21 @@ layout: default
     <article class="content-blog">
 
       <h2 style="text-align: left;"><%= @document.title %></h2>
+
+      <div class="post-info" role="complementary">
+        <span class="post-author">
+          <% for author, i in @document.authors: %>
+            <% if i == 0: %>Por<% else: %>&<% end %>
+            <a href="<%= @getAuthorTwitter(author) %>" target="_blank"><%= @getAuthor(author).name %></a>
+          <% end %>
+        </span>
+
+        <span class="post-date">
+          <i class="fa fa-clock-o"></i>
+          <%= @moment(@document.date).format('DD/MM/YYYY') %>
+        </span>
+      </div>
+
       <%- @content %>
 
       <div id="disqus_thread"></div>

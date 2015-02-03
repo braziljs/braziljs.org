@@ -2,6 +2,7 @@
 title: Apresentando o ConfBoilerplate
 date: '2012-11-20'
 layout: blog
+authors: [braziljs]
 old_url: http://braziljs.org/apresentando-conf-boilerplate/
 ---
 

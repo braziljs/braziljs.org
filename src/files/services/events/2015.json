@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "name": "Front-End Carioca",
-      "website": "https://www.facebook.com/frontendcarioca",
-      "thumbnail": "/services/events/media/2015/front-end-carioca.png",
-      "location": "Rio de Janeiro, RJ",
-      "date": "2015-09-26",
-      "price": "R$ 70"
-    },
-    {
       "name": "Front-End Experience",
       "website": "https://www.facebook.com/frontendexperience",
       "thumbnail": "/services/events/media/2015/fex.png",
@@ -23,6 +15,14 @@
       "location": "Recife, PE",
       "date": "2015-??-??",
       "price": "R$ ??"
+    },
+    {
+      "name": "Front-End Carioca",
+      "website": "https://www.facebook.com/frontendcarioca",
+      "thumbnail": "/services/events/media/2015/front-end-carioca.png",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2015-09-26",
+      "price": "R$ 70"
     },
     {
       "name": "1º Conferência CSS Brasil",

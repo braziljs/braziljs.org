@@ -101,6 +101,12 @@ p {
   color: #777;
 }
 
+.title {
+  color: #777;
+  display: block;
+  font-weight: 500;
+}
+
 /* ==========================================================================
    Structure
    ========================================================================== */
@@ -442,6 +448,7 @@ footer {
   color: #2b2b2b;
   margin: 0 10px 0 0;
   width: 33px;
+  text-align: center;
 }
 .date .day {
   font-size: 24px;
@@ -1068,6 +1075,39 @@ label.error {
 }
 
 /* ==========================================================================
+   blogpost
+   ========================================================================== */
+.list-post {
+  margin-bottom: 45px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.list-post:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+.list-post-date {
+  font-size: 16px;
+  display: block;
+}
+
+.content-blog .title {
+  color: #2b2b2b;
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.content-blog p {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.7em;
+}
+
+   /* ==========================================================================
    Events Page
    ========================================================================== */
 

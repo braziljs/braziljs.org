@@ -10,11 +10,11 @@ layout: default
 
 <section class="content">
 
-  <div class="wrapper" style="width: 700px;">
+  <div class="wrapper" style="width: 800px;">
 
     <article class="content-blog">
 
-      <h2 style="text-align: left;"><%= @document.title %></h2>
+      <h2 class="title"><%= @document.title %></h2>
       <%- @content %>
 
       <div id="disqus_thread"></div>

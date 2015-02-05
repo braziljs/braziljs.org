@@ -40,6 +40,7 @@
         <ul>
           <li><a href="<%= @site.url %>/eventos">Eventos</a></li>
           <li><a href="<%= @site.url %>/projetos">Projetos</a></li>
+          <li><a href="<%= @site.url %>/blog">Blog</a></li>
         </ul>
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>

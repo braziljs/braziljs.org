@@ -35,7 +35,8 @@ module.exports = {
       return documents.findAll({
         url: {
           $startsWith: '/blog'
-        }
+        },
+        layout: 'blog',
       }, sortByAscendingDate);
     }
 

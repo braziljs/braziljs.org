@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section class="content">
+
+  <div class="wrapper">
+
+    <% for blogpost in @getCollection("blogposts").toJSON(): %>
+    <div class="list-post">
+      
+      <h2>
+        <span class="list-post-date">  <%= @moment(blogpost.date).format('D MMMM YYYY') %> </span>
+
+        <a href="<%= blogpost.url %>" title="<%= blogpost.title %>" class="title">
+          <%= blogpost.title %>
+        </a>
+      </h2>
+
+    </div>
+    <% end %>
+
+  </div>
+
+</section>

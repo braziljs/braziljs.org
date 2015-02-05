@@ -41,6 +41,14 @@
       "price": "R$ ??"
     },
     {
+      "name": "17º FEMUG SP",
+      "website": "https://sp.femug.com/t/femug-17-netshoes/267",
+      "thumbnail": "/services/events/media/2015/femug-sp.jpg",
+      "location": "São Paulo, SP",
+      "date": "2015-02-12",
+      "price": "R$ 0"
+    },
+    {
       "name": "5º Meetup CSS",
       "website": "http://www.meetup.com/CSS-SP/events/220119108/",
       "thumbnail": "/services/events/media/2015/meetupcss-sp.jpg",

@@ -11,8 +11,8 @@ old_url: http://braziljs.org/cerebrobr/
 
 <p>A organização é dividida em alguns repositórios específicos, afinal você não quer perder tempo procurando o conteúdo né? </p>
 
-<p>O mais popular, com 171 stars é o <a href="https://github.com/cerebrobr/biblioteca">Biblioteca</a>. Esse repositório tem como princípio conter conteúdos em geral, mas apenas conteudo em ingles, por exemplo: Frameworks, e-commerce, deploy e etc.
-Para encontrar conteúdo em português, o repositório correto se chama Artigos, nele você irá encontrar diversos conteúdos interessantes.</p>
+<p>O mais popular, com 171 stars é o <a href="https://github.com/cerebrobr/biblioteca">Biblioteca</a>. Esse repositório tem como princípio conter conteúdos em geral, mas apenas conteúdo em inglês, por exemplo: Frameworks, e-commerce, deploy e etc.
+Para encontrar conteúdo em português, o repositório correto se chama <a href="https://github.com/cerebrobr/artigos">Artigos</a>, nele você irá encontrar diversos conteúdos interessantes.</p>
 <p>Existem outros repositórios como:</p>
 
 <a href="https://github.com/cerebrobr/slides">Slides</a>: Slides de palestras e meetups apresentados em eventos de tecnologia no Brasil

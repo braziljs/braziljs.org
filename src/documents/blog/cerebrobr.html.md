@@ -1,8 +1,7 @@
 ---
-title: 'Cerebrobr, o conhecimento ao seu alcance'
-date: '00/00/0000'
+title: Cerebrobr, o conhecimento ao seu alcance
+date: 2015-02-09
 layout: blog
-old_url: http://braziljs.org/cerebrobr/
 ---
 
 <p>Já ouviu falar do <strong>Cerebro</strong>? Possa ser que você conheça o dos X-Men, mas no momento estamos falando da organização criada para reunir muito conteúdo interessante e ser o help nos seus estudos.</p>

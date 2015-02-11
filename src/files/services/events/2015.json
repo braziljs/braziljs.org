@@ -17,14 +17,6 @@
       "price": "R$ ??"
     },
     {
-      "name": "Front-End Carioca",
-      "website": "https://www.facebook.com/frontendcarioca",
-      "thumbnail": "/services/events/media/2015/front-end-carioca.png",
-      "location": "Rio de Janeiro, RJ",
-      "date": "2015-09-26",
-      "price": "R$ 70"
-    },
-    {
       "name": "1º Conferência CSS Brasil",
       "website": "http://www.conferenciacssbrasil.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2015/conferenciacss.jpg",
@@ -33,12 +25,28 @@
       "price": "R$ 220"
     },
     {
+      "name": "Front-End Carioca",
+      "website": "https://www.facebook.com/frontendcarioca",
+      "thumbnail": "/services/events/media/2015/front-end-carioca.png",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2015-09-26",
+      "price": "R$ 70"
+    },
+    {
       "name": "FrontIn Cuiabá",
       "website": "http://www.frontincuiaba.com.br/",
       "thumbnail": "http://braziljs.org/services/events/media/2015/front-in-cuiaba.jpg",
       "location": "Cuiabá, MT",
       "date": "2015-03-28",
       "price": "R$ 30"
+    },
+    {
+      "name": "Front in Aracaju",
+      "website": "http://www.frontinaracaju.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2015/front-in-aracaju.jpg",
+      "location": "Aracaju, SE",
+      "date": "2015-09-05",
+      "price": "R$ ??"
     },
     {
       "name": "17º FEMUG SP",

@@ -49,6 +49,14 @@
       "price": "R$ ??"
     },
     {
+      "name": "Web Dev Summit",
+      "website": "http://webdevsummit.com/",
+      "thumbnail": "/services/events/media/2015/webdevsummit.jpg",
+      "location": "Volta Redonda, RJ",
+      "date": "2015-03-21",
+      "price": "R$ 35"
+    },
+    {
       "name": "17º FEMUG SP",
       "website": "https://sp.femug.com/t/femug-17-netshoes/267",
       "thumbnail": "/services/events/media/2015/femug-sp.jpg",

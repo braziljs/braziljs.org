@@ -25,9 +25,9 @@ $(document).ready(function(){
 
     var fullCurrentDate = currentYear + "/" + currentMonth + "/" + currentDay;
 
-    for ( var i = 0; i < response.events.length ; i++ ) {
+    response.events.sort(sortEventsAsc);
 
-      response.events.sort(sortEventsAsc);
+    for ( var i = 0; i < response.events.length ; i++ ) {
 
       fullEventDate = (response.events[i].date).replace(/-/g,'/');
 

@@ -1,22 +1,6 @@
 {
   "events": [
     {
-      "name": "Front-End Experience",
-      "website": "https://www.facebook.com/frontendexperience",
-      "thumbnail": "/services/events/media/2015/fex.png",
-      "location": "Rio de Janeiro, RJ",
-      "date": "2015-??-??",
-      "price": "R$ ??"
-    },
-    {
-      "name": "Front in Recife",
-      "website": "http://www.frontinrecife.com.br",
-      "thumbnail": "/services/events/media/2015/front-in-recife.jpg",
-      "location": "Recife, PE",
-      "date": "2015-??-??",
-      "price": "R$ ??"
-    },
-    {
       "name": "Front-End Carioca",
       "website": "https://www.facebook.com/frontendcarioca",
       "thumbnail": "/services/events/media/2015/front-end-carioca.png",
@@ -57,14 +41,6 @@
       "price": "R$ 35"
     },
     {
-      "name": "Front in Fortaleza",
-      "website": "http://www.frontinfortaleza.com.br/",
-      "thumbnail": "/services/events/media/2015/front-in-fortaleza.jpg",
-      "location": "Fortaleza, Ceará",
-      "date": "2015-??-??",
-      "price": "R$ ??"
-    },
-    {
       "name": "17º FEMUG SP",
       "website": "https://sp.femug.com/t/femug-17-netshoes/267",
       "thumbnail": "/services/events/media/2015/femug-sp.jpg",
@@ -95,6 +71,30 @@
       "location": "São Paulo, SP",
       "date": "2015-01-24",
       "price": "R$ 27"
+    },
+    {
+      "name": "Front-End Experience",
+      "website": "https://www.facebook.com/frontendexperience",
+      "thumbnail": "/services/events/media/2015/fex.png",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2015-??-??",
+      "price": "R$ ??"
+    },
+    {
+      "name": "Front in Recife",
+      "website": "http://www.frontinrecife.com.br",
+      "thumbnail": "/services/events/media/2015/front-in-recife.jpg",
+      "location": "Recife, PE",
+      "date": "2015-??-??",
+      "price": "R$ ??"
+    },
+    {
+      "name": "Front in Fortaleza",
+      "website": "http://www.frontinfortaleza.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-fortaleza.jpg",
+      "location": "Fortaleza, Ceará",
+      "date": "2015-??-??",
+      "price": "R$ ??"
     }
   ]
 }

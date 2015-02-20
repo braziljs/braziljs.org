@@ -95,6 +95,14 @@
       "location": "Fortaleza, Ceará",
       "date": "2015-??-??",
       "price": "R$ ??"
+    },
+    {
+      "name": "Alagoas Dev Day",
+      "website": "http://alagoasdevday.com.br/",
+      "thumbnail": "/services/events/media/2015/alagoasdevday.png",
+      "location": "Maceió, AL",
+      "date": "2015-04-18",
+      "price": "R$ 45"
     }
   ]
 }

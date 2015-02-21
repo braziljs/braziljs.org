@@ -103,6 +103,14 @@
       "location": "Maceió, AL",
       "date": "2015-04-18",
       "price": "R$ 45"
+    },
+    {
+      "name": "NodeConfBr 2015",
+      "website": "https://github.com/nodebr/nodeconfbr",
+      "thumbnail": "/services/events/media/2015/nodeconfbr2015.png",
+      "location": "????",
+      "date": "2015-09-5",
+      "price": "R$ ??"
     }
   ]
 }

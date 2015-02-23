@@ -43,6 +43,8 @@
           <li><a href="<%= @site.url %>/blog">Blog</a></li>
           <li><a href="https://www.youtube.com/user/BrazilJS" target="_blank">Vídeos</a></li>
         </ul>
+        
+        <iframe src="https://ghbtns.com/github-btn.html?user=braziljs&repo=braziljs.org&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>
 

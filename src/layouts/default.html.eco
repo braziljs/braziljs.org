@@ -84,6 +84,7 @@
         <li><a href="http://www.facebook.com/braziljs" title="Facebook">Facebook</a></li>
         <li><a href="https://www.youtube.com/user/BrazilJS" title="YouTube">YouTube</a></li>
         <li><a href="https://groups.google.com/forum/?fromgroups#!forum/braziljs-foundation">Google Groups</a></li>
+        <li><a href="https://github.com/braziljs" title="Github">Github</a></li>
       </ul>
 
       <p class="license">© <%= new Date().getFullYear();%>. Conteúdo disponível sob a licença <a href="http://creativecommons.org/licenses/by/3.0/br/">Creative Commons</a>.</p>

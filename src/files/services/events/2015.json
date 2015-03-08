@@ -105,6 +105,14 @@
       "price": "R$ 45"
     },
     {
+      "name": "NiteroiJS",
+      "website": "http://www.eventick.com.br/niteroijs",
+      "thumbnail": "/services/events/media/2015/imagem-nao-disponivel.png",
+      "location": "Niterói, RJ",
+      "date": "2015-04-11",
+      "price": "??"
+    },
+    {
       "name": "NodeConfBr 2015",
       "website": "https://github.com/nodebr/nodeconfbr",
       "thumbnail": "/services/events/media/2015/nodeconfbr2015.png",

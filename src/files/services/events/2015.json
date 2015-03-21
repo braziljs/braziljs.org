@@ -16,6 +16,14 @@
       "date": "2015-09-05",
       "price": "R$ ??"
     },
+{
+      "name": "RuPy Campinas",
+      "website": "http://campinas.rupy.com.br/",
+      "thumbnail": "/services/events/media/2015/rupy-campinas.jpg",
+      "location": "Campinas, SP",
+      "date": "2015-06-20",
+      "price": "R$ 60"
+    },
     {
       "name": "1º Conferência CSS Brasil",
       "website": "http://www.conferenciacssbrasil.com.br/",

@@ -121,6 +121,14 @@
       "price": "R$ 25"
     },
     {
+      "name": "RSJS",
+      "website": "http://rsjs.org/2015",
+      "thumbnail": "/services/events/media/2015/rsjs.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2015-05-16",
+      "price": "R$ ??"
+    },
+    {
       "name": "NodeConfBr 2015",
       "website": "https://github.com/nodebr/nodeconfbr",
       "thumbnail": "/services/events/media/2015/nodeconfbr2015.png",

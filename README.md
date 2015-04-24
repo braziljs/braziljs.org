@@ -24,7 +24,25 @@ happen this year.
 
 ###### Submit a project to [braziljs.org/projetos](http://braziljs.org/projetos/)
 
-*TODO - Write instructions.*
+1. Create a new HTML file named by name-of-project.html in [src/documents/projetos](https://github.com/braziljs/foundation/tree/master/src/documents/projetos) and fill with the code below changing for yours project infos.
+
+  ```html
+  ---
+  title: "Title of project"
+  description: "Description of project"
+  site: "http://link-of-project.com.br"
+  github: "your github link (after github.com)"
+  image: "http://braziljs.org/img/projects/name-of-image-step2.jpg"
+  ---
+
+  <ul>
+    <li><a href="http://myurl.com">Description of link</a></li>
+    (Add new li>a node to create new links)
+  </ul>
+  ```
+
+2. Provide a thumbnail (250x200) in [src/files/img/projects](https://github.com/braziljs/foundation/tree/master/src/files/img/projects).
+
 
 ## Dependencies
 

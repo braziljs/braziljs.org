@@ -10,7 +10,7 @@ $(document).ready(function(){
       url = '../services/events/'+ currentYear +'.json';
 
   function sortEventsAsc(a, b){
-      return new Date(a.date).getTime() - new Date(b.date).getTime();
+    return new Date(a.date).getTime() - new Date(b.date).getTime();
   };
 
   $.getJSON(url, function (response) {

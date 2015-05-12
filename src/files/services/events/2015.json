@@ -89,22 +89,6 @@
       "price": "R$ 27"
     },
     {
-      "name": "Front-End Experience",
-      "website": "https://www.facebook.com/frontendexperience",
-      "thumbnail": "/services/events/media/2015/fex.png",
-      "location": "Rio de Janeiro, RJ",
-      "date": "2015-??-??",
-      "price": "R$ ??"
-    },
-    {
-      "name": "Front in Recife",
-      "website": "http://www.frontinrecife.com.br",
-      "thumbnail": "/services/events/media/2015/front-in-recife.jpg",
-      "location": "Recife, PE",
-      "date": "2015-??-??",
-      "price": "R$ ??"
-    },
-    {
       "name": "Front in Fortaleza",
       "website": "http://www.frontinfortaleza.com.br/",
       "thumbnail": "/services/events/media/2015/front-in-fortaleza.jpg",
@@ -142,6 +126,22 @@
       "thumbnail": "/services/events/media/2015/nodeconfbr2015.png",
       "location": "????",
       "date": "2015-09-5",
+      "price": "R$ ??"
+    },
+    {
+      "name": "Front-End Experience",
+      "website": "https://www.facebook.com/frontendexperience",
+      "thumbnail": "/services/events/media/2015/fex.png",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2015-??-??",
+      "price": "R$ ??"
+    },
+    {
+      "name": "Front in Recife",
+      "website": "http://www.frontinrecife.com.br",
+      "thumbnail": "/services/events/media/2015/front-in-recife.jpg",
+      "location": "Recife, PE",
+      "date": "2015-??-??",
       "price": "R$ ??"
     }
   ]

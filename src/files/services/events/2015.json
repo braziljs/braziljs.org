@@ -16,7 +16,15 @@
       "date": "2015-09-05",
       "price": "R$ ??"
     },
-{
+	{
+      "name": "Front in SM",
+      "website": "http://frontinsm.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-sm.png",
+      "location": "Santa Maria, RS",
+      "date": "2015-06-27",
+      "price": "R$ 44"
+    },
+	{
       "name": "RuPy Campinas",
       "website": "http://campinas.rupy.com.br/",
       "thumbnail": "/services/events/media/2015/rupy-campinas.jpg",

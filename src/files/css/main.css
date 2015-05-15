@@ -571,11 +571,12 @@ footer {
   width: 660px;
 }
 
-.irc {
+.irc,
+.slack {
   margin-left: 266px;
 }
 
-.irc h4 {
+.irc .slack, h4 {
   color: #16454e;
   font-size: 32px;
   font-weight: 600;

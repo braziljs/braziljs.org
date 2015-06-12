@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "Front in Manaus",
+      "website": "http://frontinmanaus.com.br/",
+      "thumbnail": "/services/events/media/2015/imagem-nao-disponivel.png",
+      "location": "Manaus, AM",
+      "date": "2015-10-17",
+      "price": "R$ 45"
+    },
+    {
       "name": "Front-End Carioca",
       "website": "http://frontendcarioca.com.br/",
       "thumbnail": "/services/events/media/2015/front-end-carioca.png",

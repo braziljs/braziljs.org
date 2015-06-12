@@ -1,0 +1,124 @@
+{
+  "events": [
+    {
+      "name": "Siga in Front",
+      "website": "http://sigainfront.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/sigainfront.png",
+      "location": "Campo Grande, MS",
+      "date": "2014-11-22",
+      "price": "R$ 20"
+    },
+    {
+      "name": "Front in Floripa",
+      "website": "http://frontinfloripa.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/frontinfloripa.jpg",
+      "location": "Florianópolis, SC",
+      "date": "2014-11-21",
+      "price": "R$ 60"
+    },
+    {
+      "name": "Front in Maceió",
+      "website": "http://frontinmaceio.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/frontinmaceio.png",
+      "location": "Maceió, AL",
+      "date": "2014-11-15",
+      "price": "R$ 65"
+    },
+    {
+      "name": "3º Tableless Conf",
+      "website": "http://tableless.com.br/tablelessconf/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/tablelessconf.jpg",
+      "location": "São Paulo, SP",
+      "date": "2014-10-23",
+      "price": "R$ 150"
+    },
+    {
+      "name": "Front in Sampa 2014",
+      "website": "http://www.frontinsampa.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinsampa.jpg",
+      "location": "São Paulo, SP",
+      "date": "2014-10-25",
+      "price": "R$ 270"
+    },
+    {
+      "name": "Front End Carioca",
+      "website": "http://frontendcarioca.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/frontendcarioca.png",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2014-09-27",
+      "price": "R$ 50"
+    },
+    {
+      "name": "W3C Web.br 2014",
+      "website": "http://conferenciaweb.w3c.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/webbr.png",
+      "location": "São Paulo, SP",
+      "date": "2014-09-25",
+      "price": "R$ 160"
+    },
+    {
+      "name": "Front Interior",
+      "website": "http://frontinterior.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/frontininterior.jpg",
+      "location": "Bauru, SP",
+      "date": "2014-08-29",
+      "price": "R$ 59,90"
+    },
+    {
+      "name": "BrazilJS Conf",
+      "website": "http://braziljs.com.br/2014",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/braziljs.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2014-08-21",
+      "price": "R$ 240"
+    },
+    {
+      "name": "Front in Aracaju",
+      "website": "http://www.frontinaracaju.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/frontinaracaju.jpg",
+      "location": "Aracaju, SE",
+      "date": "2014-08-02",
+      "price": "R$ 125"
+    },
+    {
+      "name": "Front in BH",
+      "website": "http://www.frontinbh.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinbh.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2014-07-26",
+      "price": "R$ 70"
+    },
+    {
+      "name": "Front in Fortaleza",
+      "website": "http://www.frontinfortaleza.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/fif-2014.jpg",
+      "location": "Fortaleza, CE",
+      "date": "2014-05-17",
+      "price": "R$ 50"
+    },
+    {
+      "name": "RSJS",
+      "website": "http://rsjs.org/2014/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/rsjs.png",
+      "location": "Porto Alegre, RS",
+      "date": "2014-05-17",
+      "price": "R$ 50"
+    },
+    {
+      "name": "JSConfBR",
+      "website": "http://2014.jsconfbr.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/jsconfbr-logo.png",
+      "location": "Fortaleza, CE",
+      "date": "2014-04-26",
+      "price": "R$ 300"
+    },
+    {
+      "name": "Alagoas Dev Day",
+      "website": "http://alagoasdevday.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2014/alagoasdevday.jpg",
+      "location": "Maceió, AL",
+      "date": "2014-04-12",
+      "price": "R$ 45"
+    }
+  ]
+}

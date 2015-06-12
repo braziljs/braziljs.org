@@ -1,0 +1,228 @@
+{
+  "events": [
+    {
+      "name": "Front in Recife",
+      "website": "http://frontinrecife.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/front-in-recife.jpg",
+      "location": "Recife, PE",
+      "date": "2013-12-14",
+      "price": "R$ 80"
+    },
+    {
+      "name": "Front in POA",
+      "website": "http://frontinpoa.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/front-in-poa.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2013-11-30",
+      "price": "R$ 46"
+    },
+    {
+      "name": "Dev in Company BH",
+      "website": "http://devincompany.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/devincompanybh.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2013-11-30",
+      "price": "R$ 35"
+    },
+    {
+      "name": "FEEC Recife",
+      "website": "http://www.feecbr.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
+      "location": "Recife, PE",
+      "date": "2013-11-23",
+      "price": "R$ ??"
+    },
+    {
+      "name": "Front in Floripa",
+      "website": "http://www.frontinfloripa.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinfloripa.jpg",
+      "location": "Florianópolis, SC",
+      "date": "2013-11-22",
+      "price": "R$ 50,00"
+    },
+    {
+      "name": "Web.br 2013",
+      "website": "http://conferenciaweb.w3c.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/webbr.png",
+      "location": "São Paulo, SP",
+      "date": "2013-11-18",
+      "price": "R$ 160"
+    },
+    {
+      "name": "FEEC Salvador",
+      "website": "http://www.feecbr.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
+      "location": "Salvador, BA",
+      "date": "2013-10-26",
+      "price": "R$ ??"
+    },
+    {
+      "name": "FEEC Fortaleza",
+      "website": "http://www.feecbr.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/feec.png",
+      "location": "Fortaleza, CE",
+      "date": "2013-10-19",
+      "price": "R$ ??"
+    },
+    {
+      "name": "Dev in Company BH",
+      "website": "http://devincompanybh.github.io/setembro-2013/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/devincompanybh.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2013-09-28",
+      "price": "R$ 30"
+    },
+    {
+      "name": "Mobile Brazil Conferece",
+      "website": "http://mobilebrazilconference.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/mobilebrazilconference.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2013-09-14",
+      "price": "R$ 60"
+    },
+   {
+      "name": "Front in Sampa",
+      "website": "http://www.frontinsampa.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinsampa.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-09-14",
+      "price": "R$ 200"
+    },
+    {
+      "name": "Front in Aracaju",
+      "website": "http://www.frontinaracaju.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinaracaju.jpg",
+      "location": "Aracaju, SE",
+      "date": "2013-08-31",
+      "price": "R$ 80"
+    },
+    {
+      "name": "BrazilJS Conf",
+      "website": "http://braziljs.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/braziljscof.png",
+      "location": "Porto Alegre, RS",
+      "date": "2013-08-22",
+      "price": "R$ 170"
+    },
+    {
+      "name": "Front in BH",
+      "website": "http://frontinbh.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinbh.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2013-08-03",
+      "price": "R$ 60"
+    },
+    {
+      "name": "Front in Bahia",
+      "website": "http://www.frontinbahia.com.br/",
+      "thumbnail": "http://www.frontinbahia.com.br/froninbahia.jpg",
+      "location": "Salvador, BA",
+      "date": "2013-07-27",
+      "price": "R$ 80"
+    },
+    {
+      "name": "WEB Day",
+      "website": "http://www.webday.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/webday.png",
+      "location": "São Paulo, SP",
+      "date": "2013-07-20",
+      "price": "R$ 40"
+    },
+    {
+      "name": "JSConf BR",
+      "website": "http://2013.jsconfbr.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/jsconfbr.jpg",
+      "location": "Fortaleza, CE",
+      "date": "2013-06-22",
+      "price": "R$ 300"
+    },
+    {
+      "name": "OlhóSEO",
+      "website": "http://www.olhoseo.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/olhoseo.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-06-18",
+      "price": "R$ 340"
+    },
+    {
+      "name": "Front in Rio",
+      "website": "http://www.frontinrio.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/frontinrio.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2013-06-15",
+      "price": "R$ 50"
+    },
+    {
+      "name": "SampaJS",
+      "website": "http://bonoevento.com/sampajsv31",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/sampajs.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-06-08",
+      "price": "R$ 50"
+    },
+    {
+      "name": "TDC",
+      "website": "http://www.thedevelopersconference.com.br/tdc/2013/index.html#florianopolis",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/tdc.jpg",
+      "location": "Florianópolis, SC",
+      "date": "2013-05-24",
+      "price": "R$ 90"
+    },
+   {
+      "name": "2º Tableless Conf",
+      "website": "http://tableless.com.br/tablelessconf/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/tablelessconf.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-05-16",
+      "price": "R$ 213"
+    },
+    {
+      "name": "www2013",
+      "website": "http://www2013.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/www2013.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2013-05-13",
+      "price": "R$ 2.430"
+    },
+    {
+      "name": "BahiaJS",
+      "website": "http://softwarelivre.org/flisol-ssa/bahiajs-blog/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/bahiajs.jpg",
+      "location": "Salvador, BA",
+      "date": "2013-04-27",
+      "price": "Gratuito"
+    },
+    {
+      "name": "RSJS",
+      "website": "http://rsjs.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/rsjs.png",
+      "location": "Porto Alegre, RS",
+      "date": "2013-03-23",
+      "price": "R$ 45"
+    },
+    {
+      "name": "SampaJS",
+      "website": "http://sampajs.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/sampajs.jpg",
+      "location": "São Paulo, SP",
+      "date": "2013-03-09",
+      "price": "R$ 50"
+    },
+    {
+      "name": "RioJS",
+      "website": "http://www.riojs.org/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/riojs.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2013-03-09",
+      "price": "R$ 30"
+    },
+    {
+      "name": "BeagaJS",
+      "website": "http://www.beagajs.com.br/2013/",
+      "thumbnail": "http://braziljs.org/services/events/media/2013/beagajs.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2013-03-02",
+      "price": "R$ 45"
+    }
+  ]
+}

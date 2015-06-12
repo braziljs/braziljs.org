@@ -1,0 +1,132 @@
+{
+  "events": [
+    {
+      "name": "9º encontro Rio.JS",
+      "website": "http://eventick.com.br/9-encontro-do-riojs",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/rio.js.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2012-12-15",
+      "price": "Gratuito"
+    },
+    {
+      "name": "FEEC BR",
+      "website": "http://www.feecbr.com.br/pt/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/feecbr.jpg",
+      "location": "Recife, PE",
+      "date": "2012-12-01",
+      "price": "R$ 135"
+    },
+    {
+      "name": "Conexão Kinghost",
+      "website": "http://www.conexaokinghost.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/kinghost.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2012-11-29",
+      "price": "R$ 60"
+    },
+    {
+      "name": "FrontInterior",
+      "website": "http://frontinterior.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/frontininterior.jpg",
+      "location": "Bauru, SP",
+      "date": "2012-11-24",
+      "price": "R$ 80"
+    },
+    {
+      "name": "Front in Sampa",
+      "website": "http://www.frontinsampa.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/frontinsampa.jpg",
+      "location": "São Paulo, SP",
+      "date": "2012-11-03",
+      "price": "R$ 199"
+    },
+    {
+      "name": "Front in Maceió",
+      "website": "http://frontinmaceio.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/frontinmaceio.jpg",
+      "location": "Maceió, AL",
+      "date": "2012-10-27",
+      "price": "R$ 65"
+    },
+    {
+      "name": "Conferência W3C",
+      "website": "http://conferenciaweb.w3c.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/w3c.jpg",
+      "location": "São Paulo, SP",
+      "date": "2012-10-18",
+      "price": "R$ 150"
+    },
+    {
+      "name": "Front in Maringá",
+      "website": "http://frontinmaringa.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/frontinmaringa.jpg",
+      "location": "Maringá, PR",
+      "date": "2012-10-06",
+      "price": "R$ 50"
+    },
+    {
+      "name": "BrazilJS Conference",
+      "website": "http://braziljs.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/braziljs.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2012-08-30",
+      "price": "R$ 150"
+    },
+    {
+      "name": "Tableless Conference",
+      "website": "http://tableless.com.br/tablelessconf/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/tablelessconf.jpg",
+      "location": "São Paulo, SP",
+      "date": "2012-08-24",
+      "price": "R$ 150"
+    },
+    {
+      "name": "Front in Porto Alegre",
+      "website": "http://abradirs.com.br/frontinpoa/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/frontinpoa.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2012-08-28",
+      "price": "R$ 100"
+    },
+    {
+      "name": "Front in BH",
+      "website": "http://abradirs.com.br/frontinpoa/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/frontinbh.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2012-07-14",
+      "price": "R$ 45"
+    },
+    {
+      "name": "Front in Curitiba",
+      "website": "http://www.frontincuritiba.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/frontincuritiba.jpg",
+      "location": "Curitiba, PR",
+      "date": "2012-06-23",
+      "price": "R$ 60"
+    },
+    {
+      "name": "Front in Rio",
+      "website": "http://frontinrio.com.br",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/frontinrio.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2012-06-02",
+      "price": "R$ 35"
+    },
+    {
+      "name": "PernambucoJS",
+      "website": "http://www.pernambucojs.com/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/pernambucojs.jpg",
+      "location": "Recife, PE",
+      "date": "2012-04-21",
+      "price": "R$ 30"
+    },
+    {
+      "name": "BeagaJS",
+      "website": "http://bhjs.com.br/",
+      "thumbnail": "http://braziljs.org/services/events/media/2012/beagajs.jpg",
+      "location": "Belo Horizonte, MG",
+      "date": "2012-01-21",
+      "price": "R$ 35"
+    }
+  ]
+}

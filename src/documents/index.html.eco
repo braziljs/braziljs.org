@@ -117,7 +117,7 @@ layout: default
           <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="seu@email.com" required>
           <input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button">
            <div id="bookmarklet-lnk">
-              Submeta o que você gostaria de ver na Weekly da BrazilJS usando nosso <a href="http://braziljs.github.io/add2weekly/">bookmarklet</a> ou nossa <a href="https://chrome.google.com/webstore/detail/add2weekly/dgjlnadhjdhbeeanacidaecgcdnkmfdg" target="_blank">extensão para o Chrome</a>
+              Submeta o que você gostaria de ver na Weekly da BrazilJS usando nosso <a href="http://braziljs.github.io/add2weekly/">bookmarklet</a> ou nossa <a href="https://chrome.google.com/webstore/detail/add2weekly/dgjlnadhjdhbeeanacidaecgcdnkmfdg" target="_blank">extensão para o Chrome</a>.
           </div>
         </form>
       </div>

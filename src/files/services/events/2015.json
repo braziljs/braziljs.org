@@ -1,12 +1,12 @@
 {
   "events": [
     {
-      "name": "Front in Manaus",
-      "website": "http://frontinmanaus.com.br/",
-      "thumbnail": "/services/events/media/2015/imagem-nao-disponivel.png",
-      "location": "Manaus, AM",
-      "date": "2015-10-17",
-      "price": "R$ 45"
+      "name": "JSday Maceió",
+      "website": "http://jsday.com.br/",
+      "thumbnail": "/services/events/media/2015/jsday-maceio.png",
+      "location": "Maceió, AL",
+      "date": "2015-09-12",
+      "price": "R$ 25"
     },
     {
       "name": "Front-End Carioca",
@@ -17,6 +17,14 @@
       "price": "R$ 90"
     },
     {
+      "name": "Front in Manaus",
+      "website": "http://frontinmanaus.com.br/",
+      "thumbnail": "/services/events/media/2015/imagem-nao-disponivel.png",
+      "location": "Manaus, AM",
+      "date": "2015-10-17",
+      "price": "R$ 45"
+    },
+    {
       "name": "Front in Aracaju",
       "website": "http://www.frontinaracaju.com.br/",
       "thumbnail": "/services/events/media/2015/front-in-aracaju.jpg",
@@ -24,7 +32,7 @@
       "date": "2015-11-28",
       "price": "R$ 59"
     },
-	{
+    {
       "name": "Front in SM",
       "website": "http://frontinsm.com.br/",
       "thumbnail": "/services/events/media/2015/front-in-sm.png",
@@ -32,7 +40,7 @@
       "date": "2015-06-27",
       "price": "R$ 44"
     },
-	{
+    {
       "name": "RuPy Campinas",
       "website": "http://campinas.rupy.com.br/",
       "thumbnail": "/services/events/media/2015/rupy-campinas.jpg",
@@ -133,7 +141,7 @@
       "website": "https://github.com/nodebr/nodeconfbr",
       "thumbnail": "/services/events/media/2015/nodeconfbr2015.png",
       "location": "São Paulo, SP",
-      "date": "2015-11-7",
+      "date": "2015-11-07",
       "price": "R$ ??"
     },
     {

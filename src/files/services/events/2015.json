@@ -145,6 +145,14 @@
       "price": "R$ ??"
     },
     {
+      "name": "Front in Floripa",
+      "website": "http://frontinfloripa.com.br",
+      "thumbnail": "/services/events/media/2015/front-in-floripa.jpg",
+      "location": "Florianópolis, SC",
+      "date": "2015-12-05",
+      "price": "R$ 60"
+    },
+    {
       "name": "Front-End Experience",
       "website": "https://www.facebook.com/frontendexperience",
       "thumbnail": "/services/events/media/2015/fex.png",

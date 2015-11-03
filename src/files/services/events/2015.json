@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "Front in Rio",
+      "website": "http://frontinrio.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-rio.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2015-12-19",
+      "price": "R$ 60"
+    },
+    {
       "name": "Front in Floripa",
       "website": "http://frontinfloripa.com.br",
       "thumbnail": "/services/events/media/2015/front-in-floripa.jpg",

@@ -9,6 +9,14 @@
       "price": "R$ 60"
     },
     {
+      "name": "JSday Recife",
+      "website": "http://jsday.com.br/",
+      "thumbnail": "/services/events/media/2015/jsday-recife.png",
+      "location": "Recife, PE",
+      "date": "2015-12-12",
+      "price": "R$ 50"
+    },
+    {
       "name": "Front in Floripa",
       "website": "http://frontinfloripa.com.br",
       "thumbnail": "/services/events/media/2015/front-in-floripa.jpg",

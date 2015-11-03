@@ -1,36 +1,12 @@
 {
   "events": [
     {
-      "name": "JSday Maceió",
-      "website": "http://jsday.com.br/",
-      "thumbnail": "/services/events/media/2015/jsday-maceio.png",
-      "location": "Maceió, AL",
-      "date": "2015-09-12",
-      "price": "R$ 25"
-    },
-    {
-      "name": "Front-End Carioca",
-      "website": "http://frontendcarioca.com.br/",
-      "thumbnail": "/services/events/media/2015/front-end-carioca.png",
-      "location": "Rio de Janeiro, RJ",
-      "date": "2015-09-26",
-      "price": "R$ 90"
-    },
-    {
-      "name": "Front in Manaus",
-      "website": "http://frontinmanaus.com.br/",
-      "thumbnail": "/services/events/media/2015/imagem-nao-disponivel.png",
-      "location": "Manaus, AM",
-      "date": "2015-10-17",
-      "price": "R$ 45"
-    },
-    {
-      "name": "Front in Sampa",
-      "website": "http://www.frontinsampa.com.br/",
-      "thumbnail": "/services/events/media/2015/front-in-sampa.png",
-      "location": "São Paulo, SP",
-      "date": "2015-11-21",
-      "price": "R$ 240"
+      "name": "Front in Floripa",
+      "website": "http://frontinfloripa.com.br",
+      "thumbnail": "/services/events/media/2015/front-in-floripa.jpg",
+      "location": "Florianópolis, SC",
+      "date": "2015-12-05",
+      "price": "R$ 60"
     },
     {
       "name": "Front in Aracaju",
@@ -41,12 +17,52 @@
       "price": "R$ 59"
     },
     {
+      "name": "Front in Sampa",
+      "website": "http://www.frontinsampa.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-sampa.png",
+      "location": "São Paulo, SP",
+      "date": "2015-11-21",
+      "price": "R$ 240"
+    },
+    {
+      "name": "Front in Manaus",
+      "website": "http://frontinmanaus.com.br/",
+      "thumbnail": "/services/events/media/2015/imagem-nao-disponivel.png",
+      "location": "Manaus, AM",
+      "date": "2015-10-17",
+      "price": "R$ 45"
+    },
+    {
+      "name": "Front-End Carioca",
+      "website": "http://frontendcarioca.com.br/",
+      "thumbnail": "/services/events/media/2015/front-end-carioca.png",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2015-09-26",
+      "price": "R$ 90"
+    },
+    {
+      "name": "JSday Maceió",
+      "website": "http://jsday.com.br/",
+      "thumbnail": "/services/events/media/2015/jsday-maceio.png",
+      "location": "Maceió, AL",
+      "date": "2015-09-12",
+      "price": "R$ 25"
+    },
+    {
       "name": "Front in SM",
       "website": "http://frontinsm.com.br/",
       "thumbnail": "/services/events/media/2015/front-in-sm.png",
       "location": "Santa Maria, RS",
       "date": "2015-06-27",
       "price": "R$ 44"
+    },
+    {
+      "name": "NodeConfBR 2015",
+      "website": "http://gpedro.github.io/nodeconfbr/",
+      "thumbnail": "/services/events/media/2015/nodeconfbr2015.png",
+      "location": "São Paulo, SP",
+      "date": "2015-06-24",
+      "price": "R$ 80"
     },
     {
       "name": "RuPy Campinas",
@@ -63,6 +79,38 @@
       "location": "São Paulo, SP",
       "date": "2015-05-09",
       "price": "R$ 220"
+    },
+    {
+      "name": "Front in Fortaleza",
+      "website": "http://www.frontinfortaleza.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-fortaleza.jpg",
+      "location": "Fortaleza, Ceará",
+      "date": "2015-05-16",
+      "price": "R$ 70"
+    },
+    {
+      "name": "RSJS",
+      "website": "http://rsjs.org/2015",
+      "thumbnail": "/services/events/media/2015/rsjs.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2015-05-16",
+      "price": "R$ 80"
+    },
+    {
+      "name": "Alagoas Dev Day",
+      "website": "http://alagoasdevday.com.br/",
+      "thumbnail": "/services/events/media/2015/alagoasdevday.png",
+      "location": "Maceió, AL",
+      "date": "2015-04-18",
+      "price": "R$ 45"
+    },
+    {
+      "name": "NiteroiJS",
+      "website": "http://niteroijs.org/",
+      "thumbnail": "/services/events/media/2015/imagem-nao-disponivel.png",
+      "location": "Niterói, RJ",
+      "date": "2015-04-11",
+      "price": "R$ 25"
     },
     {
       "name": "Front in Cuiabá",
@@ -111,70 +159,6 @@
       "location": "São Paulo, SP",
       "date": "2015-01-24",
       "price": "R$ 27"
-    },
-    {
-      "name": "Front in Fortaleza",
-      "website": "http://www.frontinfortaleza.com.br/",
-      "thumbnail": "/services/events/media/2015/front-in-fortaleza.jpg",
-      "location": "Fortaleza, Ceará",
-      "date": "2015-05-16",
-      "price": "R$ 70"
-    },
-    {
-      "name": "Alagoas Dev Day",
-      "website": "http://alagoasdevday.com.br/",
-      "thumbnail": "/services/events/media/2015/alagoasdevday.png",
-      "location": "Maceió, AL",
-      "date": "2015-04-18",
-      "price": "R$ 45"
-    },
-    {
-      "name": "NiteroiJS",
-      "website": "http://niteroijs.org/",
-      "thumbnail": "/services/events/media/2015/imagem-nao-disponivel.png",
-      "location": "Niterói, RJ",
-      "date": "2015-04-11",
-      "price": "R$ 25"
-    },
-    {
-      "name": "RSJS",
-      "website": "http://rsjs.org/2015",
-      "thumbnail": "/services/events/media/2015/rsjs.jpg",
-      "location": "Porto Alegre, RS",
-      "date": "2015-05-16",
-      "price": "R$ 80"
-    },
-    {
-      "name": "NodeConfBr 2015",
-      "website": "https://github.com/nodebr/nodeconfbr",
-      "thumbnail": "/services/events/media/2015/nodeconfbr2015.png",
-      "location": "São Paulo, SP",
-      "date": "2015-11-07",
-      "price": "R$ ??"
-    },
-    {
-      "name": "Front in Floripa",
-      "website": "http://frontinfloripa.com.br",
-      "thumbnail": "/services/events/media/2015/front-in-floripa.jpg",
-      "location": "Florianópolis, SC",
-      "date": "2015-12-05",
-      "price": "R$ 60"
-    },
-    {
-      "name": "Front-End Experience",
-      "website": "https://www.facebook.com/frontendexperience",
-      "thumbnail": "/services/events/media/2015/fex.png",
-      "location": "Rio de Janeiro, RJ",
-      "date": "2015-??-??",
-      "price": "R$ ??"
-    },
-    {
-      "name": "Front in Recife",
-      "website": "http://www.frontinrecife.com.br",
-      "thumbnail": "/services/events/media/2015/front-in-recife.jpg",
-      "location": "Recife, PE",
-      "date": "2015-??-??",
-      "price": "R$ ??"
     }
   ]
 }

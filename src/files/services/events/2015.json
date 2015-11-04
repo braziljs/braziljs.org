@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "name": "SorocabaJS",
+      "website": "http://sorocabajs.github.io/",
+      "thumbnail": "/services/events/media/2015/sorocabajs.png",
+      "location": "Sorocaba, SP",
+      "date": "2015-11-14",
+      "price": "R$ 0"
+    },
+    {
       "name": "Front in Rio",
       "website": "http://frontinrio.com.br/",
       "thumbnail": "/services/events/media/2015/front-in-rio.jpg",

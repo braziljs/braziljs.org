@@ -1,16 +1,16 @@
 {
   "private": true,
   "engines": {
-    "node": "0.10",
+    "node": "4.0",
     "npm": "2.0"
   },
   "dependencies": {
-    "docpad": "^6.69.2",
-    "docpad-plugin-cleanurls": "^2.7.0",
-    "docpad-plugin-eco": "^2.1.0",
-    "docpad-plugin-ghpages": "^2.4.0",
-    "docpad-plugin-marked": "^2.2.1",
-    "docpad-plugin-moment": "^2.0.2"
+    "docpad": "~6.78.4",
+    "docpad-plugin-cleanurls": "~2.8.1",
+    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-ghpages": "~2.4.4",
+    "docpad-plugin-marked": "~2.3.0",
+    "docpad-plugin-moment": "~2.0.2"
   },
   "devDependencies": {
     "grunt": "~0.4.2",

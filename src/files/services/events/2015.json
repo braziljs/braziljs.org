@@ -25,6 +25,14 @@
       "price": "R$ 50"
     },
     {
+      "name": "Front in POA",
+      "website": "http://frontinpoa.com.br",
+      "thumbnail": "/services/events/media/2015/front-in-poa.png",
+      "location": "Porto Alegre, RS",
+      "date": "2015-12-05",
+      "price": "R$ 75"
+    },
+    {
       "name": "Front in Floripa",
       "website": "http://frontinfloripa.com.br",
       "thumbnail": "/services/events/media/2015/front-in-floripa.jpg",

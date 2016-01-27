@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "name": "Front in Rio 2016 - HTML edition",
+      "website": "http://www.eventick.com.br/fir-2016-html",
+      "thumbnail": "/services/events/media/2016/front-in-rio.png",
+      "location": " Rio de Janeiro, RJ",
+      "date": "2016-03-12",
+      "price": "R$ 50,00"
+    }
+  ]
+}

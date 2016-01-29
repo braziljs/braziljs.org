@@ -1,0 +1,196 @@
+{
+  "events": [
+    {
+      "name": "SorocabaJS",
+      "website": "http://sorocabajs.github.io/",
+      "thumbnail": "/services/events/media/2015/sorocabajs.png",
+      "location": "Sorocaba, SP",
+      "date": "2015-11-14",
+      "price": "R$ 0"
+    },
+    {
+      "name": "Front in Rio",
+      "website": "http://frontinrio.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-rio.jpg",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2015-12-19",
+      "price": "R$ 80"
+    },
+    {
+      "name": "JSday Recife",
+      "website": "http://jsday.com.br/",
+      "thumbnail": "/services/events/media/2015/jsday-recife.png",
+      "location": "Recife, PE",
+      "date": "2015-12-12",
+      "price": "R$ 50"
+    },
+    {
+      "name": "Front in POA",
+      "website": "http://frontinpoa.com.br",
+      "thumbnail": "/services/events/media/2015/front-in-poa.png",
+      "location": "Porto Alegre, RS",
+      "date": "2015-12-05",
+      "price": "R$ 75"
+    },
+    {
+      "name": "Front in Floripa",
+      "website": "http://frontinfloripa.com.br",
+      "thumbnail": "/services/events/media/2015/front-in-floripa.jpg",
+      "location": "Florianópolis, SC",
+      "date": "2015-12-05",
+      "price": "R$ 60"
+    },
+    {
+      "name": "Front in Aracaju",
+      "website": "http://www.frontinaracaju.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-aracaju.jpg",
+      "location": "Aracaju, SE",
+      "date": "2015-11-28",
+      "price": "R$ 79"
+    },
+    {
+      "name": "Front in Sampa",
+      "website": "http://www.frontinsampa.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-sampa.png",
+      "location": "São Paulo, SP",
+      "date": "2015-11-21",
+      "price": "R$ 240"
+    },
+    {
+      "name": "Front in Manaus",
+      "website": "http://frontinmanaus.com.br/",
+      "thumbnail": "/services/events/media/2015/imagem-nao-disponivel.png",
+      "location": "Manaus, AM",
+      "date": "2015-10-17",
+      "price": "R$ 45"
+    },
+    {
+      "name": "Front-End Carioca",
+      "website": "http://frontendcarioca.com.br/",
+      "thumbnail": "/services/events/media/2015/front-end-carioca.png",
+      "location": "Rio de Janeiro, RJ",
+      "date": "2015-09-26",
+      "price": "R$ 90"
+    },
+    {
+      "name": "JSday Maceió",
+      "website": "http://jsday.com.br/",
+      "thumbnail": "/services/events/media/2015/jsday-maceio.png",
+      "location": "Maceió, AL",
+      "date": "2015-09-12",
+      "price": "R$ 25"
+    },
+    {
+      "name": "Front in SM",
+      "website": "http://frontinsm.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-sm.png",
+      "location": "Santa Maria, RS",
+      "date": "2015-06-27",
+      "price": "R$ 44"
+    },
+    {
+      "name": "NodeConfBR 2015",
+      "website": "http://gpedro.github.io/nodeconfbr/",
+      "thumbnail": "/services/events/media/2015/nodeconfbr2015.png",
+      "location": "São Paulo, SP",
+      "date": "2015-06-24",
+      "price": "R$ 80"
+    },
+    {
+      "name": "RuPy Campinas",
+      "website": "http://campinas.rupy.com.br/",
+      "thumbnail": "/services/events/media/2015/rupy-campinas.jpg",
+      "location": "Campinas, SP",
+      "date": "2015-06-20",
+      "price": "R$ 60"
+    },
+    {
+      "name": "1º Conferência CSS Brasil",
+      "website": "http://www.conferenciacssbrasil.com.br/",
+      "thumbnail": "/services/events/media/2015/conferenciacss.jpg",
+      "location": "São Paulo, SP",
+      "date": "2015-05-09",
+      "price": "R$ 220"
+    },
+    {
+      "name": "Front in Fortaleza",
+      "website": "http://www.frontinfortaleza.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-fortaleza.jpg",
+      "location": "Fortaleza, Ceará",
+      "date": "2015-05-16",
+      "price": "R$ 70"
+    },
+    {
+      "name": "RSJS",
+      "website": "http://rsjs.org/2015",
+      "thumbnail": "/services/events/media/2015/rsjs.jpg",
+      "location": "Porto Alegre, RS",
+      "date": "2015-05-16",
+      "price": "R$ 80"
+    },
+    {
+      "name": "Alagoas Dev Day",
+      "website": "http://alagoasdevday.com.br/",
+      "thumbnail": "/services/events/media/2015/alagoasdevday.png",
+      "location": "Maceió, AL",
+      "date": "2015-04-18",
+      "price": "R$ 45"
+    },
+    {
+      "name": "NiteroiJS",
+      "website": "http://niteroijs.org/",
+      "thumbnail": "/services/events/media/2015/imagem-nao-disponivel.png",
+      "location": "Niterói, RJ",
+      "date": "2015-04-11",
+      "price": "R$ 25"
+    },
+    {
+      "name": "Front in Cuiabá",
+      "website": "http://www.frontincuiaba.com.br/",
+      "thumbnail": "/services/events/media/2015/front-in-cuiaba.jpg",
+      "location": "Cuiabá, MT",
+      "date": "2015-03-28",
+      "price": "R$ 45"
+    },
+    {
+      "name": "Web Dev Summit",
+      "website": "http://webdevsummit.com/",
+      "thumbnail": "/services/events/media/2015/webdevsummit.jpg",
+      "location": "Volta Redonda, RJ",
+      "date": "2015-03-21",
+      "price": "R$ 35"
+    },
+    {
+      "name": "17º FEMUG SP",
+      "website": "https://sp.femug.com/t/femug-17-netshoes/267",
+      "thumbnail": "/services/events/media/2015/femug-sp.jpg",
+      "location": "São Paulo, SP",
+      "date": "2015-02-12",
+      "price": "R$ 0"
+    },
+    {
+      "name": "5º Meetup CSS",
+      "website": "http://www.meetup.com/CSS-SP/events/220119108/",
+      "thumbnail": "/services/events/media/2015/meetupcss-sp.jpg",
+      "location": "São Paulo, SP",
+      "date": "2015-02-05",
+      "price": "R$ 0"
+    },
+    {
+      "name": "16º FEMUG SP",
+      "website": "https://sp.femug.com/t/femug-16-plataformatec/229",
+      "thumbnail": "/services/events/media/2015/femug-sp.jpg",
+      "location": "São Paulo, SP",
+      "date": "2015-01-29",
+      "price": "R$ 0"
+    },
+    {
+      "name": "1º DevCastDay",
+      "website": "http://eventick.com.br/devcastday",
+      "thumbnail": "/services/events/media/2015/devcastday.png",
+      "location": "São Paulo, SP",
+      "date": "2015-01-24",
+      "price": "R$ 27"
+    }
+  ]
+}

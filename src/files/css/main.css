@@ -197,6 +197,12 @@ footer {
   width: 101px !important;
 }
 
+.github-share-button {
+  width: 78px;
+  float: right;
+  margin: 13.5px 10px 0px -8px;
+}
+
 .fb_iframe_widget iframe {
   width: 84px !important;
 }

@@ -46,6 +46,8 @@
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://braziljs.org/">Tweet</a>
 
+        <iframe src="https://ghbtns.com/github-btn.html?user=braziljs&repo=braziljs.org&type=star&count=true" class="github-share-button" frameborder="0" scrolling="0" width="78px" height="20px"></iframe>
+
         <div class="fb-like" data-href="https://www.facebook.com/braziljs" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" style="border:none; float:right; overflow:hidden; width:80px !important; height:12px !important; margin-top:3px;"></div>
       </div>
 
